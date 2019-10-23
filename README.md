@@ -3,10 +3,8 @@
  
  The plan from here is to tackle the armies in the following order:
  
- Dwarfs
- Orcs & Goblins
- Bretonnia
- Empire
+ Dwarfs, Orcs & Goblins, Bretonnia, Empire.
+ 
  The order of the rest is not yet finalized.
  
  You can find the Warhammer Renaissance project on Facebook.
