@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9387-81b9-925b-5421" name="Warhammer Renaissance - Orcs and Goblins" revision="1" battleScribeVersion="2.03" authorName="Morten Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9387-81b9-925b-5421" name="Warhammer Renaissance - Orcs and Goblins" revision="1" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedRules>
     <rule id="d076-b1cb-4217-9bdf" name="Difficult to Master" publicationId="78e3-1ead-0759-9022" hidden="false">
       <description>Orcs &amp; Goblins are an unruly lot with many special rules. They may take a long time to manoeuvre about for the inexperienced player. Make sure that you master all the special rules of the troops you have picked for your army.

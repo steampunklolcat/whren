@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1ae3-d69c-3a42-896b" name="Warhammer Renaissance - Chaos Dwarfs" revision="1" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedRules>
+    <rule id="f9eb-94ad-c240-1cbb" name="Dwarfs vs. Chaos Dwarfs" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>Contrary to normal Dwarfs, Chaos Dwarfs do not hate Orcs &amp; Goblins. They do not suffer from Elf Grudge, nor do they get any benefits towards dispelling enemy spells if the army does not include wizards.</description>
+    </rule>
+  </sharedRules>
+</catalogue>

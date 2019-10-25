@@ -1,2 +1,139 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b575-b255-5c77-b1bf" name="Warhammer Renaissance - The Empire" revision="1" battleScribeVersion="2.03" authorName="Morten Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue id="b575-b255-5c77-b1bf" name="Warhammer Renaissance - The Empire" revision="1" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="979a-fe4d-9fab-2ade" name="Steam Tank" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2178-fd55-7b9f-1a77" name="Steam Tank" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+          <characteristics>
+            <characteristic name="Movement" typeId="2fad-563f-ebbc-532e"/>
+            <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">2</characteristic>
+            <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+            <characteristic name="Strength" typeId="2186-3de1-32e2-581b">7</characteristic>
+            <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">10</characteristic>
+            <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">5</characteristic>
+            <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf"/>
+            <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e"/>
+            <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="df36-23a1-a763-77f6" name="Small Cannon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="dc4f-f1c1-635d-bf9e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c152-4aab-b5a1-6736" name="Warmachines" hidden="false" targetId="89a6-c778-43ae-7cc5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="250.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="b193-af01-f51f-11cc" name="Arcane Items (Empire only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="0fc0-f0ee-9ab6-d32d" name="Armour of Tarnus" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="6957-f2f9-9ceb-49fd" name="Armour of Tarnus" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Arcane Item. Heavy armour. The bearer may wear this armour and still cast spells. May re-roll armour save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="68c2-9068-4e6a-50c2" name="Detachments" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>A regiment of Halberdiers, Spearmen, Greatswords or Swordsmen can have up to two detachment regiments. The size of a detachment can only be that of half its parent regiment. Halberdiers, Spearmen, Greatswords, Swordsmen, Crossbowmen, Hand Gunners, and Archers can be detachment regiments. Note that Free Company are not trained to act as neither detachment nor parent regiment.
+
+A detachment cannot have a command group and will stop functioning as a detachment if joined by characters.
+
+As long as the detachment is within 8” of its parent regiment, the following special rules apply: Detachment regiments never provoke panic tests in nearby friendly units (for being destroyed, broken, fleeing past etc.). The detachment can use the LD value of its parent regiment.
+
+The detachment can declare a charge reaction if the parent regiment is charged. This can either be (1) stand and shoot or (2) counter charge. In case of the latter, move the enemy first, then move the detachment. In this situation, the detachment is allowed to charge the enemy in the flank even if it would normally have to charge to the front.</description>
+    </rule>
+    <rule id="1661-d0b8-98f4-5ac3" name="Experimental Weapons" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>A repeating handgun works as a normal handgun with the following exception; each successful hit against the same target allows one more roll to hit (to a maximum of six hits per handgun).
+
+A repeating pistol works as a normal pistol with the following exception; each successful hit against the same target allows one more roll to hit (to a maximum of six hits per pistol).
+
+A Hochland long rifle has the following characteristics: range 36”, S4, armour piercing, cannot shoot on the turn it moved. The wielder of a Hochland long rifle may target any model, even characters hiding in a regiment (but suffers a -1 to hit for shooting at single models).
+
+A blunderbuss fires a hail of shot including lead balls, rusty bolts, bent nails etc. Place the teardrop template with the thin end at the muzzle of the gun, and the wide end pointing towards the target. All models at least half covered suffer a S3 hit with -1 to armour save.
+
+A man catcher is a long pole with an iron collar ringed with spikes. Instead of a normal attack, a man-sized model in base contact with the wielder is hit automatically. The model may try both an I and T characteristic test. If both are failed, the model is slain.
+
+A hook halberd offers +1 to hit and +1S.
+
+A ball and chain offers +1S and no armour save.</description>
+    </rule>
+    <rule id="7d80-6959-c9bf-f937" name="Steam Tank" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>The Steam Tank is a large chariot powered by a steam engine. The Steam Tank has its own unique profile, causes terror, and is unbreakable. The default Steam Tank option includes a small cannon and has the following characteristics.
+                WS BS S T W
+Steam Tank 2 4 7 10 5
+
+DECLARE STEAM POINTS
+In the beginning of the turn, the Empire player declares how many steam points he is using this turn. This must be between 0 and 5 points. Once the steam points have been declared, they must all be used this turn. Each point allows the Steam Tank to take one of the following actions:
+
+1. Pivot up to 90 degrees.
+2. Move 3” forwards or 2” backwards.
+3. Fire the small cannon or the steam cannon.
+
+Having declared how many steam points you want to use this turn, it is necessary to see if the steam boiler holds out. Roll a 1D6, if this number exceeds the Steam Tank’s current number of wounds, roll on the Imperial Steam Tank Boiler Table below to determine what happens.
+
+THE IMPERIAL STEAM TANK BOILER TABLE
+
+Roll a D6 and add the number of steam points you just declared. Consult the table below:
+
+1-4: Nothing happens. The Steam Tank functions normally.
+
+5: A leak has developed. You cannot spend more than two steam points this turn regardless of the number you just declared.
+
+6: Part of the driving mechanism jams. You cannot move the Steam Tank this turn, but you may fire. Any excess steam points are wasted.
+
+7: Great clouds of steam burst from a pipe somewhere. The Steam Tank is covered in a cloud of steam. The Steam Tank may not shoot this turn, so all your steam points must be spent on moving.
+
+8: The steam pressure rises too fast. The Steam Tank must move directly forward 15” inches, charging the first unit it encounters (friend or foe). The Steam Tank may do nothing else this turn.
+
+9: A minor explosion causes structural damage. The maximum number of steam points the Steam Tank can declare is henceforth four rather than five (applying from this turn onwards). If this result is rolled several times, it will reduce the maximum steam points that can declared by one each time.
+
+10: A major explosion wrecks the boiler. The Steam Tank cannot move again in this game (it may still shoot, however).
+
+11: The Steam Tank explodes (count as slain).
+
+MOVING THE STEAM TANK
+
+Move the Steam Tank during compulsory movement. The Steam Tank moves like a chariot except that (1) it cannot pivot on the spot for free, (2) it obliterates any obstacles it encounters, (3) it can neither pursue or overrun (nor flee, since it is unbreakable).
+
+If movement brings the Steam Tank into contact with an enemy unit, the Steam Tank counts as charging, and the enemy unit is entitled to a normal charge reaction. The Steam Tank halts its movement when it reaches an enemy unit.
+
+The Steam Tank cannot charge unengaged skirmishers or independent models on bases of 20x20 mm or 25x25 mm. Simply move these models out of harm’s reach if the Steam Tank comes into contact with them.
+
+The Steam Tank does not fight as such in melee combat but delivers 1D6 S7 impact hits on the charge. The Steam Tank may always disengage from melee combat. It is perfectly legal to move first backwards, then forwards (spending two steam points), and in so doing disengage from combat and then charge again (making impact hits). It is only possible, however, to charge once per turn.
+
+SHOOTING
+
+The Steam Tank may be equipped with a small cannon and/or a steam cannon. Both may fire once during the shooting phase (even if the Steam Tank is engaged in melee combat) if sufficient steam points have been allocated for this purpose (one for each weapon fired).
+
+The small cannon fires exactly as a normal small cannon, except that it cannot pivot for free but must fire directly forward. The first time a misfire is rolled for firing the cannon, the Steam Tank suffers a wound, the second time you roll a misfire, the Steam Tank blows up (count as slain).
+
+The steam cannon uses the teardrop formed breath template. Place the thin end at the muzzle of the steam cannon and point the thick end towards the target. All models at least half covered suffer a S2 hit with no armour save.
+
+If the Steam Tank is not engaged in melee combat, the engineer may shoot his weapon (either a repeating pistol or a Hochland long rifle) with normal penalties for movement. This action does not cost any steam points.
+
+OTHER RULES
+The Steam Tank automatically passes any characteristic test it has to take, except initiative tests (which are always failed).
+
+Chariots charging the Steam Tank suffer D6 S7 impact hits themselves.
+
+Night Goblin Fanatics that come into contact with the Steam Tank are slain.
+
+STEAM TANK VARIANTS
+The default option Imperial Steam Tank comes equipped with a small cannon and an engineer armed with a repeating pistol (at 250 pts). The Steam Tank may be upgraded with a steam cannon (+25 pts). The engineer may come equipped with a Hochland long rifle instead of a repeating pistol (+25 pts). The Steam Tank may give up the small cannon (-50 pts).</description>
+    </rule>
+  </sharedRules>
+</catalogue>
