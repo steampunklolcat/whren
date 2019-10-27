@@ -128,6 +128,24 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4907-6f1e-f938-438d" name="Spear" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74ed-1bdf-7d7b-02c6" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="07cb-5a2f-c2e2-5de0" name="Spear" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="90ee-97a4-f5e8-5288" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="d034-1301-2ee0-681d" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
@@ -1333,7 +1351,7 @@
           <profiles>
             <profile id="758c-b8b5-4714-4a5a" name="Doomfire Ring" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
               <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Requires line of sight. One target unit within 24” suffers 1D6 flaming S3 hits.</characteristic>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Requires line of sight. One target unit within 24” suffers 2D6 flaming S3 hits.</characteristic>
               </characteristics>
             </profile>
           </profiles>
