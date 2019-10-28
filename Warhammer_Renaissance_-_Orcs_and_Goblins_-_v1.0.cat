@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9387-81b9-925b-5421" name="Warhammer Renaissance - Orcs and Goblins - v1.0" revision="1" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedRules>
+    <rule id="d076-b1cb-4217-9bdf" name="Difficult to Master" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>Orcs &amp; Goblins are an unruly lot with many special rules. They may take a long time to manoeuvre about for the inexperienced player. Make sure that you master all the special rules of the troops you have picked for your army.
+
+It is advisable to make list of procedures to remember during play. This list should include: (1) Stupidity tests and animosity tests before the movement phase begins. (2) Lots of compulsory movement and special attacks. And quite importantly, (3) the Waaagh! test just before you begin casting spells. Also remember that (4) Goblins fear elves if they don’t outnumber them two to one, and that (5) Savage Orcs are subject to frenzy and must always charge if able (and if they fail animosity, they must charge the nearest enemy unit).</description>
+    </rule>
+    <rule id="4696-ed85-ecd5-94fd" name="Mixing different types of Orcs and Goblins" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>The Orcs &amp; Goblins army book allows you to field different sorts of Orcs and Goblins: Black Orcs, Common Orcs, Savage Orcs, Common Goblins, Forest Goblins and Night Goblins - but not Hobgoblins, they belong to the Chaos Dwarfs.
+
+If you want to field a character of a particular type, you need to purchase at least one regiment of the same type. I.e. you cannot
+field one or more Forest Goblin Shamans without fielding a unit of Forest Goblins (either infantry or spider riders).
+
+The same principle goes for war machines. I.e. you cannot field Bolt Throwers with Common Goblin crew if your army does not include a regiment of Common Goblins (either infantry or wolf riders).
+
+Finally, the above principle goes for chariots as well. I.e. you cannot field Orc Boar Chariots if your army does not include a regiment of Common Orcs (either infantry or boar riders).</description>
+    </rule>
+    <rule id="26c2-b377-05ab-55c9" name="Animosity Tests" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>In the beginning of the turn, before the movement phase, each Orc and Goblin regiment (i.e. not Trolls or Ogres, etc.) in the army which is not engaged in melee combat or fleeing, must take an animosity test. War machines, chariots and all other units in the army do not test, only regiments. Animosity tests follow the rules for being unruly which are repeated below.
+
+Roll a single die. On a roll of 1 the unit must charge the nearest enemy. If no charge is possible, the members of the unit squabble amongst themselves or stand idle. While so affected, the unit is immune to psychology, cannot move, shoot, or cast spells until their next turn. They will, however, fight back if attacked.
+
+Note that Black Orcs and units containing Black Orc characters ignore the rules for animosity.</description>
+    </rule>
+    <rule id="645d-b816-6119-f0a7" name="WAAAGH! Magic" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>The following rules apply to all Orc or Goblin Shamans using Waaagh! magic. The presence of Orcs &amp; Goblins on the battlefield creates extra power for the shaman. If there are at least three Orc or Goblin regiments of at least 12 models within 12” of an Orc or Goblin shaman, he may – once per magic phase – cast one of his spells for one power card less than stated on the spell card (casting spells that normally require 1 power card for free).
+
+This ability only applies to shamans utilizing Waaagh! spells and can only be utilised once per magic phase by each shaman.
+
+Waaagh! magic is difficult to control. In the magic phase, after magic cards have been dealt, but before spells are cast, each shaman in the army must take a test to see if they can control the wild and dangerous Waaagh! magic. Roll a 1D6 for each Waaagh! wielding shaman able to cast spells.
+
+On a roll of 1, the shaman cannot cast spells or retain and use magic cards this magic phase. Furthermore, the shaman must take a toughness test (roll equal to or below his T on a 1D6) or suffer one wound for each Orcs or Goblin regiment containing at least 12 models within 12”. If this kills the shaman, his head explodes in a spectacular and gory magical manifestation.
+
+A Forest Goblin shaman does not take a toughness test as a result of a failed test but goes into a momentary trance instead (rendering him unable to cast spells and unable to retain or use magic cards in this magic phase). Move the shaman (and his mount) 1D6” forward (leaving his regiment if he was a part of one). If this takes him into base contact with a friendly unit, he is moved past that unit. If this takes him into base contact with the enemy, he is slain. If this takes him into contact with impassable terrain except water or quicksand, he stops. If this takes him into water, he drowns (unless mounted). If this takes him into quicksand, he drowns (even if mounted).</description>
+    </rule>
+    <rule id="6970-9f23-ff90-11de" name="Orc Types" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>Three types exist: Black Orcs, Common Orcs and Savage Orcs.
+
+Black Orcs are immune to psychology and quell animosity. Black Orc characters joining a non-Black Orc regiment quell animosity in that regiment (the whole unit simply ignores the animosity rule), but Black Orc characters do not lend their immunity to psychology to the regiment and must flee along with it if the regiment fails a fear, terror or panic test (as all characters normally do).
+
+Common Orcs and Savage Orcs ignore panic caused by Goblins.
+
+Savage Orcs are affected by frenzy. They never wear armour apart from shields, instead they are covered with magic tattoos. Magic tattoos function like light armour and in addition give them a 6+ ward save, which is increased to a 5+ ward save if the regiment is joined by a Savage Orc Shaman (the Shaman himself also benefits from the 5+ ward save).</description>
+    </rule>
+    <rule id="e338-8fae-7b1e-39aa" name="Goblin Types" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>Three types exist: Common Goblins, Forest Goblins and Night Goblins. All goblins fear Elves they do not outnumber at least two to one.
+
+Forest Goblins, including Spider Riders, can move through woods without a reduction in their movement allowance. In addition, Spider Riders can over obstacles, difficult rocky terrain, buildings and sheer cliffs without a reduction in their movement allowance. Forest Goblins shamans do not suffer wounds from failed Waaagh! tests (see the rules for Waaagh! tests for details). Arrows fired by Forest Goblins are poisoned, and Forest Goblins are immune to poison.
+
+Night Goblins hate Dwarfs (not Chaos Dwarfs). A Night Goblin Shaman carries one magic mushroom. In any magic phase just before Winds of Magic are dealt, a Night Goblin Shaman may eat his mushroom and receive 1D6 extra magic cards that only he can use. However, when doing this, the risk of failing his Waaagh! test increases to 1 or 2 on a roll of 1D6.</description>
+    </rule>
+    <rule id="7cdb-e92b-cabc-9957" name="Trollish Types" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>All Trolls are stupid, cause fear, regenerate on 4+ and may choose to forego normal attacks and vomit instead. A vomit attack is an automatic hit with S5 and no armour save causing 1D3 wounds. In addition, Trolls come in two varieties, they can be either River Trolls or Stone Trolls. A River Troll may cross water without penalty and smells so badly that all living enemy models (i.e. not demons and undead) suffer a -1 to hit against them in melee combat. Stone Trolls are resistant to magic and benefit from a 2+ natural dispel.</description>
+    </rule>
+    <rule id="66fc-0761-b296-adfd" name="Snotlings" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>Snotlings huddle together on 40x40 mm bases. They cannot take command groups or be joined by characters. Snotlings will never provoke a panic test in other units.
+
+Snotlings don’t think for themselves, instead they mimic the actions of those around them. Snotling regiments must remain within 8” of friendly units or the Snotlings will stand idle, not knowing what to do. If charged in this situation, the Snotlings are automatically broken.
+
+If the nearest friendly unit within 8” is engaged in melee combat, the Snotlings will charge the nearest enemy unit, if able, or else rush towards the nearest enemy at the highest possible speed (avoiding impassable terrain and friendly units). If the closest friendly unit is subject to frenzy, the Snotlings become frenzied themselves. If closest friendly unit is fleeing, the snotlings flee in the same direction.
+
+When engaged in combat, snotlings are unbreakable as long the nearest friendly unit is not fleeing.</description>
+    </rule>
+    <rule id="93cb-1213-5452-709d" name="Night Goblin Fanatics" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>Up to three Night Goblin Fanatics may hide in a Night Goblin regiment. The Fanatics are released whenever the Night Goblin regiment moves within 8” of an enemy unit and vice versa. Halt the movement of the Night Goblins or the enemy unit the moment there are exactly 8 inches between the two units, even during a charge. Release the Fanatics.
+
+The only situation where you do not stop at a distance of 8 inches between the two units is when you cannot control your movement (such as fleeing and pursuing) and when charging the Night Goblins from flying high (don’t do it, just as a piece of advice).
+
+When the Fanatics are released, they move 2D6” out of their unit from a point decided by the controlling player, in a direction dictated by the controlling player. In subsequent turns, each fanatic moves in a random direction (use the scatter die). If, in subsequent turns, the 2D6 for movement shows a double, the Fanatic gets entangled in his ball and chain and slays himself. If a Fanatic’s move takes him into water, wood, obstacles, buildings, impassable terrain, etc., he is slain as well.
+
+If the Fanatic hits a unit (friend or foe) he goes right through it: position the Fanatic on the other side of the unit 1” away or as far away as his movement takes him. In doing this, he delivers 1D6 S5 hits with no armour save allowed. The same thing happens if a unit for some reason comes into contact with the Fanatic. Players are not allowed to do this intentionally, but it might happen accidentally, such as stupid creatures stumbling forward.
+
+After having released the Fanatics, the movement that triggered the Fanatics’ release may continue but does not have to. It is
+acceptable to abort even a charge already in motion if there are Fanatics between the charging unit and the target.
+
+Fanatics are released whenever their parent unit enters a building, no matter if there are enemies within 8” or not. Release the Fanatics the moment you enter the building in a direction of your choice – as always.</description>
+    </rule>
+    <rule id="f6c3-ec89-0d30-fd76" name="Night Goblin Netters and Clubbers" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>A Night Goblin regiment may be equipped with nets and clubs.
+
+In the first round of each combat engagement the Netters and Clubbers participate in, the regiment will throw nets at their enemies. Before blows are struck, any enemy model in base contact with the Netters and Clubbers regiment must roll equal to or below their I. If they fail, they cannot attack this round. In addition, they are automatically hit with a S 5 hit with no armour save. Note that models taking the place of troops slain in this way cannot attack the Netters and Clubbers in this first turn of combat.
+
+The Netters and Clubbers regiment, including characters, does not strike normal attacks in the first round of melee combat as they are too busy netting and clubbing. In subsequent rounds of combat the Netters and Clubbers fight normally.</description>
+    </rule>
+    <rule id="df36-ee79-95b4-821f" name="Night Goblin Squig-Hoppers" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>Each Squig-Hopper acts as an independent unit.
+
+Even though the unit consists of both a rider and a squig, treat the Squig-Hopper as just one model, using the characteristics of the Squig.
+
+The Squig-Hopper bounces in the compulsory movement phase. The controlling player declares in what direction the Squig-Hopper will bounce and moves the model 2D6” in that direction. If the roll for movement was a double, the Squig-Hopper bounces in a random direction instead as determined by the scatter die.
+
+Whenever a Squig-Hopper bounces upon a unit (whether friend or foe), the Squig hits automatically. The rider never fights in melee combat, he is too busy holding onto the Squig.
+
+A bouncing Squig-Hopper landing upon a unit immediately bounces again. If the Squig-Hopper lands in a water feature, it will drown. If a Squig-Hopper lands on a terrain feature where it cannot stand (such as a sliding roof), it will bounce again. If a Squig-Hopper bounces into a wood, it slams into a tree and knocks itself out (count as slain).
+
+When a bouncing Squig-Hopper is charged, it will fight normally in melee combat, but cannot be broken, as it is unbreakable, and will bounce off during the next Orcs &amp; Goblins compulsory movement sub-phase.</description>
+    </rule>
+    <rule id="93e4-ac23-1831-df45" name="Night Goblin Squig-Hunters" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>A Night Goblins Squig-Hunters unit is a mixed unit consisting of both Night Goblins and Cave Squigs. To begin with, at least half of the models must be Night Goblins.
+
+The regiment moves at the Night Goblins&apos; movement allowance (4”) and uses the Night Goblins&apos; LD (5). When shot at with missiles, randomise proportionally to determine the distribution of hits between Night Goblins and Cave Squigs.
+
+All Cave Squigs are placed in the front rank, and all Night Goblins are placed in the rear ranks. The Night Goblins are armed with prodders that also function as spears and add +1 to S.
+
+Each Night Goblin can control one Cave Squig. If, at any time, the number of Cave Squigs rises above that of Night Goblins, then all excess Cave Squigs go wild. A wild Cave Squig moves and fights in the same way as a Squig-Hopper except it always moves in a random direction determined by the scatter die.
+
+The Cave Squigs are unbreakable and thus immune to psychology, but the Night Goblins are not. If a regiment of Squig-Hunters fails a panic/terror/break test or for other reasons is forced to flee, only the Night Goblins flee, the Cave Squigs go wild (all of them).</description>
+    </rule>
+    <rule id="b5c7-9420-64ae-f653" name="Giants" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>Giants are large and cause terror. When a Giant attacks, choose among the following special attacks.
+
+1/ Thump one model with his club: the enemy must roll equal to or below I or suffer 1D6 wounds with no armour save allowed.
+
+2/ Swing the club: automatically inflicts 1D6 S7 hits on the enemy unit.
+
+3/ Stamp on one man-sized model: the enemy must roll equal to or below I or die, no armour save allowed.
+
+4/ Yell and bawl: may not attack but the Giant’s side in this combat engagement wins combat resolution by 2 regardless of all other circumstances.
+
+5/ Jump up and down on a man-sized regiment: take the test to see if the giant falls over (see below); if not, deal 2D6 S7 hits on the enemy unit. Jumping is so fun that the Giant must pass a LD test in order to choose a different kind of attack in the next combat round.
+
+6/ Head butt large target: automatically inflicts 1 S7 hit, wounded models are knocked unconscious. When unconscious, models are hit automatically until they wake up at the end of the next melee combat phase.
+
+7/ Pick up one man-sized model: the model may make one immediate attack against the Giant. If he fails to wound, the Giant picks up the model and stuffs it into his trousers. The model counts as slain but is freed if the Giant is slain later on.
+
+When a Giant is slain, he falls over. Roll the scatter die to determine where to place the Fallen Giant Template. All models hit must roll equal or below I to avoid being slain, no armour saves allowed (unless they are large targets themselves, in which case they nothing happens).
+
+In addition, the Giant may fall over on the following occasions:
+
+1/ When crossing an obstacle.
+2/ When trying to jump up and down (roll before attacking).
+3/ When beaten in combat (roll before break test).
+4/ When failing a rally test.
+
+To take the test to see if the Giant falls over, roll a D6. On a roll of 6 the Giant falls over.
+
+While on the ground, the Giant cannot attack and is destroyed if forced to flee. The Giant may get up in the next movement phase but may not otherwise move in that phase.
+
+Note that it is no mistake that Giants are not immune to psychology. Obviously, they ignore fear and terror since they cause terror themselves, but they are liable to panic nevertheless. Giants are notoriously unstable, unreliable, and often drunk and confused. Therefore, you can expect them to flee along with your other troops – so be careful when you position your Giant on the battlefield.</description>
+    </rule>
+    <rule id="0fea-ffab-4202-0894" name="Gargantuan Spider" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>An army that includes a regiment of Forest Goblins (infantry or spider riders) may also include a Gargantuan Spider ridden by a small mob of Forest Goblins huddling together in a makeshift howdah on the creature’s back.
+
+As a forest dweller, a Gargantuan Spider suffers no movement penalties for moving through woods. Like all other spiders, the Gargantuan Spider may crawl over walls, buildings and even sheer cliffs.
+
+The Gargantuan Spider causes terror and has an armour save of 4+. Its attacks are poisonous, meaning that each attack deals not just one wound but D6 wounds (unless you are immune to poison, of course).
+
+If shot at, roll a D6: on a 1-5 the monster is hit, on a roll of 6 the riders are hit.
+
+In melee combat you can choose whether to attack the monster or the riders, but unless you are a large target yourself you suffer a -1 to hit if you direct your attacks against the riders.
+
+The Gargantuan Spider is immune to psychology and doesn&apos;t care if its Forest Goblin riders live or die. Never roll for monster reaction when the last rider is slain. The Gargantuan Spider does take break tests as normal, however.
+
+The crew may fire their bows, even if the Gargantuan Spider took a march move, and with no penalty for moving.
+
+If the Gargantuan Spider is killed before the riders, they form an independent skirmishing regiment.</description>
+    </rule>
+  </sharedRules>
+</catalogue>
