@@ -343,5 +343,148 @@ The default option Imperial Steam Tank comes equipped with a small cannon and an
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
       </characteristics>
     </profile>
+    <profile id="9c6f-0606-0f2f-a90f" name="Empire Lord" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">6</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">4</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="770f-8085-034a-73ed" name="Empire Hero" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">5</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">5</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="617b-16a7-f5bf-c6cf" name="Empire Champion" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6064-bf72-0179-fb72" name="Halfling Champion" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">5</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">2</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c8a6-cfb1-0de3-70cc" name="Dwarf Champion" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="967d-7bfc-82a6-3f2b" name="Ogre Champion" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">6</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">4</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f8f7-ab60-9d72-7af1" name="Warrior Priest (Hero)" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cdbc-a162-3bb6-7912" name="Wizard Lord" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">4</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="46d5-4990-6019-6615" name="Master Wizard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">5</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cb1e-4bda-764e-8b06" name="Wizard Champion" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="223d-b3b5-41f0-10f3" name="Wizard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
 </catalogue>
