@@ -1,12 +1,39 @@
 # whren
- Warhammer Renaissance for Battlescribe. The project is not yet in any usable state, though the core catalogue is complete so it should be possible to create working army files from this.
+ Warhammer Renaissance for Battlescribe. The project is still in it's infancy and most of the armies are still missing, though the core catalogue is complete so it is possible to create working army files from this.
  
- The plan from here is to tackle the armies in the following order:
+Status of the different armies:
+
+Beastmen - not started.
+
+Bretonnia - not started.
+
+Chaos - not started.
+
+Chaos Dwarfs - not started.
+
+Dark Elves - not started.
+
+Dogs of War - not started.
+
+Dwarfs - mostly done, finetuning is still ongoing.
+
+Empire - work started.
+
+High Elves - not started.
+
+Lizardmen - not started.
+
+Norse - not started.
+
+Orcs and Goblins - not started.
+
+Skaven - not started.
+
+Undead - not started.
+
+Wood Elves - not started.
+
  
- Dwarfs, Orcs & Goblins, Bretonnia, Empire.
+You can find the Warhammer Renaissance project on Facebook.
  
- The order of the rest is not yet finalized.
- 
- You can find the Warhammer Renaissance project on Facebook.
- 
- https://www.facebook.com/groups/229862157776959/?ref=group_header
+https://www.facebook.com/groups/229862157776959/?ref=group_header
