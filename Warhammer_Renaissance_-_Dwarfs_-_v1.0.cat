@@ -169,17 +169,6 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d477-9cee-2214-80e9" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f2e4-8d0b-3afd-d571" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="3aa1-634f-25da-4fdd" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="9c54-d472-d7dc-1555" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="a9d0-72af-915f-9903" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ba59-0ae6-bcef-9ed1" type="max"/>
@@ -194,9 +183,10 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
       </selectionEntries>
       <entryLinks>
         <entryLink id="626b-09d7-0084-06ea" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
-        <entryLink id="6ed8-1ddf-2f52-c939" name="Melee Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="30ac-cdb2-13b8-dad2" type="selectionEntryGroup"/>
+        <entryLink id="6ed8-1ddf-2f52-c939" name="Melee Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" targetId="30ac-cdb2-13b8-dad2" type="selectionEntryGroup"/>
         <entryLink id="3321-7fb4-e2de-e464" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="ddf2-aac9-8895-b137" type="selectionEntryGroup"/>
         <entryLink id="38ec-87b7-c390-9c67" name="Missile Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="dcf3-c95c-d164-40da" type="selectionEntryGroup"/>
+        <entryLink id="234e-91d9-511a-2d41" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d615-7c4d-e887-3da9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="42.0"/>
@@ -650,24 +640,6 @@ Dwarf Soldiers with light armour. May swap light armour for heavy armour (+2). M
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="8.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8c37-5a0a-ae45-e9a0" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5978-d914-faeb-f3bc" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="3041-08ed-8b0a-506a" name="Double Handed Weapon" hidden="false" targetId="b3f8-0c49-ca8e-18f4" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="8b3f-90a0-0ef4-11fa" name="Crossbows" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="increment" field="fcac-3c52-8cf7-add0" value="2.0">
@@ -710,6 +682,7 @@ Dwarf Soldiers with light armour. May swap light armour for heavy armour (+2). M
         </entryLink>
         <entryLink id="54fd-e1d2-31e6-e8c0" name="Spear" hidden="false" collective="false" import="true" targetId="4907-6f1e-f938-438d" type="selectionEntry"/>
         <entryLink id="468c-1baf-a24f-de12" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry"/>
+        <entryLink id="839e-bdba-51aa-a58f" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="6ec3-fd33-9ff6-183f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
@@ -1931,40 +1904,28 @@ Carries heavy armour. May take two magic items.</description>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7d30-381f-0a74-85a2" type="max"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="ac9c-8e36-a9d6-cefe" name="Pistol" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="a860-f024-baed-869c" name="Pistol" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="919f-72e1-03f7-edfb" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ac30-58f5-5985-2c3d" name="Brace of Pistols" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="11d3-b90a-f459-1e64" name="Pistol" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="919f-72e1-03f7-edfb" type="profile"/>
-          </infoLinks>
+      <entryLinks>
+        <entryLink id="0bc9-3b98-0448-b62b" name="Brace of Pistols" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="227a-0209-7101-8fae" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="4.0"/>
           </costs>
-        </selectionEntry>
-        <selectionEntry id="b4d3-c060-bb0c-80b6" name="Handgun" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="97ff-2aa4-8948-c3c8" name="Handgun" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="d247-fd2c-7d5f-5383" type="profile"/>
-          </infoLinks>
+        </entryLink>
+        <entryLink id="4147-2c14-c5f6-b335" name="Crossbow" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="13d9-8e30-8fe1-5283" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="3.0"/>
           </costs>
-        </selectionEntry>
-        <selectionEntry id="0c8b-d070-dac9-8a78" name="Crossbow" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="47c9-25c1-2886-aa4c" name="Crossbow" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="b591-16aa-5bfe-2b5b" type="profile"/>
-          </infoLinks>
+        </entryLink>
+        <entryLink id="b292-2cb4-cab4-6e0c" name="Handgun" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="fd3a-e295-46b6-9092" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="3.0"/>
           </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </entryLink>
+        <entryLink id="7521-c8b3-822b-a77b" name="Pistol" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="798b-ab09-5a4b-90d6" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="2.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="30ac-cdb2-13b8-dad2" name="Additional Melee Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
       <constraints>
@@ -1979,9 +1940,19 @@ Carries heavy armour. May take two magic items.</description>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="1.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6f7f-dbfe-cee1-8ccd" name="Double Handed Weapon" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ee55-e5e4-bd97-5063" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7d1-f686-0a73-b423" type="max"/>
+          </constraints>
           <infoLinks>
-            <infoLink id="adf2-da32-4df1-0147" name="Double Handed Weapon" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="b3f8-0c49-ca8e-18f4" type="profile"/>
+            <infoLink id="4b54-2b1d-2d80-42ae" name="Double Handed Weapon" hidden="false" targetId="b3f8-0c49-ca8e-18f4" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="3.0"/>

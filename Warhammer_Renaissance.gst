@@ -153,6 +153,11 @@
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
+        <modifier type="decrement" field="fcac-3c52-8cf7-add0" value="3.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="1ceb-8381-7d90-3b10" name="Heavy Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="be87-4af1-de9d-3d9b" type="profile"/>
@@ -166,6 +171,11 @@
         <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
           <repeats>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="fcac-3c52-8cf7-add0" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -201,12 +211,175 @@
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
+        <modifier type="decrement" field="fcac-3c52-8cf7-add0" value="1.0"/>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="89e8-6df4-90c3-19f6" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="eb41-443f-d626-d571" name="Shield" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="13d9-8e30-8fe1-5283" name="Crossbow" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a859-15b4-1119-d547" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8651-1347-f8f8-e5a4" name="Crossbow" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="b591-16aa-5bfe-2b5b" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e40-f751-baab-2ee1" name="Barding for a Warhorse" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="4.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3912-f8ae-1d4b-8d2c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="37f8-1163-cb14-ae12" name="Barding for a Warhorse" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c0f4-d976-0c62-1b37" name="Flail" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f6b-3cd0-5ef8-99c0" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ebe9-6bbe-45b3-6e68" name="Flail" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="3fac-180b-0c3b-70d4" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="26fe-f48b-e245-e548" name="Halberd" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="2.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c57-bf1f-a8e6-35f6" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8592-6c8a-6659-15e8" name="Halberd" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="f9b5-123e-410e-51c0" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cbf9-1b83-6a69-ad9c" name="Lance" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="2.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a54c-b303-9da0-2dc5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="eed4-f4f0-a728-821c" name="Lance" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="7d87-b9be-57ac-1e51" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="12b9-cf16-c17f-fcbc" name="Longbow" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cada-b013-0858-c81e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7a12-4b5d-a1bb-447c" name="Longbow" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="5301-b90a-46c5-c124" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd3a-e295-46b6-9092" name="Handgun" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8c7-3df7-1ebe-92a4" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d290-517e-4291-2ee9" name="Handgun" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="d247-fd2c-7d5f-5383" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="798b-ab09-5a4b-90d6" name="Pistol" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="2.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb5a-2f3c-d48d-b6b8" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e984-11d5-fc9f-d00a" name="Pistol" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="919f-72e1-03f7-edfb" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="227a-0209-7101-8fae" name="Brace of Pistols" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="4.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1572-0fda-0607-c18d" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ef9b-2ac7-363e-3fef" name="Pistol" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="919f-72e1-03f7-edfb" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
@@ -2373,7 +2546,7 @@ You may appoint one champion or hero to be the army’s battle standard bearer. 
         <characteristic name="Special Rules" typeId="2dc0-e00b-2607-2c71">Being mounted on a steed with 1W on its profile.</characteristic>
       </characteristics>
     </profile>
-    <profile id="05ad-ed9e-9bf9-2a49" name="Barding for Steeds" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="ce53-2d2c-8872-2f43" typeName="Armour">
+    <profile id="05ad-ed9e-9bf9-2a49" name="Barding for a Warhorse" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="ce53-2d2c-8872-2f43" typeName="Armour">
       <characteristics>
         <characteristic name="Armour Save" typeId="4ff6-21c0-92db-2679">Improves armour save by +1.</characteristic>
         <characteristic name="Special Rules" typeId="2dc0-e00b-2607-2c71">Reduces the mount’s movement allowance by one point.</characteristic>
