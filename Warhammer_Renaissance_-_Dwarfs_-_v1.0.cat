@@ -20,6 +20,13 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="27ae-638d-5d9b-77dc" name="Throne of Power" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4353-9bc0-51c7-c1d8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c4b5-92f6-8507-e0b6" type="max"/>
           </constraints>
@@ -30,50 +37,6 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="150.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fa22-98fa-8692-a10d" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e27-f962-4894-46b7" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="7784-0446-290c-10e2" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="cc5c-9a6b-707a-5e32" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f367-c77f-3a6e-52f9" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="269e-18b5-ec84-fe55" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="763a-9f17-dc81-59ad" name="Enchanted Items and Talismanic Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="ee69-2d02-2c54-5ef1" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c763-8121-1cbd-a92c" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a5ce-4385-8a18-c979" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="dd16-735d-1e42-6d43" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="9c54-d472-d7dc-1555" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a6cc-a156-7d4a-ffe2" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bceb-875b-d7b8-8802" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="3600-60f1-a758-08fb" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d344-fb89-de18-1e64" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="3692-3c5d-e72a-b586" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
@@ -81,6 +44,10 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <entryLink id="c9ca-cbb0-69c3-7786" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="ddf2-aac9-8895-b137" type="selectionEntryGroup"/>
         <entryLink id="1872-7bbe-9846-c92a" name="Missile Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="dcf3-c95c-d164-40da" type="selectionEntryGroup"/>
         <entryLink id="92cd-a65b-e197-787b" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry"/>
+        <entryLink id="3fe0-31bf-5ff2-a76b" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
+        <entryLink id="467d-f250-1a71-e3b8" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="c8e2-1825-c472-f905" type="selectionEntry"/>
+        <entryLink id="984c-9b76-31c0-3795" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d615-7c4d-e887-3da9" type="selectionEntry"/>
+        <entryLink id="34fb-b72d-22a6-6009" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="e402-f801-58ef-470b" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="116.0"/>
@@ -135,58 +102,16 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
       <categoryLinks>
         <categoryLink id="5ca1-7471-aa80-5102" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="d0fb-7866-efee-ce0f" name="Shield" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="247f-b197-47ec-4a5b" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="c7d0-9153-bc41-bcbc" name="Shield" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a5a2-150f-2feb-6863" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9bb9-3fd9-f75a-295a" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="14e7-964d-97ee-b857" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="cc5c-9a6b-707a-5e32" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e813-29a1-528c-7422" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3b26-42f3-5b24-2bc9" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="4a71-5754-24eb-5ee9" name="Enchanted Items and Talismanic Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="ee69-2d02-2c54-5ef1" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a9d0-72af-915f-9903" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ba59-0ae6-bcef-9ed1" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="9dbe-df77-ebcd-3c63" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d344-fb89-de18-1e64" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="626b-09d7-0084-06ea" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="6ed8-1ddf-2f52-c939" name="Melee Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" targetId="30ac-cdb2-13b8-dad2" type="selectionEntryGroup"/>
         <entryLink id="3321-7fb4-e2de-e464" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="ddf2-aac9-8895-b137" type="selectionEntryGroup"/>
         <entryLink id="38ec-87b7-c390-9c67" name="Missile Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="dcf3-c95c-d164-40da" type="selectionEntryGroup"/>
         <entryLink id="234e-91d9-511a-2d41" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d615-7c4d-e887-3da9" type="selectionEntry"/>
+        <entryLink id="fc1d-be6a-e26e-3d84" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
+        <entryLink id="7f87-f24c-6e19-30dc" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry"/>
+        <entryLink id="b550-e5a6-41a0-6a1d" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="e402-f801-58ef-470b" type="selectionEntry"/>
+        <entryLink id="4bfd-ce65-98a6-39c4" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="c8e2-1825-c472-f905" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="42.0"/>
@@ -305,32 +230,10 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
       <categoryLinks>
         <categoryLink id="b412-2d8c-c1e7-0555" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="84ca-9f44-0f8d-a2a5" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c48-45bd-d7d5-9582" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="f451-c540-7bd7-0a05" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="cc5c-9a6b-707a-5e32" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a650-6d00-4a40-203f" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d9b0-c7f3-c9b7-f2c7" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="8369-7433-9b91-d505" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d344-fb89-de18-1e64" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="7046-d929-e7b1-edd3" name="Melee Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="30ac-cdb2-13b8-dad2" type="selectionEntryGroup"/>
+        <entryLink id="e6d7-9e10-7d38-1491" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="e402-f801-58ef-470b" type="selectionEntry"/>
+        <entryLink id="9d14-1b7f-7bb9-c9d8" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
@@ -353,76 +256,17 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
       <categoryLinks>
         <categoryLink id="fecc-c282-1273-981a" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="a4b5-6b06-3cc5-6cac" name="Shield" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7691-dc13-7a34-c1e6" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="b351-d97c-5bea-d8ba" name="Shield" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b5ef-1b56-9340-b47b" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bff5-edd9-e912-48ac" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="ce91-cd93-fb02-208d" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="cc5c-9a6b-707a-5e32" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="664b-98ee-b508-b9b1" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd24-f10f-7b43-0c87" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="2df0-bde2-ab3c-8c8f" name="Enchanted Items and Talismanic Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="ee69-2d02-2c54-5ef1" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7eb5-f8f7-fef3-fc7f" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="19c0-af4b-ac4a-e792" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="323f-6351-34e9-2721" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="9c54-d472-d7dc-1555" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="49ab-e6ce-6cbb-24f6" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a9ff-1609-f899-808c" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="5d4a-e4f8-f108-9b01" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d344-fb89-de18-1e64" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="54d3-99a6-65fd-ff7a" name="Anvil of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="cbf4-a176-7cbc-adee" name="Anvil of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="f43c-9422-7806-3fa7" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="150.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="dc96-228b-076d-1402" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="f9e5-8f84-73b6-f4ed" name="Melee Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="30ac-cdb2-13b8-dad2" type="selectionEntryGroup"/>
         <entryLink id="f9f3-2423-8eef-af7e" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="ddf2-aac9-8895-b137" type="selectionEntryGroup"/>
         <entryLink id="ee7d-045c-a93d-fedb" name="Missile Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="dcf3-c95c-d164-40da" type="selectionEntryGroup"/>
+        <entryLink id="e8e1-1ccb-a35f-fb62" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
+        <entryLink id="cc0c-1dd0-fc1f-240f" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="c8e2-1825-c472-f905" type="selectionEntry"/>
+        <entryLink id="4cc7-6a35-510a-bc7a" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d615-7c4d-e887-3da9" type="selectionEntry"/>
+        <entryLink id="dd36-4e8b-102e-88b8" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="e402-f801-58ef-470b" type="selectionEntry"/>
+        <entryLink id="c8ab-c6cd-c16c-d52d" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry"/>
+        <entryLink id="a754-1912-2acf-a261" name="Anvil of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="1246-9127-d773-d1b6" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="70.0"/>
@@ -445,76 +289,17 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
       <categoryLinks>
         <categoryLink id="5994-b818-7557-3448" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="c791-faea-3510-c84e" name="Shield" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd01-8dbd-5aed-e0d2" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="9ced-660d-198f-ecb7" name="Shield" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d3ac-ca55-2f6e-d83d" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5338-74c6-d8e1-4488" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="3b3b-b5be-1cc6-1829" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="cc5c-9a6b-707a-5e32" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="93fa-a975-c32f-3ae7" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0e9a-c91d-d3db-3a40" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="ae3a-fc97-9c35-e5e8" name="Enchanted Items and Talismanic Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="ee69-2d02-2c54-5ef1" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b6ed-6a3d-0dc2-96c4" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1b52-ccf8-55d3-c0f1" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="ba28-0f1c-8792-9274" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="9c54-d472-d7dc-1555" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="69b3-7a30-c6d2-bf42" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1604-8f71-0d34-5903" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="54da-4cba-31f2-9178" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d344-fb89-de18-1e64" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2c00-f3d1-8823-4cf2" name="Anvil of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="33a1-a7e9-2e7e-24d1" name="Anvil of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="f43c-9422-7806-3fa7" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="150.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="74c2-5b8d-afb4-71cd" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="98d2-2ee5-f0f4-13e9" name="Melee Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="30ac-cdb2-13b8-dad2" type="selectionEntryGroup"/>
         <entryLink id="3e06-0e22-fb6b-7517" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="ddf2-aac9-8895-b137" type="selectionEntryGroup"/>
         <entryLink id="1e24-423e-c3a3-ff4c" name="Missile Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="dcf3-c95c-d164-40da" type="selectionEntryGroup"/>
+        <entryLink id="293d-c4de-8bcd-a1ac" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
+        <entryLink id="e7b8-ec98-d645-d3ee" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="c8e2-1825-c472-f905" type="selectionEntry"/>
+        <entryLink id="a712-278a-1edd-aa5b" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d615-7c4d-e887-3da9" type="selectionEntry"/>
+        <entryLink id="0648-e018-ed9f-33eb" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="e402-f801-58ef-470b" type="selectionEntry"/>
+        <entryLink id="59e4-e71d-7fa9-ceae" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry"/>
+        <entryLink id="8b37-9b58-a688-b26d" name="Anvil of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="1246-9127-d773-d1b6" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
@@ -538,17 +323,6 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <categoryLink id="7ca6-2821-ce8e-27a6" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b24a-30ee-cc30-72ff" name="Shield" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="90e9-b6f6-d0f2-d1e9" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="5d3f-cc3b-c3dd-e505" name="Shield" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="1.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="984d-01fb-509b-0246" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4a0d-5928-c5fa-879b" type="max"/>
@@ -560,53 +334,18 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4296-9420-5166-177a" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9874-f507-acdc-fff3" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="b79f-059c-f5d7-523d" name="Enchanted Items and Talismanic Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="ee69-2d02-2c54-5ef1" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0fd8-6122-65b6-b82d" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4a72-fdfc-58b1-7395" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="436e-fa44-57ff-1e9e" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="9c54-d472-d7dc-1555" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d50e-6998-1381-15ba" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6157-f57d-ba7f-136d" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="50b6-9ac5-e2d5-325a" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d344-fb89-de18-1e64" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="70ce-f20a-85a9-c274" name="Anvil of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="a4d3-b6f3-3c0a-6eea" name="Anvil of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="f43c-9422-7806-3fa7" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="150.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="6651-80a9-feee-7394" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="3d71-fb61-c240-e2a7" name="Melee Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="30ac-cdb2-13b8-dad2" type="selectionEntryGroup"/>
         <entryLink id="5e93-d2a5-d2c8-5626" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="ddf2-aac9-8895-b137" type="selectionEntryGroup"/>
         <entryLink id="b18a-0edf-a9d4-b73b" name="Missile Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="dcf3-c95c-d164-40da" type="selectionEntryGroup"/>
+        <entryLink id="bd15-3090-1c95-dc98" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
+        <entryLink id="a47b-7519-b229-d3ac" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="c8e2-1825-c472-f905" type="selectionEntry"/>
+        <entryLink id="7f21-025c-0b1f-c2b4" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d615-7c4d-e887-3da9" type="selectionEntry"/>
+        <entryLink id="8fdd-c677-c91d-cc9f" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="e402-f801-58ef-470b" type="selectionEntry"/>
+        <entryLink id="18eb-74b0-9197-4bdb" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry"/>
+        <entryLink id="b11e-d586-c9ef-d4e2" name="Anvil of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="1246-9127-d773-d1b6" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="130.0"/>
@@ -1705,54 +1444,12 @@ Carries a crossbow, light armour, a shield, a double handed weapon, and Bugmanâ€
       <categoryLinks>
         <categoryLink id="7391-8223-876f-9cb5" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="69a1-bd85-2b47-43da" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b2a9-9554-5d65-0656" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="36ed-44e0-e406-a752" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="cc5c-9a6b-707a-5e32" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ad3b-a215-478b-0920" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af3b-dc33-b19c-2e6f" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="bed4-8ea5-6abe-f0b2" name="Enchanted Items and Talismanic Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="ee69-2d02-2c54-5ef1" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8325-9ddc-6dd0-d39b" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b5ce-1260-5273-fc8b" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="da34-eb2d-0234-11af" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="9c54-d472-d7dc-1555" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a24a-1cae-c155-54c5" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a66-0af5-a71e-b8f4" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="4d20-3d1e-d361-3496" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d344-fb89-de18-1e64" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="142c-9a4e-6354-d6ef" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
+        <entryLink id="1ce5-56c0-d126-6c3d" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
+        <entryLink id="d409-81d0-18d7-e158" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="c8e2-1825-c472-f905" type="selectionEntry"/>
+        <entryLink id="810c-d65c-ac91-c7b7" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d615-7c4d-e887-3da9" type="selectionEntry"/>
+        <entryLink id="4389-b10e-7032-af88" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="e402-f801-58ef-470b" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
@@ -1886,6 +1583,17 @@ Carries heavy armour. May take two magic items.</description>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1246-9127-d773-d1b6" name="Anvil of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0630-550b-7367-6d3c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7737-77c0-ab38-4ea7" name="Anvil of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="f43c-9422-7806-3fa7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="150.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
