@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="11cd-9eab-efa6-b75e" name="Warhammer Renaissance - Dwarfs - v1.0" revision="5" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="11cd-9eab-efa6-b75e" name="Warhammer Renaissance - Dwarfs - v1.0" revision="6" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry id="9d36-bc62-8899-dade" name="Dwarf Lord" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="9d36-bc62-8899-dade" name="Dwarf Lord" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="24a6-c0de-ce1c-d9ae" name="Dwarf Lord" publicationId="78e3-1ead-0759-9022" hidden="false">
           <description>DWARF LORD 116 pts
@@ -13,7 +13,6 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <infoLink id="fabe-1057-6dc2-03ab" name="Mistrust of Elves" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0e53-5d0c-8b32-0294" type="rule"/>
         <infoLink id="d37a-7070-d780-07d1" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
         <infoLink id="cb80-2a53-0b79-7ff9" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
-        <infoLink id="cbab-8717-f2c3-0fec" name="Dwarf Lord" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="56b3-f37f-4c98-8596" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0215-741e-acc0-aebf" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
@@ -37,6 +36,18 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="150.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="9cf1-738b-9871-c12a" name="Dwarf Lord" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbbf-20fd-891d-c78e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa52-075a-cc02-b3b3" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ee36-fddf-0c57-d945" name="Dwarf Lord" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="56b3-f37f-4c98-8596" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="116.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="3692-3c5d-e72a-b586" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
@@ -49,11 +60,8 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <entryLink id="984c-9b76-31c0-3795" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d615-7c4d-e887-3da9" type="selectionEntry"/>
         <entryLink id="34fb-b72d-22a6-6009" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="e402-f801-58ef-470b" type="selectionEntry"/>
       </entryLinks>
-      <costs>
-        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="116.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="9e2f-515d-07f0-11c4" name="Dwarf Hero" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="9e2f-515d-07f0-11c4" name="Dwarf Hero" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="d321-8ca1-2a87-4ba3" name="Dwarf Hero" publicationId="78e3-1ead-0759-9022" hidden="false">
           <description>DWARF HERO 79 pts
@@ -65,11 +73,26 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <infoLink id="c793-cbb7-b955-5581" name="Mistrust of Elves" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0e53-5d0c-8b32-0294" type="rule"/>
         <infoLink id="9cdd-e2d1-0e33-54f3" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
         <infoLink id="ae06-3a99-be53-4bd4" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
-        <infoLink id="3760-02a0-9218-2db6" name="Dwarf Hero" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="2c09-a096-d067-62bf" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6fb9-a364-89fc-726b" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="76f9-e389-a13c-62f7" name="Dwarf Hero" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3854-145c-8128-b3b1" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="edf1-4d1f-1097-3aa7" name="Dwarf Hero" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="2c09-a096-d067-62bf" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="84c9-b395-9846-5e33" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="79.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="91de-029b-40ea-5cdb" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="1d40-3fa1-53a6-0bb1" name="Melee Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="30ac-cdb2-13b8-dad2" type="selectionEntryGroup"/>
@@ -81,11 +104,8 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <entryLink id="1b1e-c482-0be0-5561" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d615-7c4d-e887-3da9" type="selectionEntry"/>
         <entryLink id="76c1-226e-0eca-5f48" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="e402-f801-58ef-470b" type="selectionEntry"/>
       </entryLinks>
-      <costs>
-        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="79.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="0781-a7f8-acc1-6e00" name="Dwarf Champion" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="0781-a7f8-acc1-6e00" name="Dwarf Champion" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="ac39-510b-3dcc-b10e" name="Dwarf Champion" publicationId="78e3-1ead-0759-9022" hidden="false">
           <description>DWARF CHAMPION 42 pts
@@ -97,11 +117,27 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <infoLink id="53fa-ff85-984b-ba9d" name="Mistrust of Elves" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0e53-5d0c-8b32-0294" type="rule"/>
         <infoLink id="3c70-7dcf-a725-bca9" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
         <infoLink id="0ca8-ecbf-5cbb-693c" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
-        <infoLink id="6929-7c63-b093-bedc" name="Dwarf Champion" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="e322-fc67-0a96-0d28" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5ca1-7471-aa80-5102" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+        <categoryLink id="39dd-e0ed-88ea-c62f" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2471-5ba5-d7f1-a900" name="Dwarf Champion" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70f8-d804-2cce-f6aa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0529-8998-ad0d-b5a2" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="efc4-13a6-85cc-f431" name="Dwarf Champion" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="e322-fc67-0a96-0d28" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="cb32-b868-5446-e045" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="42.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="626b-09d7-0084-06ea" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="6ed8-1ddf-2f52-c939" name="Melee Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" targetId="30ac-cdb2-13b8-dad2" type="selectionEntryGroup"/>
@@ -113,11 +149,8 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <entryLink id="b550-e5a6-41a0-6a1d" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="e402-f801-58ef-470b" type="selectionEntry"/>
         <entryLink id="4bfd-ce65-98a6-39c4" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="c8e2-1825-c472-f905" type="selectionEntry"/>
       </entryLinks>
-      <costs>
-        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="42.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="5358-b1e1-003e-4470" name="Daemon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5358-b1e1-003e-4470" name="Daemon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="bbb8-c5b6-1188-4186" name="Daemon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false">
           <description>May take an additional hand weapon (+1) or a double handed weapon (+3). May take 1 magic item (only a magic weapon).</description>
@@ -129,7 +162,6 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <infoLink id="5714-2ca8-d477-0b60" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
         <infoLink id="352f-79df-d8b8-8059" name="Slayers" hidden="false" targetId="4df2-31ef-3c30-b112" type="rule"/>
         <infoLink id="d275-951f-2223-595a" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
-        <infoLink id="ed68-289a-3dfd-8e06" name="Daemon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="416c-4ef1-366d-d97b" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d034-6c31-045f-8300" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
@@ -157,15 +189,24 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="ef57-e793-b75c-6d51" name="Daemon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02cc-f93a-a401-5641" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59d1-ceb7-17d0-a8c6" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3e02-9dec-310e-60d7" name="Daemon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="416c-4ef1-366d-d97b" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="80.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="fc28-da57-7fa4-3870" name="Melee Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="30ac-cdb2-13b8-dad2" type="selectionEntryGroup"/>
       </entryLinks>
-      <costs>
-        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="80.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="8e2d-db44-d178-fb23" name="Dragon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="8e2d-db44-d178-fb23" name="Dragon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="54b3-10ee-d0b1-7094" name="Dragon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false">
           <description>May take an additional hand weapon (+1) or a double handed weapon (+3). May take 1 magic item (only a magic weapon).</description>
@@ -177,7 +218,6 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <infoLink id="9cf2-f710-97b8-7722" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
         <infoLink id="c2c0-efd9-d333-c30f" name="Slayers" hidden="false" targetId="4df2-31ef-3c30-b112" type="rule"/>
         <infoLink id="bfa3-e7da-3e4c-fc80" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
-        <infoLink id="a3e1-2642-f5cd-335c" name="Dragon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="3f9c-4eec-d7cf-dff4" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="79cc-7f4b-8015-c63b" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
@@ -205,13 +245,22 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="ac00-5270-d83a-ed98" name="Dragon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72aa-7a22-7d56-ee85" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f611-c570-47d2-56af" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="65de-2291-0425-7139" name="Dragon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="3f9c-4eec-d7cf-dff4" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="55.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="5462-5933-d8d1-d4b9" name="Melee Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="30ac-cdb2-13b8-dad2" type="selectionEntryGroup"/>
       </entryLinks>
-      <costs>
-        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="55.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="7172-e765-428e-9724" name="Giant Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
       <rules>
@@ -225,21 +274,31 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <infoLink id="b528-653c-4445-6fbc" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
         <infoLink id="6492-d293-417f-7488" name="Slayers" hidden="false" targetId="4df2-31ef-3c30-b112" type="rule"/>
         <infoLink id="ef03-00e9-1559-8e65" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
-        <infoLink id="4818-9622-ed14-8eb0" name="Giant Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="cd76-be2e-9bf4-5a24" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b412-2d8c-c1e7-0555" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2073-adcf-f101-4b36" name="Giant Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="196f-4385-5bc6-344c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb46-184a-a7dd-ab0c" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0dd7-0f3f-dc82-b0d8" name="Giant Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="cd76-be2e-9bf4-5a24" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="7046-d929-e7b1-edd3" name="Melee Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="30ac-cdb2-13b8-dad2" type="selectionEntryGroup"/>
         <entryLink id="e6d7-9e10-7d38-1491" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="e402-f801-58ef-470b" type="selectionEntry"/>
         <entryLink id="9d14-1b7f-7bb9-c9d8" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
       </entryLinks>
-      <costs>
-        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="e2fa-264b-7bec-87ed" name="Runesmith" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e2fa-264b-7bec-87ed" name="Runesmith" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="860b-a39e-c7c9-0a67" name="Runesmith" publicationId="78e3-1ead-0759-9022" hidden="false">
           <description>RUNESMITH 70
@@ -251,11 +310,24 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <infoLink id="6347-08a6-181f-cc29" name="Mistrust of Elves" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0e53-5d0c-8b32-0294" type="rule"/>
         <infoLink id="5257-8741-ac62-0ec0" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
         <infoLink id="e378-21c0-e898-6a51" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
-        <infoLink id="8906-b02a-b72b-c477" name="Runesmith" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="e9a4-fe88-40ad-cff5" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="fecc-c282-1273-981a" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9308-beab-7540-64b2" name="Runesmith" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8f1-412c-8a55-2d2c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a144-58e5-a6f4-bf38" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b433-a7a7-a9bf-6803" name="Runesmith" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="e9a4-fe88-40ad-cff5" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="70.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="dc96-228b-076d-1402" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="f9e5-8f84-73b6-f4ed" name="Melee Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="30ac-cdb2-13b8-dad2" type="selectionEntryGroup"/>
@@ -268,11 +340,8 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <entryLink id="c8ab-c6cd-c16c-d52d" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry"/>
         <entryLink id="a754-1912-2acf-a261" name="Anvil of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="1246-9127-d773-d1b6" type="selectionEntry"/>
       </entryLinks>
-      <costs>
-        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="70.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="9f5a-f3a8-c909-747a" name="Master Runesmith" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="9f5a-f3a8-c909-747a" name="Master Runesmith" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="0516-7934-6d03-397e" name="Master Runesmith" publicationId="78e3-1ead-0759-9022" hidden="false">
           <description>MASTER RUNESMITH 100
@@ -284,11 +353,24 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <infoLink id="83f7-4c25-e48c-7500" name="Mistrust of Elves" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0e53-5d0c-8b32-0294" type="rule"/>
         <infoLink id="c7e7-5264-48c1-cfeb" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
         <infoLink id="c079-d9a0-1733-e302" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
-        <infoLink id="5592-b742-f859-fe92" name="Master Runesmith" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="e39e-ef3a-8dc3-57de" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5994-b818-7557-3448" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0803-312e-9489-0bc4" name="Master Runesmith" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7eb-f191-32ba-df95" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eca5-55e1-9f27-f4ff" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="5721-477b-d840-a1a8" name="Master Runesmith" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="e39e-ef3a-8dc3-57de" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="74c2-5b8d-afb4-71cd" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="98d2-2ee5-f0f4-13e9" name="Melee Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="30ac-cdb2-13b8-dad2" type="selectionEntryGroup"/>
@@ -301,11 +383,8 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <entryLink id="59e4-e71d-7fa9-ceae" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry"/>
         <entryLink id="8b37-9b58-a688-b26d" name="Anvil of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="1246-9127-d773-d1b6" type="selectionEntry"/>
       </entryLinks>
-      <costs>
-        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="c548-3caf-7390-e072" name="Runelord" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="c548-3caf-7390-e072" name="Runelord" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="9b18-bb3f-603d-9b01" name="Runelord" publicationId="78e3-1ead-0759-9022" hidden="false">
           <description>RUNELORD 130
@@ -317,7 +396,6 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <infoLink id="6bb0-66fe-45fb-e68a" name="Mistrust of Elves" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0e53-5d0c-8b32-0294" type="rule"/>
         <infoLink id="920b-979b-4626-06c3" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
         <infoLink id="ce61-7b57-59bc-3a3e" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
-        <infoLink id="0402-1fac-607b-f399" name="Runelord" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="d9c1-6e8e-d2fe-9d16" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7ca6-2821-ce8e-27a6" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
@@ -334,6 +412,18 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="7dd2-feab-c94a-93dc" name="Runelord" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b86-849f-0918-e9ab" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b66f-9f13-dc1a-8fbe" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6b0c-5512-83a7-de19" name="Runelord" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="d9c1-6e8e-d2fe-9d16" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="130.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="6651-80a9-feee-7394" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
@@ -347,9 +437,6 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <entryLink id="18eb-74b0-9197-4bdb" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry"/>
         <entryLink id="b11e-d586-c9ef-d4e2" name="Anvil of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="1246-9127-d773-d1b6" type="selectionEntry"/>
       </entryLinks>
-      <costs>
-        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="130.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="e470-7c36-6c6a-172d" name="Dwarf Warriors" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -1404,21 +1491,8 @@ Gotrek carries Gotrek’s Axe, and Felix carries a Blade of Leaping Bronze.</des
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="500.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="130d-9e13-19e4-bd9e" name="Josef Bugman" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="130d-9e13-19e4-bd9e" name="Josef Bugman" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="c655-bd50-50fd-30f1" name="Josef Bugman" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
-          <characteristics>
-            <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
-            <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
-            <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">5</characteristic>
-            <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
-            <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
-            <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
-            <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
-            <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
-            <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
-          </characteristics>
-        </profile>
         <profile id="6bfa-2f29-111b-ff0b" name="Bugman&apos;s Tankard" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
           <characteristics>
             <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. The bearer or one model in the bearer’s unit recovers one lost wound. Drink it just after a phase (i.e. just after shooting, or just after melee combat, or just after magic). Three uses only.</characteristic>
@@ -1444,6 +1518,32 @@ Carries a crossbow, light armour, a shield, a double handed weapon, and Bugman�
       <categoryLinks>
         <categoryLink id="7391-8223-876f-9cb5" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="66e6-7364-8598-0476" name="Josef Bugman" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b72-974d-2ddf-32ed" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46b5-731a-0e1e-fd91" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0af6-2388-e5ff-1c3f" name="Josef Bugman" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+              <characteristics>
+                <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+                <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+                <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">5</characteristic>
+                <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+                <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+                <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+                <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+                <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
+                <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="142c-9a4e-6354-d6ef" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="1ce5-56c0-d126-6c3d" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
@@ -1451,9 +1551,6 @@ Carries a crossbow, light armour, a shield, a double handed weapon, and Bugman�
         <entryLink id="810c-d65c-ac91-c7b7" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d615-7c4d-e887-3da9" type="selectionEntry"/>
         <entryLink id="4389-b10e-7032-af88" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="e402-f801-58ef-470b" type="selectionEntry"/>
       </entryLinks>
-      <costs>
-        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="7081-aa7f-c156-971c" name="Engineer Guildmaster Burlok Damminson" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
       <profiles>
