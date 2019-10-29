@@ -69,6 +69,38 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="26f9-c5ee-806a-6ba0" name="Magic Armour (Empire only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="5dcb-cf38-16c0-02b3" name="Helm of Count Mandred" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="87eb-d236-2ff1-d77c" name="Helm of Count Mandred" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic armour. +1 armour save. The bearer hates Skaven, and Skaven fear the bearer.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5697-4eda-971f-4fe8" name="Enchanted Items (Empire only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="5c85-c975-f8c2-96b1" name="Talisman of Ulric" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="7ff4-e67c-f92b-da4c" name="Talisman of Ulric" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. The bearer recovers one wound at the start of each player turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="68c2-9068-4e6a-50c2" name="Detachments" publicationId="78e3-1ead-0759-9022" hidden="false">
