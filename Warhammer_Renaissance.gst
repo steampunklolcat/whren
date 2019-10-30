@@ -142,6 +142,9 @@
       <infoLinks>
         <infoLink id="07cb-5a2f-c2e2-5de0" name="Spear" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="90ee-97a4-f5e8-5288" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="40b6-a4d4-f6c5-ab17" name="Heavy Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="true" import="true" type="upgrade">
       <modifiers>
@@ -151,9 +154,15 @@
           </repeats>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9361-490a-d811-f515" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="1ceb-8381-7d90-3b10" name="Heavy Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="be87-4af1-de9d-3d9b" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4e83-286d-b28a-b5b6" name="Light Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="true" import="true" type="upgrade">
       <modifiers>
@@ -163,9 +172,15 @@
           </repeats>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d760-feb9-91e7-c04a" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="c514-bdda-63c6-6f9f" name="Light Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6ec3-fd33-9ff6-183f" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
       <modifiers>
@@ -181,6 +196,9 @@
       <infoLinks>
         <infoLink id="f442-3eb2-122e-8603" name="Double Handed Weapon" hidden="false" targetId="b3f8-0c49-ca8e-18f4" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b352-961b-c5c6-59d9" name="Shield" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="true" import="true" type="upgrade">
       <modifiers>
@@ -214,6 +232,9 @@
       <infoLinks>
         <infoLink id="8651-1347-f8f8-e5a4" name="Crossbow" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="b591-16aa-5bfe-2b5b" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3e40-f751-baab-2ee1" name="Barding for a Warhorse" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -229,6 +250,9 @@
       <infoLinks>
         <infoLink id="37f8-1163-cb14-ae12" name="Barding for a Warhorse" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c0f4-d976-0c62-1b37" name="Flail" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
       <modifiers>
@@ -242,8 +266,11 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f6b-3cd0-5ef8-99c0" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="ebe9-6bbe-45b3-6e68" name="Flail" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="3fac-180b-0c3b-70d4" type="profile"/>
+        <infoLink id="d2b4-6491-490c-9e30" name="Flail" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="3fac-180b-0c3b-70d4" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="26fe-f48b-e245-e548" name="Halberd" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
       <modifiers>
@@ -259,6 +286,9 @@
       <infoLinks>
         <infoLink id="8592-6c8a-6659-15e8" name="Halberd" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="f9b5-123e-410e-51c0" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cbf9-1b83-6a69-ad9c" name="Lance" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
       <modifiers>
@@ -274,6 +304,9 @@
       <infoLinks>
         <infoLink id="eed4-f4f0-a728-821c" name="Lance" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="7d87-b9be-57ac-1e51" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="12b9-cf16-c17f-fcbc" name="Longbow" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
       <modifiers>
@@ -289,6 +322,9 @@
       <infoLinks>
         <infoLink id="7a12-4b5d-a1bb-447c" name="Longbow" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="5301-b90a-46c5-c124" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fd3a-e295-46b6-9092" name="Handgun" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
       <modifiers>
@@ -304,6 +340,9 @@
       <infoLinks>
         <infoLink id="d290-517e-4291-2ee9" name="Handgun" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="d247-fd2c-7d5f-5383" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="798b-ab09-5a4b-90d6" name="Pistol" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
       <modifiers>
@@ -319,6 +358,9 @@
       <infoLinks>
         <infoLink id="e984-11d5-fc9f-d00a" name="Pistol" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="919f-72e1-03f7-edfb" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="227a-0209-7101-8fae" name="Brace of Pistols" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
       <modifiers>
@@ -334,6 +376,32 @@
       <infoLinks>
         <infoLink id="ef9b-2ac7-363e-3fef" name="Pistol" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="919f-72e1-03f7-edfb" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="74ef-a2c8-56a5-5167" name="Additional Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b046-89d0-4326-4656" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2dc1-94d8-314b-26ff" name="Additional Hand Weapon" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="a034-91fa-0302-bffd" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Strength" typeId="4a08-e120-2ae5-1893">As user.</characteristic>
+            <characteristic name="Special Rules" typeId="09d1-79c9-20dd-0773">+1 attack. Requires two hands. Infantry only.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

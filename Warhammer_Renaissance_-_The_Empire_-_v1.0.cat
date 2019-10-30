@@ -28,6 +28,11 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="350e-66b2-308c-799c" name="Halberdiers" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="cfdb-5c5e-a6c4-216f" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+        <infoLink id="140b-ee61-c4a7-e13e" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+        <infoLink id="585d-7668-fd83-1461" name="Halberd" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="f9b5-123e-410e-51c0" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5f80-e90a-da63-dd13" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
@@ -38,9 +43,6 @@
           </constraints>
           <infoLinks>
             <infoLink id="381a-cf53-44a7-18c5" name="State Trooper" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="b540-df39-18bf-67e0" type="profile"/>
-            <infoLink id="235e-b8ca-f5e4-aede" name="Halberd" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="f9b5-123e-410e-51c0" type="profile"/>
-            <infoLink id="f02e-86f6-43e7-4635" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
-            <infoLink id="0f80-35a1-6082-6b5e" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="7.0"/>
@@ -51,11 +53,43 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6321-017d-d9ad-19d3" name="Swordsmen" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="b2a3-d539-0cc5-fd2d" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+        <infoLink id="a47a-683f-bbef-d3fe" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="eb95-ee7f-1447-e459" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5358-a0cc-d26c-8130" name="Swordsmen" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a29-16da-78b3-e93e" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b8e3-566a-c9fb-f9bb" name="State Trooper" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="b540-df39-18bf-67e0" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="45b2-3c53-6841-9a18" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4e83-286d-b28a-b5b6" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="b193-af01-f51f-11cc" name="Arcane Items (Empire only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="0fc0-f0ee-9ab6-d32d" name="Armour of Tarnus" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="17ef-a8bc-c438-3053" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="70ed-5e36-092a-64f6" type="max"/>
+          </constraints>
           <profiles>
             <profile id="6957-f2f9-9ceb-49fd" name="Armour of Tarnus" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
               <characteristics>
@@ -67,11 +101,47 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="9b0b-9a56-c531-297a" name="Antler Totem" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="946b-1492-c86d-ea66" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9aac-bd39-a5f1-7311" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bb04-e4d1-0a7d-0e05" name="Antler Totem" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Arcane item. If the wizard uses the lore of Amber or Jade, the wizard gains an extra spell level.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="78fc-e5af-3e0e-6fd0" name="Staff of Volans" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed20-592f-1065-7af1" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ba26-09a2-8f90-6df1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b4ec-4d46-2121-2da3" name="Staff of Volans" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Arcane item. Spells cast by the aid of this staff does not require power and can only be dispelled using a dispel scroll or an item with a similar effect. The staff can only be used three times per game.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="125.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="26f9-c5ee-806a-6ba0" name="Magic Armour (Empire only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="5dcb-cf38-16c0-02b3" name="Helm of Count Mandred" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c98-c18a-7e6b-3236" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7990-ce59-7b2b-b791" type="max"/>
+          </constraints>
           <profiles>
             <profile id="87eb-d236-2ff1-d77c" name="Helm of Count Mandred" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
               <characteristics>
@@ -88,6 +158,10 @@
     <selectionEntryGroup id="5697-4eda-971f-4fe8" name="Enchanted Items (Empire only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="5c85-c975-f8c2-96b1" name="Talisman of Ulric" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="63a5-6699-8455-61e0" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9a11-eb00-7b6e-ea06" type="max"/>
+          </constraints>
           <profiles>
             <profile id="7ff4-e67c-f92b-da4c" name="Talisman of Ulric" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
               <characteristics>
@@ -97,6 +171,240 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5edb-bc97-6026-f7a3" name="Icon of Magnus" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="03d1-2fe5-f579-df3e" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1c13-9e01-bb16-7ae7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="36e8-1447-85d1-edf8" name="Icon of Magnus" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. The bearer and the bearer’s regiment are immune to fear.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9c53-6e52-b251-ed8b" name="Laurels of Victory" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="631c-24bc-4af3-d4e2" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a8a-03a9-4c09-aa9a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c50f-344d-a7bb-6f80" name="Laurels of Victory" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. Each wound scored by the bearer, or the bearer’s mount, in a challenge, counts double toward combat resolution (overkill bonus is also doubled).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0c39-c28b-f5e5-f020" name="Imperial Crown" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc5d-f092-4195-a9d2" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="96bc-e76b-432b-a63c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b4e5-cb11-bb44-87db" name="Imperial Crown" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. If carried by the general, all units within 18” may use his LD.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1010-610f-fe80-eb49" name="Horn of Sigismund" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8483-fc69-3be4-b0da" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c19-df9e-e2c7-2628" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e943-9488-db8d-5b67" name="Horn of Sigismund" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. Cause terror on the charge. Grand Theogonist only.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d83a-1213-0468-63c3" name="Silver Seal" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4329-ae01-f35f-cf5f" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53a6-aec0-a902-9c14" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="11d4-b63d-93ac-ee2f" name="Silver Seal" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. Enemies suffer -1 to hit against the bearer and the bearer’s mount in both melee combat and shooting. Natural dispel 4+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="15e4-2fe5-1c24-9eb5" name="Jade Griffon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4918-0ac1-ab35-6abd" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9088-7351-3078-4f33" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d2e7-aead-1681-8771" name="Jade Griffon" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. After each phase (movement phase, shooting phase, melee phase, magic phase) the character recovers all lost wounds. Grand Theogonist only.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a571-d68b-7e2b-3be2" name="Staff of Command" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ee6c-6aba-de8d-9894" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd39-7196-20e8-36f4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e8dd-9313-5db5-6f6c" name="Staff of Command" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. The bearer becomes a level two wizard that may use any college lore and High Magic. Grand Theogonist only.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e22c-cf40-356e-2551" name="Magic Banners (Empire only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="8e73-a58b-505d-0f56" name="Standard of Imperial Devotion" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c8f4-88ee-e3dd-41ab" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f588-e59b-d83b-5959" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e693-8855-ab43-bff2" name="Standard of Imperial Devotion" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic banner. Immune to panic.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4440-9e81-4c13-efe6" name="Carroburg Standard" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ba0-106f-57bc-e4d3" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2d0c-f772-b35a-4744" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="32a2-4c60-1dcd-79d7" name="Carroburg Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic banner. Stubborn. Greatswords only.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ba83-234a-0b49-a40d" name="Magic Weapons (Empire only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="c2f1-9327-f2e3-2882" name="Runefang" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0b29-c6cc-df31-2f6c" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="90fe-d920-3087-b2e0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a94b-7d4d-43f1-69be" name="Runefang" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Note that several special characters carry a Runefang. This is possible because twelve such blades exist. An Empire army may include one Runefang plus those carried by special characters.
+
+Magic weapon. No armour save allowed. Undead suffer double wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8e26-641f-af31-0935" name="Dragon Bow" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="54bb-a313-09f0-3a1a" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3987-c294-349e-2c5f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d4e1-9306-0a54-915e" name="Dragon Bow" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic weapon. Longbow. May fire three magical shots each shooting phase with range 36” and S5.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4a43-1d95-7e62-f6e3" name="Sword of Justice" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c53b-9e41-75fe-8097" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="35e9-f613-d7ec-765b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f236-92d4-7e2d-b508" name="Sword of Justice" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic weapon. Bearer may re-roll missed to hit rolls. No armour save allowed.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e983-a99a-c31a-aa88" name="Fearfrost" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="949e-731c-9056-5521" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="90c0-690e-1749-1120" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f9e1-9e86-69ac-3e37" name="Fearfrost" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic weapon. No armour save. 1 wound = 1D6 wound.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2673-8702-c2a6-317c" name="Hammer of Sigmar" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9b91-9290-6c69-e62b" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="038f-364f-a316-8d09" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3034-187f-f942-f6bb" name="Hammer of Sigmar" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic weapon. All hits wound. No armour save allowed.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
