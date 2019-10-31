@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="b575-b255-5c77-b1bf" name="Warhammer Renaissance - Empire - v1.0" revision="1" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="979a-fe4d-9fab-2ade" name="Steam Tank" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2178-fd55-7b9f-1a77" name="Steam Tank" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+          <characteristics>
+            <characteristic name="Movement" typeId="2fad-563f-ebbc-532e"/>
+            <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">2</characteristic>
+            <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+            <characteristic name="Strength" typeId="2186-3de1-32e2-581b">7</characteristic>
+            <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">10</characteristic>
+            <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">5</characteristic>
+            <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf"/>
+            <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e"/>
+            <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="df36-23a1-a763-77f6" name="Small Cannon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="dc4f-f1c1-635d-bf9e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c152-4aab-b5a1-6736" name="Warmachines" hidden="false" targetId="89a6-c778-43ae-7cc5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="350e-66b2-308c-799c" name="Halberdiers" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="cfdb-5c5e-a6c4-216f" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+        <infoLink id="140b-ee61-c4a7-e13e" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+        <infoLink id="585d-7668-fd83-1461" name="Halberd" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="f9b5-123e-410e-51c0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5f80-e90a-da63-dd13" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6d9f-246f-3691-e6d0" name="Halberdier" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a729-1262-fd61-2513" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="381a-cf53-44a7-18c5" name="State Trooper" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="b540-df39-18bf-67e0" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="7.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6321-017d-d9ad-19d3" name="Swordsmen" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="b2a3-d539-0cc5-fd2d" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+        <infoLink id="a47a-683f-bbef-d3fe" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="eb95-ee7f-1447-e459" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5358-a0cc-d26c-8130" name="Swordsmen" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a29-16da-78b3-e93e" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b8e3-566a-c9fb-f9bb" name="State Trooper" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="b540-df39-18bf-67e0" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="45b2-3c53-6841-9a18" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4e83-286d-b28a-b5b6" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="b193-af01-f51f-11cc" name="Arcane Items (Empire only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="0fc0-f0ee-9ab6-d32d" name="Armour of Tarnus" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="17ef-a8bc-c438-3053" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="70ed-5e36-092a-64f6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6957-f2f9-9ceb-49fd" name="Armour of Tarnus" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Arcane Item. Heavy armour. The bearer may wear this armour and still cast spells. May re-roll armour save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9b0b-9a56-c531-297a" name="Antler Totem" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="946b-1492-c86d-ea66" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9aac-bd39-a5f1-7311" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bb04-e4d1-0a7d-0e05" name="Antler Totem" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Arcane item. If the wizard uses the lore of Amber or Jade, the wizard gains an extra spell level.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="78fc-e5af-3e0e-6fd0" name="Staff of Volans" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed20-592f-1065-7af1" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ba26-09a2-8f90-6df1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b4ec-4d46-2121-2da3" name="Staff of Volans" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Arcane item. Spells cast by the aid of this staff does not require power and can only be dispelled using a dispel scroll or an item with a similar effect. The staff can only be used three times per game.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="125.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="26f9-c5ee-806a-6ba0" name="Magic Armour (Empire only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="5dcb-cf38-16c0-02b3" name="Helm of Count Mandred" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c98-c18a-7e6b-3236" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7990-ce59-7b2b-b791" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="87eb-d236-2ff1-d77c" name="Helm of Count Mandred" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic armour. +1 armour save. The bearer hates Skaven, and Skaven fear the bearer.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5697-4eda-971f-4fe8" name="Enchanted Items (Empire only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="5c85-c975-f8c2-96b1" name="Talisman of Ulric" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="63a5-6699-8455-61e0" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9a11-eb00-7b6e-ea06" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7ff4-e67c-f92b-da4c" name="Talisman of Ulric" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. The bearer recovers one wound at the start of each player turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5edb-bc97-6026-f7a3" name="Icon of Magnus" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="03d1-2fe5-f579-df3e" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1c13-9e01-bb16-7ae7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="36e8-1447-85d1-edf8" name="Icon of Magnus" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. The bearer and the bearer’s regiment are immune to fear.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9c53-6e52-b251-ed8b" name="Laurels of Victory" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="631c-24bc-4af3-d4e2" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a8a-03a9-4c09-aa9a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c50f-344d-a7bb-6f80" name="Laurels of Victory" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. Each wound scored by the bearer, or the bearer’s mount, in a challenge, counts double toward combat resolution (overkill bonus is also doubled).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0c39-c28b-f5e5-f020" name="Imperial Crown" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc5d-f092-4195-a9d2" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="96bc-e76b-432b-a63c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b4e5-cb11-bb44-87db" name="Imperial Crown" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. If carried by the general, all units within 18” may use his LD.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1010-610f-fe80-eb49" name="Horn of Sigismund" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8483-fc69-3be4-b0da" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c19-df9e-e2c7-2628" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e943-9488-db8d-5b67" name="Horn of Sigismund" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. Cause terror on the charge. Grand Theogonist only.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d83a-1213-0468-63c3" name="Silver Seal" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4329-ae01-f35f-cf5f" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53a6-aec0-a902-9c14" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="11d4-b63d-93ac-ee2f" name="Silver Seal" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. Enemies suffer -1 to hit against the bearer and the bearer’s mount in both melee combat and shooting. Natural dispel 4+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="15e4-2fe5-1c24-9eb5" name="Jade Griffon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4918-0ac1-ab35-6abd" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9088-7351-3078-4f33" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d2e7-aead-1681-8771" name="Jade Griffon" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. After each phase (movement phase, shooting phase, melee phase, magic phase) the character recovers all lost wounds. Grand Theogonist only.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a571-d68b-7e2b-3be2" name="Staff of Command" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ee6c-6aba-de8d-9894" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd39-7196-20e8-36f4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e8dd-9313-5db5-6f6c" name="Staff of Command" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. The bearer becomes a level two wizard that may use any college lore and High Magic. Grand Theogonist only.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e22c-cf40-356e-2551" name="Magic Banners (Empire only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="8e73-a58b-505d-0f56" name="Standard of Imperial Devotion" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c8f4-88ee-e3dd-41ab" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f588-e59b-d83b-5959" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e693-8855-ab43-bff2" name="Standard of Imperial Devotion" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic banner. Immune to panic.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4440-9e81-4c13-efe6" name="Carroburg Standard" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ba0-106f-57bc-e4d3" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2d0c-f772-b35a-4744" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="32a2-4c60-1dcd-79d7" name="Carroburg Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic banner. Stubborn. Greatswords only.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ba83-234a-0b49-a40d" name="Magic Weapons (Empire only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="c2f1-9327-f2e3-2882" name="Runefang" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0b29-c6cc-df31-2f6c" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="90fe-d920-3087-b2e0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a94b-7d4d-43f1-69be" name="Runefang" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Note that several special characters carry a Runefang. This is possible because twelve such blades exist. An Empire army may include one Runefang plus those carried by special characters.
+
+Magic weapon. No armour save allowed. Undead suffer double wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8e26-641f-af31-0935" name="Dragon Bow" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="54bb-a313-09f0-3a1a" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3987-c294-349e-2c5f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d4e1-9306-0a54-915e" name="Dragon Bow" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic weapon. Longbow. May fire three magical shots each shooting phase with range 36” and S5.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4a43-1d95-7e62-f6e3" name="Sword of Justice" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c53b-9e41-75fe-8097" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="35e9-f613-d7ec-765b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f236-92d4-7e2d-b508" name="Sword of Justice" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic weapon. Bearer may re-roll missed to hit rolls. No armour save allowed.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e983-a99a-c31a-aa88" name="Fearfrost" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="949e-731c-9056-5521" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="90c0-690e-1749-1120" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f9e1-9e86-69ac-3e37" name="Fearfrost" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic weapon. No armour save. 1 wound = 1D6 wound.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2673-8702-c2a6-317c" name="Hammer of Sigmar" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9b91-9290-6c69-e62b" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="038f-364f-a316-8d09" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3034-187f-f942-f6bb" name="Hammer of Sigmar" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic weapon. All hits wound. No armour save allowed.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="68c2-9068-4e6a-50c2" name="Detachments" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>A regiment of Halberdiers, Spearmen, Greatswords or Swordsmen can have up to two detachment regiments. The size of a detachment can only be that of half its parent regiment. Halberdiers, Spearmen, Greatswords, Swordsmen, Crossbowmen, Hand Gunners, and Archers can be detachment regiments. Note that Free Company are not trained to act as neither detachment nor parent regiment.
+
+A detachment cannot have a command group and will stop functioning as a detachment if joined by characters.
+
+As long as the detachment is within 8” of its parent regiment, the following special rules apply: Detachment regiments never provoke panic tests in nearby friendly units (for being destroyed, broken, fleeing past etc.). The detachment can use the LD value of its parent regiment.
+
+The detachment can declare a charge reaction if the parent regiment is charged. This can either be (1) stand and shoot or (2) counter charge. In case of the latter, move the enemy first, then move the detachment. In this situation, the detachment is allowed to charge the enemy in the flank even if it would normally have to charge to the front.</description>
+    </rule>
+    <rule id="1661-d0b8-98f4-5ac3" name="Experimental Weapons" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>A repeating handgun works as a normal handgun with the following exception; each successful hit against the same target allows one more roll to hit (to a maximum of six hits per handgun).
+
+A repeating pistol works as a normal pistol with the following exception; each successful hit against the same target allows one more roll to hit (to a maximum of six hits per pistol).
+
+A Hochland long rifle has the following characteristics: range 36”, S4, armour piercing, cannot shoot on the turn it moved. The wielder of a Hochland long rifle may target any model, even characters hiding in a regiment (but suffers a -1 to hit for shooting at single models).
+
+A blunderbuss fires a hail of shot including lead balls, rusty bolts, bent nails etc. Place the teardrop template with the thin end at the muzzle of the gun, and the wide end pointing towards the target. All models at least half covered suffer a S3 hit with -1 to armour save.
+
+A man catcher is a long pole with an iron collar ringed with spikes. Instead of a normal attack, a man-sized model in base contact with the wielder is hit automatically. The model may try both an I and T characteristic test. If both are failed, the model is slain.
+
+A hook halberd offers +1 to hit and +1S.
+
+A ball and chain offers +1S and no armour save.</description>
+    </rule>
+    <rule id="7d80-6959-c9bf-f937" name="Steam Tank" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>The Steam Tank is a large chariot powered by a steam engine. The Steam Tank has its own unique profile, causes terror, and is unbreakable. The default Steam Tank option includes a small cannon and has the following characteristics.
+                WS BS S T W
+Steam Tank 2 4 7 10 5
+
+DECLARE STEAM POINTS
+In the beginning of the turn, the Empire player declares how many steam points he is using this turn. This must be between 0 and 5 points. Once the steam points have been declared, they must all be used this turn. Each point allows the Steam Tank to take one of the following actions:
+
+1. Pivot up to 90 degrees.
+2. Move 3” forwards or 2” backwards.
+3. Fire the small cannon or the steam cannon.
+
+Having declared how many steam points you want to use this turn, it is necessary to see if the steam boiler holds out. Roll a 1D6, if this number exceeds the Steam Tank’s current number of wounds, roll on the Imperial Steam Tank Boiler Table below to determine what happens.
+
+THE IMPERIAL STEAM TANK BOILER TABLE
+
+Roll a D6 and add the number of steam points you just declared. Consult the table below:
+
+1-4: Nothing happens. The Steam Tank functions normally.
+
+5: A leak has developed. You cannot spend more than two steam points this turn regardless of the number you just declared.
+
+6: Part of the driving mechanism jams. You cannot move the Steam Tank this turn, but you may fire. Any excess steam points are wasted.
+
+7: Great clouds of steam burst from a pipe somewhere. The Steam Tank is covered in a cloud of steam. The Steam Tank may not shoot this turn, so all your steam points must be spent on moving.
+
+8: The steam pressure rises too fast. The Steam Tank must move directly forward 15” inches, charging the first unit it encounters (friend or foe). The Steam Tank may do nothing else this turn.
+
+9: A minor explosion causes structural damage. The maximum number of steam points the Steam Tank can declare is henceforth four rather than five (applying from this turn onwards). If this result is rolled several times, it will reduce the maximum steam points that can declared by one each time.
+
+10: A major explosion wrecks the boiler. The Steam Tank cannot move again in this game (it may still shoot, however).
+
+11: The Steam Tank explodes (count as slain).
+
+MOVING THE STEAM TANK
+
+Move the Steam Tank during compulsory movement. The Steam Tank moves like a chariot except that (1) it cannot pivot on the spot for free, (2) it obliterates any obstacles it encounters, (3) it can neither pursue or overrun (nor flee, since it is unbreakable).
+
+If movement brings the Steam Tank into contact with an enemy unit, the Steam Tank counts as charging, and the enemy unit is entitled to a normal charge reaction. The Steam Tank halts its movement when it reaches an enemy unit.
+
+The Steam Tank cannot charge unengaged skirmishers or independent models on bases of 20x20 mm or 25x25 mm. Simply move these models out of harm’s reach if the Steam Tank comes into contact with them.
+
+The Steam Tank does not fight as such in melee combat but delivers 1D6 S7 impact hits on the charge. The Steam Tank may always disengage from melee combat. It is perfectly legal to move first backwards, then forwards (spending two steam points), and in so doing disengage from combat and then charge again (making impact hits). It is only possible, however, to charge once per turn.
+
+SHOOTING
+
+The Steam Tank may be equipped with a small cannon and/or a steam cannon. Both may fire once during the shooting phase (even if the Steam Tank is engaged in melee combat) if sufficient steam points have been allocated for this purpose (one for each weapon fired).
+
+The small cannon fires exactly as a normal small cannon, except that it cannot pivot for free but must fire directly forward. The first time a misfire is rolled for firing the cannon, the Steam Tank suffers a wound, the second time you roll a misfire, the Steam Tank blows up (count as slain).
+
+The steam cannon uses the teardrop formed breath template. Place the thin end at the muzzle of the steam cannon and point the thick end towards the target. All models at least half covered suffer a S2 hit with no armour save.
+
+If the Steam Tank is not engaged in melee combat, the engineer may shoot his weapon (either a repeating pistol or a Hochland long rifle) with normal penalties for movement. This action does not cost any steam points.
+
+OTHER RULES
+The Steam Tank automatically passes any characteristic test it has to take, except initiative tests (which are always failed).
+
+Chariots charging the Steam Tank suffer D6 S7 impact hits themselves.
+
+Night Goblin Fanatics that come into contact with the Steam Tank are slain.
+
+STEAM TANK VARIANTS
+The default option Imperial Steam Tank comes equipped with a small cannon and an engineer armed with a repeating pistol (at 250 pts). The Steam Tank may be upgraded with a steam cannon (+25 pts). The engineer may come equipped with a Hochland long rifle instead of a repeating pistol (+25 pts). The Steam Tank may give up the small cannon (-50 pts).</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="4995-1aa3-0157-2220" name="Normal Horse" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">8</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">-</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">-</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">-</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">-</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">-</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">-</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">-</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="aeb3-0e7d-20fe-c973" name="Warhorse" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">8</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="582b-a570-790b-4fb0" name="Pegasus" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">8</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5914-c3df-d49c-5bbb" name="Griffon" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">6</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">6</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">5</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">7</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">4</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b540-df39-18bf-67e0" name="State Trooper" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ee8b-dd98-c031-40b7" name="Swordsman" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e6a7-4121-1d09-dd3d" name="Knight" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b901-e777-391e-e17e" name="Reiksguard Knight" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d836-9961-6372-50d5" name="Flagellant" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6189-9494-bc07-1c7d" name="Kislev Warrior" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8d24-f384-f8b1-ab08" name="Kislev Winged Lancer" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="55ff-0148-08da-73ca" name="Dwarf" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">2</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="be14-dc5a-8c24-d206" name="Halfling" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">2</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">2</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">2</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">5</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6db0-56c1-6494-3618" name="Ogre" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">6</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">2</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">6</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9c6f-0606-0f2f-a90f" name="Empire Lord" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">6</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">4</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="770f-8085-034a-73ed" name="Empire Hero" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">5</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">5</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="617b-16a7-f5bf-c6cf" name="Empire Champion" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6064-bf72-0179-fb72" name="Halfling Champion" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">5</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">2</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c8a6-cfb1-0de3-70cc" name="Dwarf Champion" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="967d-7bfc-82a6-3f2b" name="Ogre Champion" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">6</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">4</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f8f7-ab60-9d72-7af1" name="Warrior Priest (Hero)" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cdbc-a162-3bb6-7912" name="Wizard Lord" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">4</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="46d5-4990-6019-6615" name="Master Wizard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">5</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cb1e-4bda-764e-8b06" name="Wizard Champion" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="223d-b3b5-41f0-10f3" name="Wizard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
