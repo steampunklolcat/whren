@@ -2371,6 +2371,16 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="b5a4-1cae-3c72-48ab" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" defaultSelectionEntryId="e1b0-1a09-0610-aa22">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b559-f592-53d5-e610" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="636d-ba1a-494e-1e85" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4d30-aa0d-39fc-ddbf" name="Heavy Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="40b6-a4d4-f6c5-ab17" type="selectionEntry"/>
+        <entryLink id="e1b0-1a09-0610-aa22" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4e83-286d-b28a-b5b6" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="7709-a451-a56d-c778" name="Skirmish" publicationId="451d-2372-ffc4-cf50" hidden="false"/>

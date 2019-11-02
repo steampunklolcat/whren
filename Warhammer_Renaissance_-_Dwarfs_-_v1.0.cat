@@ -52,7 +52,7 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
       <entryLinks>
         <entryLink id="3692-3c5d-e72a-b586" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="7291-77e2-1be6-c974" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="6ec3-fd33-9ff6-183f" type="selectionEntry"/>
-        <entryLink id="c9ca-cbb0-69c3-7786" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="ddf2-aac9-8895-b137" type="selectionEntryGroup"/>
+        <entryLink id="c9ca-cbb0-69c3-7786" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="b5a4-1cae-3c72-48ab" type="selectionEntryGroup"/>
         <entryLink id="1872-7bbe-9846-c92a" name="Missile Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="dcf3-c95c-d164-40da" type="selectionEntryGroup"/>
         <entryLink id="92cd-a65b-e197-787b" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry"/>
         <entryLink id="3fe0-31bf-5ff2-a76b" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
@@ -101,7 +101,7 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
       <entryLinks>
         <entryLink id="91de-029b-40ea-5cdb" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="1d40-3fa1-53a6-0bb1" name="Additional Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="74ef-a2c8-56a5-5167" type="selectionEntry"/>
-        <entryLink id="f0c7-360c-ed86-1c9f" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="ddf2-aac9-8895-b137" type="selectionEntryGroup"/>
+        <entryLink id="f0c7-360c-ed86-1c9f" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="b5a4-1cae-3c72-48ab" type="selectionEntryGroup"/>
         <entryLink id="dda0-f391-1e09-4107" name="Missile Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="dcf3-c95c-d164-40da" type="selectionEntryGroup"/>
         <entryLink id="b7db-423e-9447-4cfd" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
         <entryLink id="9a27-753b-3f08-68e2" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry"/>
@@ -150,7 +150,7 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
       <entryLinks>
         <entryLink id="626b-09d7-0084-06ea" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="6ed8-1ddf-2f52-c939" name="Additional Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" targetId="74ef-a2c8-56a5-5167" type="selectionEntry"/>
-        <entryLink id="3321-7fb4-e2de-e464" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="ddf2-aac9-8895-b137" type="selectionEntryGroup"/>
+        <entryLink id="3321-7fb4-e2de-e464" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="b5a4-1cae-3c72-48ab" type="selectionEntryGroup"/>
         <entryLink id="38ec-87b7-c390-9c67" name="Missile Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="dcf3-c95c-d164-40da" type="selectionEntryGroup"/>
         <entryLink id="234e-91d9-511a-2d41" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d615-7c4d-e887-3da9" type="selectionEntry"/>
         <entryLink id="fc1d-be6a-e26e-3d84" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
@@ -353,7 +353,7 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
       <entryLinks>
         <entryLink id="dc96-228b-076d-1402" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="f9e5-8f84-73b6-f4ed" name="Additional Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="74ef-a2c8-56a5-5167" type="selectionEntry"/>
-        <entryLink id="f9f3-2423-8eef-af7e" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="ddf2-aac9-8895-b137" type="selectionEntryGroup"/>
+        <entryLink id="f9f3-2423-8eef-af7e" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="b5a4-1cae-3c72-48ab" type="selectionEntryGroup"/>
         <entryLink id="ee7d-045c-a93d-fedb" name="Missile Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="dcf3-c95c-d164-40da" type="selectionEntryGroup"/>
         <entryLink id="e8e1-1ccb-a35f-fb62" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
         <entryLink id="cc0c-1dd0-fc1f-240f" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="c8e2-1825-c472-f905" type="selectionEntry"/>
@@ -400,7 +400,7 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
       <entryLinks>
         <entryLink id="74c2-5b8d-afb4-71cd" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="98d2-2ee5-f0f4-13e9" name="Additional Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="74ef-a2c8-56a5-5167" type="selectionEntry"/>
-        <entryLink id="3e06-0e22-fb6b-7517" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="ddf2-aac9-8895-b137" type="selectionEntryGroup"/>
+        <entryLink id="3e06-0e22-fb6b-7517" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="b5a4-1cae-3c72-48ab" type="selectionEntryGroup"/>
         <entryLink id="1e24-423e-c3a3-ff4c" name="Missile Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="dcf3-c95c-d164-40da" type="selectionEntryGroup"/>
         <entryLink id="293d-c4de-8bcd-a1ac" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
         <entryLink id="e7b8-ec98-d645-d3ee" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="c8e2-1825-c472-f905" type="selectionEntry"/>
@@ -458,7 +458,7 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
       <entryLinks>
         <entryLink id="6651-80a9-feee-7394" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="3d71-fb61-c240-e2a7" name="Additional Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="74ef-a2c8-56a5-5167" type="selectionEntry"/>
-        <entryLink id="5e93-d2a5-d2c8-5626" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="ddf2-aac9-8895-b137" type="selectionEntryGroup"/>
+        <entryLink id="5e93-d2a5-d2c8-5626" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="b5a4-1cae-3c72-48ab" type="selectionEntryGroup"/>
         <entryLink id="b18a-0edf-a9d4-b73b" name="Missile Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="dcf3-c95c-d164-40da" type="selectionEntryGroup"/>
         <entryLink id="bd15-3090-1c95-dc98" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
         <entryLink id="a47b-7519-b229-d3ac" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="c8e2-1825-c472-f905" type="selectionEntry"/>
@@ -534,7 +534,7 @@ Dwarf Soldiers with light armour. May swap light armour for heavy armour (+2). M
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="cdad-8c69-ebdd-9956" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="true" import="true" targetId="ddf2-aac9-8895-b137" type="selectionEntryGroup"/>
+        <entryLink id="cdad-8c69-ebdd-9956" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="true" import="true" targetId="b5a4-1cae-3c72-48ab" type="selectionEntryGroup"/>
         <entryLink id="3975-2fc3-db67-65b4" name="Musician" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
@@ -1732,16 +1732,6 @@ Carries heavy armour. May take two magic items.</description>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="ddf2-aac9-8895-b137" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" defaultSelectionEntryId="4492-2d01-6b97-0be3">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="59c1-d8fd-87d7-068d" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b166-6139-0026-97f2" type="min"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="2539-271d-6e3d-3b76" name="Heavy Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="40b6-a4d4-f6c5-ab17" type="selectionEntry"/>
-        <entryLink id="4492-2d01-6b97-0be3" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4e83-286d-b28a-b5b6" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
     <selectionEntryGroup id="dcf3-c95c-d164-40da" name="Missile Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7d30-381f-0a74-85a2" type="max"/>

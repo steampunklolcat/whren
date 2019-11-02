@@ -32,6 +32,7 @@
         <infoLink id="cfdb-5c5e-a6c4-216f" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
         <infoLink id="140b-ee61-c4a7-e13e" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
         <infoLink id="585d-7668-fd83-1461" name="Halberd" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="f9b5-123e-410e-51c0" type="profile"/>
+        <infoLink id="9b5c-4c0f-b12c-653b" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5f80-e90a-da63-dd13" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
@@ -49,6 +50,10 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="a9cd-d75c-b8bb-0c4a" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
+        <entryLink id="f176-bbdc-b36b-46d4" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
@@ -76,6 +81,8 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="45b2-3c53-6841-9a18" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4e83-286d-b28a-b5b6" type="selectionEntry"/>
+        <entryLink id="be03-e439-59ca-5db8" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
+        <entryLink id="4f0d-c9af-798c-ae55" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
@@ -105,7 +112,281 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="979c-2d82-63d9-cee7" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4e83-286d-b28a-b5b6" type="selectionEntry"/>
+        <entryLink id="40fb-3a0c-b585-106f" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
+        <entryLink id="7756-5237-8674-117a" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0dea-0c7a-5d37-54ed" name="Greatswords" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="005e-7377-b136-bc69" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+        <infoLink id="c7fa-83c2-387c-d05c" name="Double Handed Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="b3f8-0c49-ca8e-18f4" type="profile"/>
+        <infoLink id="3f24-a506-4f33-5fd3" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a705-283e-4041-5183" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b606-f36d-9fe1-93b1" name="Greatswords" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9593-8649-8dc5-522a" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ef33-1a40-5fd7-6212" name="State Trooper" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="b540-df39-18bf-67e0" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c7e2-dc9b-e08d-5894" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
+        <entryLink id="077b-c408-d7a1-efad" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="96c5-b64f-b08e-a903" name="Archers" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="a209-92ad-00c5-eb95" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
+        <infoLink id="eed3-63be-9fd9-505c" name="Longbow" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="5301-b90a-46c5-c124" type="profile"/>
+        <infoLink id="e76c-1cb4-0d8d-612b" name="Skirmish" hidden="false" targetId="7709-a451-a56d-c778" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d62e-5006-25d4-38a8" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6542-fdf5-6d99-e4ef" name="Archer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15c3-ac0f-2d81-6ddb" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a9ed-8700-45d9-ff1b" name="State Trooper" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="b540-df39-18bf-67e0" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="0255-1c5e-2ae1-5b4f" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4e83-286d-b28a-b5b6" type="selectionEntry"/>
+        <entryLink id="f244-3b1a-f3ab-7143" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
+        <entryLink id="8a2a-5530-c386-a64d" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c5ca-c103-5bbf-17a7" name="Crossbowmen" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="e5d1-e47d-6363-3fc5" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
+        <infoLink id="498d-3298-494d-3c08" name="Crossbow" hidden="false" targetId="b591-16aa-5bfe-2b5b" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1963-2511-e014-8d29" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="677f-618a-180d-4626" name="Crossbowmen" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e36-9b83-e757-3109" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="19f2-8c20-7c72-d266" name="State Trooper" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="b540-df39-18bf-67e0" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="d318-08c4-d292-8665" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4e83-286d-b28a-b5b6" type="selectionEntry"/>
+        <entryLink id="94ed-a8ea-d7ad-27c8" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
+        <entryLink id="9e9f-9764-8046-b53e" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="87e1-4daf-7da0-1f77" name="Hand Gunners" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="9fc9-8892-e71d-26a1" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
+        <infoLink id="1764-5ef7-c87f-654a" name="Handgun" hidden="false" targetId="d247-fd2c-7d5f-5383" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e7e1-5913-85a7-7282" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4152-adcc-0a07-bc82" name="Hand Gunner" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fec7-0e10-fea7-987e" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6f6b-7c6e-85bf-0d0f" name="State Trooper" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="b540-df39-18bf-67e0" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="17c7-426f-b83a-9f27" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4e83-286d-b28a-b5b6" type="selectionEntry"/>
+        <entryLink id="a8ed-c771-66ba-98c7" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
+        <entryLink id="1b51-8d90-edca-6c26" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7766-9eea-671e-d5b2" name="Free Company" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="fd8e-ca53-9c78-3702" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
+        <infoLink id="d967-19b0-fcc8-6778" name="Additional Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="7bc7-2d9b-cc33-dd88" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8964-e30b-b7ed-f284" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="30f0-e8cf-eea0-8098" name="Free Company" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24d4-6908-d4e7-9de0" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8cab-fbfd-f1bc-4163" name="State Trooper" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="b540-df39-18bf-67e0" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="cc07-87a3-75c3-71ee" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4e83-286d-b28a-b5b6" type="selectionEntry"/>
+        <entryLink id="662c-66ef-ae80-af90" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
+        <entryLink id="3d12-f375-3ce6-5420" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b18d-53a7-e4b7-3cbc" name="Halflings" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="d42a-ae63-1860-d131" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0b50-0515-ddcd-9c46" name="Hafling" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5667-26d5-abb9-a184" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="bddf-6754-5d0b-8fa6" name="Halfling" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="be14-dc5a-8c24-d206" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="3.5"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3283-06d7-abdc-999d" name="Armaments" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" defaultSelectionEntryId="53bf-5fbb-351b-f364">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66d4-4d59-f910-e2cd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c909-39bc-fc78-3856" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="53bf-5fbb-351b-f364" name="Light Armor, Shield, Spear" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="0.5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="ca85-8f12-0dcb-a3b0" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+                <infoLink id="e9cc-95f7-4d6a-bd7a" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+                <infoLink id="d6f2-64e3-36bd-c414" name="Spear" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="90ee-97a4-f5e8-5288" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3a75-f7b1-276a-6552" name="Bows" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="36d7-929a-7971-b117" name="Bow" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="b438-5e24-529c-3a0c" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="39f4-f2e8-64c3-112d" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
+        <entryLink id="04cb-6589-e03d-5f0d" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="53e3-c0a2-92da-542f" name="Dwarfs" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="bb1f-e967-a2e3-ca15" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="be1c-b084-d4d2-efdf" name="Dwarf" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7015-7a6a-8ec7-c9e4" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e99c-3f9b-3953-2aa7" name="Dwarf" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="55ff-0148-08da-73ca" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="7.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="eb6e-66c0-11cb-d7fd" name="Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b5a4-1cae-3c72-48ab" type="selectionEntryGroup"/>
+        <entryLink id="34fc-fde8-56a0-eb88" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry"/>
+        <entryLink id="1b68-1c58-a13b-6ae9" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="6ec3-fd33-9ff6-183f" type="selectionEntry"/>
+        <entryLink id="94ca-9336-4c52-bb2a" name="Spear" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4907-6f1e-f938-438d" type="selectionEntry"/>
+        <entryLink id="c931-51df-97d9-522f" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
+        <entryLink id="12bc-1c09-ce0a-e10d" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8599-125b-4def-7682" name="Flagellants" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="1d20-e314-2a58-1d80" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
+        <infoLink id="19b1-1acc-75cb-3cb5" name="Flail" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="3fac-180b-0c3b-70d4" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5177-0e6b-a1eb-24d0" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="76b6-8407-56fd-f092" name="Flagellant" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c0d-4677-384c-7892" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0cd3-71f4-2f20-b5e4" name="Flagellant" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="d836-9961-6372-50d5" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="12.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
