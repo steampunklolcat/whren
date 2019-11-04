@@ -391,6 +391,38 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a7f9-de50-e92f-241f" name="Ogre Mercenaries" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="fe29-3265-44af-967b" name="Fear" hidden="false" targetId="c26b-a673-ee51-0087" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="72b2-f7d6-d605-85a7" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b75c-078f-a1dc-273e" name="Ogre Mercenary" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d049-9a80-39eb-46c2" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ad70-05d1-4da7-3a12" name="Ogre" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="6db0-56c1-6494-3618" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c0b3-2fd6-a1b8-57db" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4e83-286d-b28a-b5b6" type="selectionEntry"/>
+        <entryLink id="7b3c-a7e6-eaaf-1c14" name="Heavy Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="40b6-a4d4-f6c5-ab17" type="selectionEntry"/>
+        <entryLink id="c4de-fe39-4365-8be6" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="6ec3-fd33-9ff6-183f" type="selectionEntry"/>
+        <entryLink id="fe12-2720-dea9-7d40" name="Additional Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="74ef-a2c8-56a5-5167" type="selectionEntry"/>
+        <entryLink id="c806-21ee-b70d-225b" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
+        <entryLink id="c5ef-b963-2ece-0fa1" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="b193-af01-f51f-11cc" name="Arcane Items (Empire only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
