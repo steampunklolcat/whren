@@ -423,6 +423,11 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="75a9-bb6c-d66d-5fdc" name="Reiksguard Knights" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="5fde-3dbb-f6e0-faa8" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="b193-af01-f51f-11cc" name="Arcane Items (Empire only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">

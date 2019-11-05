@@ -1117,7 +1117,7 @@ Manned by three Dwarf Soldiers.</description>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="629e-3163-1f7e-41f4" name="Small Cannon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="629e-3163-1f7e-41f4" name="Cannon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="17c0-eeb8-375f-6649" name="Dwarf Crew (x3)" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
           <characteristics>
@@ -1134,7 +1134,7 @@ Manned by three Dwarf Soldiers.</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="44b8-86e4-fec1-cb7c" name="Small Cannon" publicationId="78e3-1ead-0759-9022" hidden="false">
+        <rule id="44b8-86e4-fec1-cb7c" name="Cannon" publicationId="78e3-1ead-0759-9022" hidden="false">
           <description>SMALL CANNONS 100 pts
 Manned by three Dwarf Soldiers.</description>
         </rule>
@@ -1154,45 +1154,6 @@ Manned by three Dwarf Soldiers.</description>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="941e-e6c7-22d7-3d2b" name="Large Cannon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="db3b-b0c5-7616-8e1f" name="Dwarf Crew (x3)" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
-          <characteristics>
-            <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
-            <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
-            <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
-            <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
-            <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
-            <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
-            <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">2</characteristic>
-            <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
-            <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="4673-736b-2d60-7d05" name="Large Cannon" publicationId="78e3-1ead-0759-9022" hidden="false">
-          <description>LARGE CANNONS 110 pts
-Manned by three Dwarf Soldiers.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="93c2-2b3a-e313-5d9f" name="Large Cannon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="1d95-562f-8b56-6af7" type="profile"/>
-        <infoLink id="bc68-cb64-b17c-5da3" name="Hatred: Orcs &amp; Goblins" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="4856-345b-34c5-ac6e" type="rule"/>
-        <infoLink id="dd5b-daec-3531-d0e3" name="Mistrust of Elves" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0e53-5d0c-8b32-0294" type="rule"/>
-        <infoLink id="0caa-4f24-da81-3f13" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
-        <infoLink id="058e-09c8-2513-b5ce" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="f37a-65d7-7704-7c66" name="Warmachines" hidden="false" targetId="89a6-c778-43ae-7cc5" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="b2c8-c387-9dac-a5d5" name="Engineering Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="64a1-d30a-04ea-29f2" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="110.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9216-7fc1-d1ba-fe5f" name="Flame Cannon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">

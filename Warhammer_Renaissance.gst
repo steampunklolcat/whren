@@ -2608,14 +2608,14 @@ You may appoint one champion or hero to be the army’s battle standard bearer. 
         <characteristic name="Rules" typeId="bf10-0bd7-92b7-35b2">Allows no armour save, 1 wound = 1D3 wounds.</characteristic>
       </characteristics>
     </profile>
-    <profile id="dc4f-f1c1-635d-bf9e" name="Small Cannon" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="df96-67a9-890c-ea95" typeName="Warmachine">
+    <profile id="dc4f-f1c1-635d-bf9e" name="Cannon" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="df96-67a9-890c-ea95" typeName="Warmachine">
       <characteristics>
         <characteristic name="Range" typeId="eac9-46bf-d078-cf9e">48&quot;</characteristic>
-        <characteristic name="Strength" typeId="089e-651f-f59d-7217">7</characteristic>
+        <characteristic name="Strength" typeId="089e-651f-f59d-7217">10</characteristic>
         <characteristic name="Rules" typeId="bf10-0bd7-92b7-35b2">Allows no armour save, 1 wound = 1D3 wounds.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1d95-562f-8b56-6af7" name="Large Cannon" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="df96-67a9-890c-ea95" typeName="Warmachine">
+    <profile id="1d95-562f-8b56-6af7" name="Great Cannon" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="df96-67a9-890c-ea95" typeName="Warmachine">
       <characteristics>
         <characteristic name="Range" typeId="eac9-46bf-d078-cf9e">60&quot;</characteristic>
         <characteristic name="Strength" typeId="089e-651f-f59d-7217">10</characteristic>
