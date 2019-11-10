@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1216-28de-7047-6b53" name="Warhammer Renaissance" revision="6" battleScribeVersion="2.03" authorName="M. Strårup" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1216-28de-7047-6b53" name="Warhammer Renaissance" revision="7" battleScribeVersion="2.03" authorName="M. Strårup" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="451d-2372-ffc4-cf50" name="The rulebook"/>
     <publication id="78e3-1ead-0759-9022" name="Ravening Hordes"/>
@@ -128,7 +128,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4907-6f1e-f938-438d" name="Spear" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="4907-6f1e-f938-438d" name="Spear" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
           <repeats>
@@ -146,7 +146,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="40b6-a4d4-f6c5-ab17" name="Heavy Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="40b6-a4d4-f6c5-ab17" name="Heavy Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
           <repeats>
@@ -164,7 +164,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4e83-286d-b28a-b5b6" name="Light Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="4e83-286d-b28a-b5b6" name="Light Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
           <repeats>
@@ -182,7 +182,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6ec3-fd33-9ff6-183f" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="6ec3-fd33-9ff6-183f" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
           <repeats>
@@ -200,7 +200,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b352-961b-c5c6-59d9" name="Shield" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="b352-961b-c5c6-59d9" name="Shield" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
           <repeats>
@@ -218,7 +218,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="13d9-8e30-8fe1-5283" name="Crossbow" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="13d9-8e30-8fe1-5283" name="Crossbow" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
           <repeats>
@@ -254,7 +254,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c0f4-d976-0c62-1b37" name="Flail" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="c0f4-d976-0c62-1b37" name="Flail" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
           <repeats>
@@ -272,7 +272,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="26fe-f48b-e245-e548" name="Halberd" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="26fe-f48b-e245-e548" name="Halberd" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="fcac-3c52-8cf7-add0" value="2.0">
           <repeats>
@@ -290,7 +290,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cbf9-1b83-6a69-ad9c" name="Lance" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="cbf9-1b83-6a69-ad9c" name="Lance" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="fcac-3c52-8cf7-add0" value="2.0">
           <repeats>
@@ -308,7 +308,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="12b9-cf16-c17f-fcbc" name="Longbow" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="12b9-cf16-c17f-fcbc" name="Longbow" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
           <repeats>
@@ -326,7 +326,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fd3a-e295-46b6-9092" name="Handgun" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="fd3a-e295-46b6-9092" name="Handgun" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
           <repeats>
@@ -344,7 +344,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="798b-ab09-5a4b-90d6" name="Pistol" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="798b-ab09-5a4b-90d6" name="Pistol" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="fcac-3c52-8cf7-add0" value="2.0">
           <repeats>
@@ -362,7 +362,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="227a-0209-7101-8fae" name="Brace of Pistols" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="227a-0209-7101-8fae" name="Brace of Pistols" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="fcac-3c52-8cf7-add0" value="4.0">
           <repeats>
@@ -380,7 +380,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="74ef-a2c8-56a5-5167" name="Additional Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="74ef-a2c8-56a5-5167" name="Additional Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
           <repeats>

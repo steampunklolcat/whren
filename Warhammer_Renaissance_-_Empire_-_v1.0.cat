@@ -756,6 +756,12 @@ Magic weapon. No armour save allowed. Undead suffer double wounds.</characterist
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="95b2-79f3-e596-8aba" name="Arcane Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="b821-9e0e-d678-7b4a" name="Arcane Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="7cc5-4cea-9c72-ef51" type="selectionEntryGroup"/>
+        <entryLink id="76f0-9c1f-728a-fb1b" name="Arcane Items (Empire only)" hidden="false" collective="false" import="true" targetId="b193-af01-f51f-11cc" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="68c2-9068-4e6a-50c2" name="Detachments" publicationId="78e3-1ead-0759-9022" hidden="false">

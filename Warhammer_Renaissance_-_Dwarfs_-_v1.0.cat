@@ -489,7 +489,7 @@ Dwarf Soldiers with light armour. May swap light armour for heavy armour (+2). M
         <categoryLink id="3b68-58a0-1d18-0b4e" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3ad8-b0ab-a6ea-23ac" name="Dwarf Warrior" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="3ad8-b0ab-a6ea-23ac" name="Dwarf Warrior" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04a9-ee97-91e2-7a73" type="min"/>
           </constraints>
@@ -500,7 +500,7 @@ Dwarf Soldiers with light armour. May swap light armour for heavy armour (+2). M
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="8.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8b3f-90a0-0ef4-11fa" name="Crossbows" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+        <selectionEntry id="8b3f-90a0-0ef4-11fa" name="Crossbows" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="increment" field="fcac-3c52-8cf7-add0" value="2.0">
               <repeats>
@@ -567,7 +567,7 @@ Dwarf soldiers with hand guns and light armour.</description>
         <categoryLink id="fbab-8ddd-3bbe-3c90" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f45a-397c-a01a-2b5e" name="Dwarf Thunderer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="f45a-397c-a01a-2b5e" name="Dwarf Thunderer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dc6-6755-29b8-7a08" type="min"/>
           </constraints>
@@ -623,7 +623,7 @@ Scouts. Skirmishers. Dwarf soldiers with light armour and crossbows. May take do
         <categoryLink id="6df8-5fe4-469b-1715" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="23cf-8cb7-ff29-12f0" name="Dwarf Ranger" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="23cf-8cb7-ff29-12f0" name="Dwarf Ranger" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d16e-05df-dd5f-6c2e" type="min"/>
           </constraints>
@@ -634,7 +634,7 @@ Scouts. Skirmishers. Dwarf soldiers with light armour and crossbows. May take do
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="14.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="66fa-4bb6-2642-fd72" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="upgrade">
+        <selectionEntry id="66fa-4bb6-2642-fd72" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
               <repeats>
@@ -702,7 +702,7 @@ Dwarf soldiers with light armour and double handed weapons.</description>
         <categoryLink id="2330-e216-f32b-f9a3" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7947-ba71-b043-1c85" name="Dwarf Miner" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="7947-ba71-b043-1c85" name="Dwarf Miner" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4236-b276-a825-01f4" type="min"/>
           </constraints>
@@ -759,7 +759,7 @@ Slayers come equipped with either additional hand weapons or double handed weapo
         <categoryLink id="6ec2-0f9a-0acc-8da7" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e5fa-abe6-e198-70c9" name="Dwarf Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="e5fa-abe6-e198-70c9" name="Dwarf Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5096-e2fe-ca07-bc17" type="min"/>
           </constraints>
@@ -841,7 +841,7 @@ Dwarf Longbeards with heavy armour and shields. May take double handed weapons (
         <categoryLink id="7545-6a1e-9dfe-5d44" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="82b2-0750-2bc1-6c6d" name="Dwarf Longbeard" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="82b2-0750-2bc1-6c6d" name="Dwarf Longbeard" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4970-0adb-2771-037b" type="min"/>
           </constraints>
@@ -905,7 +905,7 @@ Dwarf Iron Breakers with shields and heavy armour inscribed with the Rune of Sto
         <categoryLink id="fd0d-3d5d-8354-8f82" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="54d6-0674-cdc9-6852" name="Dwarf Ironbreaker" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="54d6-0674-cdc9-6852" name="Dwarf Ironbreaker" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4cd-ff82-0f8f-82c9" type="min"/>
           </constraints>
@@ -963,7 +963,7 @@ Dwarf Hammerers with heavy armour, shields and double handed weapons.</descripti
         <categoryLink id="03e7-44f4-5352-47dc" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="eca3-43df-21ce-c4d0" name="Dwarf Hammerers" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="eca3-43df-21ce-c4d0" name="Dwarf Hammerers" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1880-39f6-277e-314d" type="min"/>
           </constraints>
