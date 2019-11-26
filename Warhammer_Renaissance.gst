@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1216-28de-7047-6b53" name="Warhammer Renaissance" revision="7" battleScribeVersion="2.03" authorName="M. Strårup" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1216-28de-7047-6b53" name="Warhammer Renaissance" revision="8" battleScribeVersion="2.03" authorName="M. Strårup" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="451d-2372-ffc4-cf50" name="The rulebook"/>
     <publication id="78e3-1ead-0759-9022" name="Ravening Hordes"/>
@@ -1448,7 +1448,7 @@
           <profiles>
             <profile id="d2e3-3d73-74a1-f2a8" name="Ring of Volans" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
               <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Select one spell from one of the eight colleges of magic. This spell can be cast as a bound spell once in the game. One use only.</characteristic>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Select one spell from one of the eight colleges of magic requiring only one or two power cads to cast. This spell can be cast as a bound spell once in the game. One use only.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1614,6 +1614,22 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="be6f-ec4a-fa50-55ae" name="Orb of Thunder" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7c6d-539c-dd5e-5fc5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="90ab-2b32-83bb-24b0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b259-6880-8a0d-70c7" name="Orb of Thunder" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. One use only. All flying high creatures are driven off. No flying movement is possible, use ground move instead. Remains in play.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2396,13 +2412,31 @@
     <rule id="9673-fe84-d5e1-5ca0" name="Stubborn" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
     <rule id="74dd-32b0-ef5d-d469" name="Unbreakable" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
     <rule id="414d-60ff-c16b-a4ca" name="Flying" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
-    <rule id="af38-5c39-1d32-12ab" name="Scout" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
-    <rule id="7977-37fe-c48c-3500" name="Vanguard" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
-    <rule id="2f04-edcd-f711-1b0a" name="Ambush" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
-    <rule id="2ba4-0a2e-5696-d6fe" name="Poison" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
-    <rule id="dc10-a70f-9f22-b10b" name="Fire and Flee" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
-    <rule id="eb06-5847-92ca-655e" name="Assassins" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
-    <rule id="45fa-e64f-ba05-7ba5" name="Swarms" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
+    <rule id="af38-5c39-1d32-12ab" name="Scouts" publicationId="451d-2372-ffc4-cf50" hidden="false">
+      <description>When ordinary deployment is finished, troops with this special rule may deploy anywhere on the table providing they are out of sight of enemy troops and not within the enemy deployment zone or out in the open. If both sides have scouts, the player who chose sides deploys his troops first.</description>
+    </rule>
+    <rule id="7977-37fe-c48c-3500" name="Vanguard" publicationId="451d-2372-ffc4-cf50" hidden="false">
+      <description>When ordinary deployment has finished, and scouts have been deployed, troops with this special rule may take a march move, even if it leaves them standing visible to the enemy. If both sides have vanguard troops, the player who chose sides moves his troops first.</description>
+    </rule>
+    <rule id="2f04-edcd-f711-1b0a" name="Ambush" publicationId="451d-2372-ffc4-cf50" hidden="false">
+      <description>Troops with this special rule may choose not to deploy but arrive at any table edge in their second turn. They enter the table as if they had pursued out of the table (i.e. they cannot charge but may otherwise move normally).</description>
+    </rule>
+    <rule id="2ba4-0a2e-5696-d6fe" name="Poison" publicationId="451d-2372-ffc4-cf50" hidden="false">
+      <description>Troops armed with poisoned weapons have +1S against living targets (i.e. not undead or daemons).</description>
+    </rule>
+    <rule id="dc10-a70f-9f22-b10b" name="Fire and Flee" publicationId="451d-2372-ffc4-cf50" hidden="false">
+      <description>Troops with this special rule may fire and flee as a charge reaction. If the enemy unit flees due to taking casualties from the fire and flee reaction, the unit with this special rule does not flee.</description>
+    </rule>
+    <rule id="eb06-5847-92ca-655e" name="Assassins" publicationId="451d-2372-ffc4-cf50" hidden="false">
+      <description>Assassins are characters who conceal themselves in rank-and-file infantry regiments disguised as ordinary troopers. Once in combat they throw off their disguise and leap into the fray. Only one assassin may hide in one regiment. Note down on the army roster which regiments your assassins are hiding in. The assassin is revealed once their regiment engages in melee combat. Replace an ordinary trooper with the assassin.
+
+In the first round of combat, assassins strike before models with the strike first ability and even before challenges are declared. They fight with two poisoned hand weapons and each wound they inflict multiply into 1D3 wounds. In subsequent rounds of combat assassins fight as normal characters (and no longer strike first), and when the combat engagement is over, assassins are free to move around as independent characters.
+
+Note that assassins are not leaders, they cannot be the general, and other models cannot benefit from their high LD.</description>
+    </rule>
+    <rule id="45fa-e64f-ba05-7ba5" name="Swarms" publicationId="451d-2372-ffc4-cf50" hidden="false">
+      <description>Swarms are many small creatures huddled together on the same 40x40 mm base fighting as one creature. Several swarms may form one large unit. Swarms are unbreakable, they are skirmishers, and thus have a 360-degree line of sight.</description>
+    </rule>
     <rule id="a96c-3663-332c-adc4" name="Dismounting" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
     <rule id="c7f2-0631-73da-c86a" name="College Magic" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
     <rule id="28d5-e890-3c03-28e0" name="High Magic" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
@@ -2429,10 +2463,13 @@ The above means that a character who is immune to psychology or even unbreakable
     <rule id="fe94-31ca-1923-0769" name="Challenges" publicationId="451d-2372-ffc4-cf50" hidden="false">
       <description>A challenge is a duel between two characters of opposing sides. Before melee combat is fought, the player whose turn it is may issue one challenge with one character in each combat engagement on the table. If the player whose turn it is does not issue a challenge, the opposing player may do so.
 If the challenged player refuses, a character of that player (opponent’s choice) must switch place with an ungagged trooper within the characters regiment. If this is not possible, the challenge cannot be refused. This means that characters on their own cannot refuse a challenge, as they have nowhere to hide. Characters refusing a challenge cannot cast spells or make use of their characteristics, magic items or special rules. They are in effect out the battle until the next melee phase where they are returned to the front rank.
+
 If the challenge is accepted, the two characters meet. Ideally, this is done by moving the challenged character within his/her regiment to meet the challenger. If this is not possible, move the challenger within his/her regiment to meet the challenged character. If neither is possible for odd reasons, randomize between the solutions that seem appropriate.
+
 As long as one challenge is under way, no further challenges may be issued in this particular combat engagement.
 Character mounts (steeds, monsters, as well as chariots) participate in challenges as well. Note, however, that impact hits are received before challenges are issued.
 If a character is killed in a challenge and the opponent’s mount has yet to attack in this melee combat phase, work out the mount’s attack as part of the challenge, and then the challenge is over.
+
 Excess wounds (up to a maximum of +3) caused in a challenge count towards combat resolution. This is called an overkill bonus.
 It is convenient to fight challenges after all other models in the combat engagement have been fought, as the space occupied by a character slain in a challenge should not be occupied by a model that fights in the same round as the challenge was fought.</description>
     </rule>
@@ -2442,6 +2479,13 @@ You may appoint one champion or hero to be the army’s battle standard bearer. 
     </rule>
     <rule id="e9b5-dfb2-a871-25c0" name="Familiars" publicationId="78e3-1ead-0759-9022" hidden="false">
       <description>Only wizards can take familiars. A wizard can only have one Familiar. The Familiar is represented on the board by a suitable model with its own base of 20x20 mm or 25x25 mm. The Familiar must stand together with its master (to the front if standing in a regiment). The Familiar’s LD cannot be utilized by other troops. While familiars count towards the maximum number of magic items a character can have, they are not magic items as such, and are not nullified by special rules that nullify the effect of magic items.</description>
+    </rule>
+    <rule id="42aa-f583-5869-e2e2" name="Beasts and Beastmasters" publicationId="451d-2372-ffc4-cf50" hidden="false">
+      <description>Regiments of beasts may be led by Beastmasters who must be positioned either in the front or the rear rank. Such regiments cannot include standard bearers, musicians or be joined by characters.
+
+At the beginning of the game, the number of Beastmasters in the regiment may not exceed the number of beasts. If the beasts were fast cavalry, they do not lose this ability despite being joined by infantry models. Beasts are always subject to stupidity, unless joined by Beastmasters. Beasts and Beastmasters respectively can only be shot at by enemies that can draw line of sight to them.
+
+The speed of the combined regiment is limited to that of the slowest model present, except the regiment may make charge moves using the movement allowance of the beasts. In this case the Beastmasters move along, but if this move takes them beyond their normal maximum charge move, they are placed in the rear rank and cannot fight in the first round of melee combat. They may move to the front in the following melee combat round.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

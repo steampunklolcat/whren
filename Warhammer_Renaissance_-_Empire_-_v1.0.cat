@@ -2,6 +2,9 @@
 <catalogue id="b575-b255-5c77-b1bf" name="Warhammer Renaissance - Empire - v1.0" revision="1" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="979a-fe4d-9fab-2ade" name="Steam Tank" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="fcac-3c52-8cf7-add0" scope="d54d-0a68-e41a-d537" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3657-4da6-3594-38b9" type="min"/>
+      </constraints>
       <profiles>
         <profile id="2178-fd55-7b9f-1a77" name="Steam Tank" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
           <characteristics>
@@ -427,6 +430,9 @@
       <categoryLinks>
         <categoryLink id="5fde-3dbb-f6e0-faa8" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>

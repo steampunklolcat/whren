@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="11cd-9eab-efa6-b75e" name="Warhammer Renaissance - Dwarfs - v1.0" revision="6" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="11cd-9eab-efa6-b75e" name="Warhammer Renaissance - Dwarfs - v1.0" revision="7" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9d36-bc62-8899-dade" name="Dwarf Lord" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -45,7 +45,7 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
             <infoLink id="ee36-fddf-0c57-d945" name="Dwarf Lord" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="56b3-f37f-4c98-8596" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="116.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="126.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2882,7 +2882,7 @@ Carries heavy armour. May take two magic items.</description>
       <description>Slayers are unbreakable. They always wound their opponent on 4+ or better, even if the opponent has higher toughness than the Slayer has strength. Slayers never wear armour. Slayer characters must either walk alone or join slayer regiments. Slayers cannot become the army general or carry the battle standard, and they can take no other magic items than magic weapons.</description>
     </rule>
     <rule id="2ac2-2335-3e59-1c7d" name="Miners Special Deployment" publicationId="78e3-1ead-0759-9022" hidden="false">
-      <description>Miners may choose not to deploy with the rest of the army. In the first turn, the Miners arrive from any table edge on a roll of 4+, otherwise the Miners will arrive in the second turn. The regiment may not charge but may move normally on the turn they arrive. When arriving in this way, Miners may not be joined by characters.</description>
+      <description>Miners may utilise the Ambush special rules. Troops with this special rule may choose not to deploy but arrive at any table edge in their second turn. They enter the table as if they had pursued out of the table (i.e. they cannot charge but may otherwise move normally).</description>
     </rule>
     <rule id="0066-375b-c068-c353" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false">
       <description>RULES FOR CREATING RUNIC ITEMS
@@ -3075,7 +3075,7 @@ It is only possible to fire the steam cannon if the gyrocopter did not fly longe
         <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
         <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
         <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
-        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
       </characteristics>
     </profile>
     <profile id="d9c1-6e8e-d2fe-9d16" name="Runelord" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
@@ -3088,7 +3088,7 @@ It is only possible to fire the steam cannon if the gyrocopter did not fly longe
         <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">4</characteristic>
         <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">5</characteristic>
         <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
-        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">11</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
       </characteristics>
     </profile>
     <profile id="e9a4-fe88-40ad-cff5" name="Runesmith" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
