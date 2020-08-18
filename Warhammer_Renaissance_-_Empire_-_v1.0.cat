@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b575-b255-5c77-b1bf" name="Warhammer Renaissance - Empire - v1.0" revision="1" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b575-b255-5c77-b1bf" name="Warhammer Renaissance - Empire - v1.0" revision="1" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="979a-fe4d-9fab-2ade" name="Steam Tank" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -30,7 +30,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="250.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="350e-66b2-308c-799c" name="Halberdiers" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="350e-66b2-308c-799c" name="Halberdiers" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="cfdb-5c5e-a6c4-216f" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
         <infoLink id="140b-ee61-c4a7-e13e" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
@@ -41,7 +41,7 @@
         <categoryLink id="5f80-e90a-da63-dd13" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6d9f-246f-3691-e6d0" name="Halberdier" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="6d9f-246f-3691-e6d0" name="Halberdier" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a729-1262-fd61-2513" type="min"/>
           </constraints>
@@ -70,7 +70,7 @@
         <categoryLink id="eb95-ee7f-1447-e459" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5358-a0cc-d26c-8130" name="Swordsmen" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="5358-a0cc-d26c-8130" name="Swordsmen" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a29-16da-78b3-e93e" type="min"/>
           </constraints>
@@ -83,7 +83,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="45b2-3c53-6841-9a18" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4e83-286d-b28a-b5b6" type="selectionEntry"/>
+        <entryLink id="45b2-3c53-6841-9a18" name="Light Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="4e83-286d-b28a-b5b6" type="selectionEntry"/>
         <entryLink id="be03-e439-59ca-5db8" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
         <entryLink id="4f0d-c9af-798c-ae55" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
       </entryLinks>
@@ -101,7 +101,7 @@
         <categoryLink id="e9bc-7ecf-0ac0-12bd" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1c30-ff72-8f2d-9527" name="Spearmen" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="1c30-ff72-8f2d-9527" name="Spearmen" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdee-f7c3-3775-f140" type="min"/>
           </constraints>
@@ -132,7 +132,7 @@
         <categoryLink id="a705-283e-4041-5183" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b606-f36d-9fe1-93b1" name="Greatswords" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="b606-f36d-9fe1-93b1" name="Greatswords" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9593-8649-8dc5-522a" type="min"/>
           </constraints>
@@ -162,7 +162,7 @@
         <categoryLink id="d62e-5006-25d4-38a8" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6542-fdf5-6d99-e4ef" name="Archer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="6542-fdf5-6d99-e4ef" name="Archer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15c3-ac0f-2d81-6ddb" type="min"/>
           </constraints>
@@ -192,7 +192,7 @@
         <categoryLink id="1963-2511-e014-8d29" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="677f-618a-180d-4626" name="Crossbowmen" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="677f-618a-180d-4626" name="Crossbowmen" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e36-9b83-e757-3109" type="min"/>
           </constraints>
@@ -222,7 +222,7 @@
         <categoryLink id="e7e1-5913-85a7-7282" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4152-adcc-0a07-bc82" name="Hand Gunner" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="4152-adcc-0a07-bc82" name="Hand Gunner" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fec7-0e10-fea7-987e" type="min"/>
           </constraints>
@@ -246,13 +246,13 @@
     <selectionEntry id="7766-9eea-671e-d5b2" name="Free Company" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="fd8e-ca53-9c78-3702" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
-        <infoLink id="d967-19b0-fcc8-6778" name="Additional Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="7bc7-2d9b-cc33-dd88" type="profile"/>
+        <infoLink id="d967-19b0-fcc8-6778" name="Additional Hand Weapon" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="7bc7-2d9b-cc33-dd88" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8964-e30b-b7ed-f284" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="30f0-e8cf-eea0-8098" name="Free Company" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="30f0-e8cf-eea0-8098" name="Free Company" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24d4-6908-d4e7-9de0" type="min"/>
           </constraints>
@@ -278,7 +278,7 @@
         <categoryLink id="d42a-ae63-1860-d131" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0b50-0515-ddcd-9c46" name="Hafling" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="0b50-0515-ddcd-9c46" name="Hafling" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5667-26d5-abb9-a184" type="min"/>
           </constraints>
@@ -291,13 +291,13 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3283-06d7-abdc-999d" name="Armaments" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" defaultSelectionEntryId="53bf-5fbb-351b-f364">
+        <selectionEntryGroup id="3283-06d7-abdc-999d" name="Armaments" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" defaultSelectionEntryId="53bf-5fbb-351b-f364">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66d4-4d59-f910-e2cd" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c909-39bc-fc78-3856" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="53bf-5fbb-351b-f364" name="Light Armor, Shield, Spear" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="53bf-5fbb-351b-f364" name="Light Armor, Shield, Spear" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="fcac-3c52-8cf7-add0" value="0.5">
                   <repeats>
@@ -306,9 +306,9 @@
                 </modifier>
               </modifiers>
               <infoLinks>
-                <infoLink id="ca85-8f12-0dcb-a3b0" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
-                <infoLink id="e9cc-95f7-4d6a-bd7a" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
-                <infoLink id="d6f2-64e3-36bd-c414" name="Spear" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="90ee-97a4-f5e8-5288" type="profile"/>
+                <infoLink id="ca85-8f12-0dcb-a3b0" name="Light Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+                <infoLink id="e9cc-95f7-4d6a-bd7a" name="Shield" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+                <infoLink id="d6f2-64e3-36bd-c414" name="Spear" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="90ee-97a4-f5e8-5288" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
@@ -345,7 +345,7 @@
         <categoryLink id="bb1f-e967-a2e3-ca15" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="be1c-b084-d4d2-efdf" name="Dwarf" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="be1c-b084-d4d2-efdf" name="Dwarf" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7015-7a6a-8ec7-c9e4" type="min"/>
           </constraints>
@@ -353,12 +353,12 @@
             <infoLink id="e99c-3f9b-3953-2aa7" name="Dwarf" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="55ff-0148-08da-73ca" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="7.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="8.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="eb6e-66c0-11cb-d7fd" name="Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b5a4-1cae-3c72-48ab" type="selectionEntryGroup"/>
+        <entryLink id="eb6e-66c0-11cb-d7fd" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="b5a4-1cae-3c72-48ab" type="selectionEntryGroup"/>
         <entryLink id="34fc-fde8-56a0-eb88" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry"/>
         <entryLink id="1b68-1c58-a13b-6ae9" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="6ec3-fd33-9ff6-183f" type="selectionEntry"/>
         <entryLink id="94ca-9336-4c52-bb2a" name="Spear" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4907-6f1e-f938-438d" type="selectionEntry"/>
@@ -378,7 +378,7 @@
         <categoryLink id="5177-0e6b-a1eb-24d0" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="76b6-8407-56fd-f092" name="Flagellant" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="76b6-8407-56fd-f092" name="Flagellant" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c0d-4677-384c-7892" type="min"/>
           </constraints>
@@ -394,7 +394,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a7f9-de50-e92f-241f" name="Ogre Mercenaries" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a7f9-de50-e92f-241f" name="Ogre Mercenaries" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="fe29-3265-44af-967b" name="Fear" hidden="false" targetId="c26b-a673-ee51-0087" type="rule"/>
       </infoLinks>
@@ -402,7 +402,7 @@
         <categoryLink id="72b2-f7d6-d605-85a7" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b75c-078f-a1dc-273e" name="Ogre Mercenary" publicationId="78e3-1ead-0759-9022" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="b75c-078f-a1dc-273e" name="Ogre Mercenary" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d049-9a80-39eb-46c2" type="min"/>
           </constraints>
@@ -414,9 +414,18 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7ecb-9dbb-71f4-5340" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed56-829d-569e-932b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c75f-e2d8-ae70-f609" name="Heavy Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="40b6-a4d4-f6c5-ab17" type="selectionEntry"/>
+            <entryLink id="0185-c84e-5b43-e293" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4e83-286d-b28a-b5b6" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c0b3-2fd6-a1b8-57db" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4e83-286d-b28a-b5b6" type="selectionEntry"/>
-        <entryLink id="7b3c-a7e6-eaaf-1c14" name="Heavy Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="40b6-a4d4-f6c5-ab17" type="selectionEntry"/>
         <entryLink id="c4de-fe39-4365-8be6" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="6ec3-fd33-9ff6-183f" type="selectionEntry"/>
         <entryLink id="fe12-2720-dea9-7d40" name="Additional Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="74ef-a2c8-56a5-5167" type="selectionEntry"/>
         <entryLink id="c806-21ee-b70d-225b" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
@@ -426,10 +435,83 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="75a9-bb6c-d66d-5fdc" name="Reiksguard Knights" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="75a9-bb6c-d66d-5fdc" name="Reiksguard Knights" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f08-b805-470a-9cda" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="5fde-3dbb-f6e0-faa8" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3ec3-902c-896d-e109" name="Reiksguard Knights" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a80-4a83-48fe-f10a" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="1353-cb0c-25d8-8e33" name="Reiksguard Knight" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="b901-e777-391e-e17e" type="profile"/>
+            <infoLink id="4a4b-e1ce-dde7-df33" name="Heavy Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="be87-4af1-de9d-3d9b" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="11.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="019f-1b74-e483-8476" name="Armaments" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" defaultSelectionEntryId="bcf5-99ca-98fe-05a0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2cf-4689-1dfd-69a2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5a8-afe4-5680-f058" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bcf5-99ca-98fe-05a0" name="Hand Weapon and Shield" publicationId="451d-2372-ffc4-cf50" page="123" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8b69-c68e-ebc8-21d8" name="Shield" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+                <infoLink id="336f-4388-3d0f-ea6d" name="Hand Weapon" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7dba-da79-ffb3-cbf2" name="Doublehanded Weapons" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="2.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="cc9d-106a-cf0b-9302" name="Double Handed Weapon" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="b3f8-0c49-ca8e-18f4" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f5d1-a520-4546-6d1c" name="Barded Warhorse, Shield and Lance" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="27.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="030a-3e44-3ee7-05b8" name="Shield" publicationId="451d-2372-ffc4-cf50" page="123" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+                <infoLink id="b501-4f1f-b35a-a57a" name="Lance" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="7d87-b9be-57ac-1e51" type="profile"/>
+                <infoLink id="c12f-1449-17be-2098" name="Barding for a Warhorse" publicationId="451d-2372-ffc4-cf50" page="" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
+                <infoLink id="4be7-6869-87f8-4f55" name="Warhorse" publicationId="451d-2372-ffc4-cf50" page="" hidden="false" targetId="aeb3-0e7d-20fe-c973" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7f29-9ab8-f9a6-906a" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
+        <entryLink id="6d32-4162-024b-daa4" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>

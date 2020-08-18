@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="11cd-9eab-efa6-b75e" name="Warhammer Renaissance - Dwarfs - v1.0" revision="9" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="11cd-9eab-efa6-b75e" name="Warhammer Renaissance - Dwarfs - v1.0" revision="9" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9d36-bc62-8899-dade" name="Dwarf Lord" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -45,7 +45,7 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
             <infoLink id="ee36-fddf-0c57-d945" name="Dwarf Lord" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="56b3-f37f-4c98-8596" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="126.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="116.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -298,7 +298,7 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <categoryLink id="b412-2d8c-c1e7-0555" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2073-adcf-f101-4b36" name="Giant Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2073-adcf-f101-4b36" name="Giant Slayer" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="196f-4385-5bc6-344c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb46-184a-a7dd-ab0c" type="max"/>
@@ -736,10 +736,10 @@ Dwarf soldiers with light armour and double handed weapons.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="55.0"/>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b17c-2a05-7106-4b64" name="Dwarf Slayers" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b17c-2a05-7106-4b64" name="Dwarf Troll Slayers" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="d349-a5ce-93a0-d553" name="Dwarf Slayers" publicationId="78e3-1ead-0759-9022" hidden="false">
           <description>DWARF SLAYERS 12 pts
@@ -759,7 +759,7 @@ Slayers come equipped with either additional hand weapons or double handed weapo
         <categoryLink id="6ec2-0f9a-0acc-8da7" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e5fa-abe6-e198-70c9" name="Dwarf Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="e5fa-abe6-e198-70c9" name="Dwarf Troll Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5096-e2fe-ca07-bc17" type="min"/>
           </constraints>
@@ -1486,11 +1486,24 @@ Gotrek carries Gotrek’s Axe, and Felix carries a Blade of Leaping Bronze.</des
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="500.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="130d-9e13-19e4-bd9e" name="Josef Bugman" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="130d-9e13-19e4-bd9e" name="Josef Bugman" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="6bfa-2f29-111b-ff0b" name="Bugman&apos;s Tankard" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
           <characteristics>
             <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. The bearer or one model in the bearer’s unit recovers one lost wound. Drink it just after a phase (i.e. just after shooting, or just after melee combat, or just after magic). Three uses only.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4a87-e75a-4f60-da82" name="Josef Bugman" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+          <characteristics>
+            <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+            <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+            <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">5</characteristic>
+            <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+            <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+            <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+            <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+            <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
+            <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1513,32 +1526,6 @@ Carries a crossbow, light armour, a shield, a double handed weapon, and Bugman�
       <categoryLinks>
         <categoryLink id="7391-8223-876f-9cb5" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="66e6-7364-8598-0476" name="Josef Bugman" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b72-974d-2ddf-32ed" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46b5-731a-0e1e-fd91" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="0af6-2388-e5ff-1c3f" name="Josef Bugman" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
-              <characteristics>
-                <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
-                <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
-                <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">5</characteristic>
-                <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
-                <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
-                <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
-                <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
-                <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
-                <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="142c-9a4e-6354-d6ef" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="1ce5-56c0-d126-6c3d" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
@@ -1547,7 +1534,7 @@ Carries a crossbow, light armour, a shield, a double handed weapon, and Bugman�
         <entryLink id="4389-b10e-7032-af88" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="e402-f801-58ef-470b" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7081-aa7f-c156-971c" name="Engineer Guildmaster Burlok Damminson" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
@@ -1763,7 +1750,7 @@ Carries heavy armour. May take two magic items.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2a52-44d4-c21c-d27b" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="5fc4-2bc2-f22e-cd10" name="Snorri Spangelhelm&apos;s Master Rune" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5fc4-2bc2-f22e-cd10" name="Snorri Spangelhelm&apos;s Master Rune" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d1cd-3b88-c927-cda2" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ce02-2dc2-13e8-2dab" type="max"/>
@@ -1779,7 +1766,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6224-0a1a-c52e-2c95" name="Skalf Blackhammer&apos;s Master Rune" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6224-0a1a-c52e-2c95" name="Skalf Blackhammer&apos;s Master Rune" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="258e-f5e4-65d8-7f90" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c99-923b-bf17-03da" type="max"/>
@@ -1795,7 +1782,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5e6c-df23-5f7d-3fd2" name="Alaric the Mad&apos;s Master Rune" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5e6c-df23-5f7d-3fd2" name="Alaric the Mad&apos;s Master Rune" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ee2-2748-169b-13f4" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4294-0e85-9d82-1630" type="max"/>
@@ -1811,7 +1798,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="aa1c-f0a1-40df-3176" name="Master Rune of Angrim Redbeard" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="aa1c-f0a1-40df-3176" name="Master Rune of Angrim Redbeard" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f3b7-c751-475d-d329" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="10c8-b9bf-3fef-d0a3" type="max"/>
@@ -1827,7 +1814,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ef60-68ae-0987-832b" name="Master Rune of Baldrik the Bad" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ef60-68ae-0987-832b" name="Master Rune of Baldrik the Bad" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f005-4d0a-215e-8a0e" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="07d6-b9a0-48ef-f98e" type="max"/>
@@ -1843,7 +1830,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f6dd-2b4c-63a6-5b1b" name="Master Rune of Death" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f6dd-2b4c-63a6-5b1b" name="Master Rune of Death" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ea57-d193-8afe-1d87" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5db6-d23c-89b9-51b9" type="max"/>
@@ -1859,7 +1846,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c63a-749a-b2d3-84be" name="Master Rune of Eric Cleric" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c63a-749a-b2d3-84be" name="Master Rune of Eric Cleric" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a442-61a6-f6a6-4182" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="da76-aef0-4b5c-8c2d" type="max"/>
@@ -1875,7 +1862,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a854-b0ae-a641-7dec" name="Master Rune of Flight" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a854-b0ae-a641-7dec" name="Master Rune of Flight" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7bd4-ff06-edb6-3c80" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="712a-7569-813f-16c1" type="max"/>
@@ -1891,7 +1878,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f42d-3e17-0acd-292f" name="Master Rune of Haki Skavensplitter" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f42d-3e17-0acd-292f" name="Master Rune of Haki Skavensplitter" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="12f5-12c6-8493-e0a3" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a17-73d8-e1fa-6c77" type="max"/>
@@ -1907,7 +1894,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a78d-0bf8-79de-fe5f" name="Master Rune of Trygg Trollslayer" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a78d-0bf8-79de-fe5f" name="Master Rune of Trygg Trollslayer" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d1b9-5185-24c4-233f" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8307-fb43-237c-ea8d" type="max"/>
@@ -1927,7 +1914,7 @@ Carries heavy armour. May take two magic items.</description>
         </selectionEntryGroup>
         <selectionEntryGroup id="1c0f-480f-9d2b-b280" name="Other Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="14bc-0dfa-9c9b-899e" name="Rune of Cleaving" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="14bc-0dfa-9c9b-899e" name="Rune of Cleaving" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="647f-f61b-a3b1-d96c" type="max"/>
               </constraints>
@@ -1942,7 +1929,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1f7f-2458-b519-09dd" name="Rune of Cutting" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1f7f-2458-b519-09dd" name="Rune of Cutting" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bcd0-6172-1412-cca3" type="max"/>
               </constraints>
@@ -1957,7 +1944,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4713-e26b-bb2f-be9e" name="Rune of Fire" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4713-e26b-bb2f-be9e" name="Rune of Fire" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="71df-03d1-e6fa-7e8c" type="max"/>
               </constraints>
@@ -1972,7 +1959,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4f3e-a3f4-9226-fbf6" name="Rune of Fury" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4f3e-a3f4-9226-fbf6" name="Rune of Fury" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3492-d3b7-6d09-fa0b" type="max"/>
               </constraints>
@@ -1987,7 +1974,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7983-728c-a212-b178" name="Rune of Might" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7983-728c-a212-b178" name="Rune of Might" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd02-98a7-c739-7d6e" type="max"/>
               </constraints>
@@ -2002,7 +1989,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c2e4-8da9-310c-fe4a" name="Rune of Parrying" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c2e4-8da9-310c-fe4a" name="Rune of Parrying" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4957-00bd-1468-e97c" type="max"/>
               </constraints>
@@ -2017,7 +2004,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0431-91cb-6db1-1b6a" name="Rune of Smiting" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0431-91cb-6db1-1b6a" name="Rune of Smiting" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b23a-74ce-ec49-8606" type="max"/>
               </constraints>
@@ -2032,7 +2019,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="487d-0c48-8b7a-6391" name="Rune of Striking" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="487d-0c48-8b7a-6391" name="Rune of Striking" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f05b-cd2f-6429-8762" type="max"/>
               </constraints>
@@ -2047,7 +2034,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0ced-46fb-15c2-6e4e" name="Rune of Swiftness" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0ced-46fb-15c2-6e4e" name="Rune of Swiftness" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d988-844a-3e72-aa29" type="max"/>
               </constraints>
@@ -2076,7 +2063,7 @@ Carries heavy armour. May take two magic items.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1c79-a695-216c-5b91" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="186e-4435-b663-1aae" name="Master Rune of Gromril" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="186e-4435-b663-1aae" name="Master Rune of Gromril" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="bec7-ba4e-301c-a036" name="Master Rune of Gromril" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
                   <characteristics>
@@ -2088,7 +2075,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5275-1b46-d4de-43bd" name="Master Rune of Adamant" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5275-1b46-d4de-43bd" name="Master Rune of Adamant" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="0856-70d4-9679-b05b" name="Master Rune of Adamant" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
                   <characteristics>
@@ -2104,7 +2091,7 @@ Carries heavy armour. May take two magic items.</description>
         </selectionEntryGroup>
         <selectionEntryGroup id="edae-7be3-729b-c5df" name="Other Runes" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="e995-49fa-af31-da36" name="Rune of Stone" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e995-49fa-af31-da36" name="Rune of Stone" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="65b7-02bb-f770-035e" name="Rune of Stone" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
                   <characteristics>
@@ -2116,7 +2103,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="eb35-5ce6-fb12-95b5" name="Rune of Fortitude" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="eb35-5ce6-fb12-95b5" name="Rune of Fortitude" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="850f-5ca4-5eff-9a81" name="Rune of Fortitude" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
                   <characteristics>
@@ -2128,7 +2115,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d9b8-5c05-fe2f-b2cb" name="Rune of Iron" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d9b8-5c05-fe2f-b2cb" name="Rune of Iron" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="8ff9-d30e-be38-0d98" name="Rune of Iron" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
                   <characteristics>
@@ -2140,7 +2127,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f3c4-8b76-0504-fccb" name="Rune of Resistance" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f3c4-8b76-0504-fccb" name="Rune of Resistance" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="feeb-c66f-718f-de5b" type="max"/>
               </constraints>
@@ -2155,7 +2142,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e7c0-8068-ec40-ed67" name="Rune of Spell Eating" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e7c0-8068-ec40-ed67" name="Rune of Spell Eating" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="e35c-205b-9996-2c22" name="Rune of Spell Eating" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
                   <characteristics>
@@ -2186,7 +2173,7 @@ Carries heavy armour. May take two magic items.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fc41-441b-d5ad-f189" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3dec-23ec-59ac-b879" name="Master Rune of Sheer Damn Stubbornness" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3dec-23ec-59ac-b879" name="Master Rune of Sheer Damn Stubbornness" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ae5a-a558-a271-949e" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a18d-975f-ce9a-19d9" type="max"/>
@@ -2202,7 +2189,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="bc3a-ac9c-829f-1061" name="Master Rune of Stromni Redbeard" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="bc3a-ac9c-829f-1061" name="Master Rune of Stromni Redbeard" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4536-64f0-2a16-9cd3" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5337-fb51-ccce-a7b8" type="max"/>
@@ -2218,7 +2205,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="95ba-565b-4351-141d" name="Master Rune of Groth One-Eye" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="95ba-565b-4351-141d" name="Master Rune of Groth One-Eye" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="907f-1617-1d9a-25d4" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="831d-ba13-b0b7-258c" type="max"/>
@@ -2234,7 +2221,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="cf79-4255-678c-7313" name="Master Rune of Battle" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="cf79-4255-678c-7313" name="Master Rune of Battle" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ea6-5b64-63ee-53f0" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c4c-9cd9-d4bc-e909" type="max"/>
@@ -2250,7 +2237,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9e5b-293f-5380-c661" name="Master Rune of Valaya" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9e5b-293f-5380-c661" name="Master Rune of Valaya" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bc27-ca67-9a98-f26f" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4cbd-08f7-65ca-bece" type="max"/>
@@ -2270,7 +2257,7 @@ Carries heavy armour. May take two magic items.</description>
         </selectionEntryGroup>
         <selectionEntryGroup id="4af0-c0fd-a9aa-b4af" name="Other Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="0fbb-aa01-7674-fbde" name="Rune of Warding" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0fbb-aa01-7674-fbde" name="Rune of Warding" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d6cc-18cd-b6a7-f9b0" type="max"/>
               </constraints>
@@ -2285,7 +2272,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f96b-8dd0-f151-7ddb" name="Rune of Slowness" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f96b-8dd0-f151-7ddb" name="Rune of Slowness" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cdd1-08d6-d3e6-66a8" type="max"/>
               </constraints>
@@ -2300,7 +2287,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4c31-2558-3959-6351" name="Rune of Courage" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4c31-2558-3959-6351" name="Rune of Courage" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cfb6-6981-16ec-9c5b" type="max"/>
               </constraints>
@@ -2315,7 +2302,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5078-505c-169c-27bc" name="Rune of Oath Keeping" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5078-505c-169c-27bc" name="Rune of Oath Keeping" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe68-576e-4643-51d3" type="max"/>
               </constraints>
@@ -2330,7 +2317,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="032e-e9e0-3cd4-83cc" name="Rune of Fear" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="032e-e9e0-3cd4-83cc" name="Rune of Fear" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1392-6d10-2154-79f5" type="max"/>
               </constraints>
@@ -2359,7 +2346,7 @@ Carries heavy armour. May take two magic items.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6ba2-ef83-dc22-88f8" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="9ac8-547c-98ef-b8c8" name="Master Rune of Disdain" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9ac8-547c-98ef-b8c8" name="Master Rune of Disdain" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e267-92f1-548f-658f" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a52f-d67e-f19e-dc45" type="max"/>
@@ -2375,7 +2362,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1da9-e5ca-f470-a199" name="Master Rune of Dismay" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1da9-e5ca-f470-a199" name="Master Rune of Dismay" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fcda-4aaa-9c1a-df7b" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="770d-2986-ca10-1e8c" type="max"/>
@@ -2391,7 +2378,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2d69-ab44-23bc-0022" name="Master Rune of Spite" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2d69-ab44-23bc-0022" name="Master Rune of Spite" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dc81-d965-b999-eb29" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="17d5-e8e9-2d19-3f2e" type="max"/>
@@ -2407,27 +2394,11 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="83cb-1f14-7cd8-adb6" name="Master Rune of Kingship" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="968b-009f-e430-a870" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="921e-41ff-1fe5-44df" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="cde2-70e8-e9f7-a145" name="Master Rune of Kingship" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-                  <characteristics>
-                    <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Dwarf Lords only. LD 12.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="d113-3207-f1f3-ab1e" name="Other Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="6a5f-7f83-9910-30ce" name="Rune of the Furnace" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6a5f-7f83-9910-30ce" name="Rune of the Furnace" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2ba1-ddf7-ed16-6b08" type="max"/>
               </constraints>
@@ -2442,7 +2413,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1816-8343-791c-a7d0" name="Rune of Passage" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1816-8343-791c-a7d0" name="Rune of Passage" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="900f-b143-b0a2-8dd5" type="max"/>
               </constraints>
@@ -2457,7 +2428,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4fc6-cd97-4630-5c3b" name="Rune of Luck" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4fc6-cd97-4630-5c3b" name="Rune of Luck" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f33-32d0-d664-5cfb" type="max"/>
               </constraints>
@@ -2472,7 +2443,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="aa56-857c-51d8-2843" name="Rune of Spellbreaking" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="aa56-857c-51d8-2843" name="Rune of Spellbreaking" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5f80-c424-1f32-367a" type="max"/>
               </constraints>
@@ -2487,7 +2458,7 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="bbfe-d199-1184-ba00" name="Rune of Warping the Flux" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="bbfe-d199-1184-ba00" name="Rune of Warping the Flux" publicationId="451d-2372-ffc4-cf50" page="123" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53c1-5c3d-d81d-c3fc" type="max"/>
               </constraints>
@@ -2502,6 +2473,37 @@ Carries heavy armour. May take two magic items.</description>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="3602-9bc9-bff8-5afb" name="Rune of Kingship" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f8ce-d28e-8272-9341" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a05-7fcb-4a8d-b4c6" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="daff-ee77-2d97-db46" name="Rune of Kingship" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+                  <characteristics>
+                    <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Dwarf Lords only. LD 12.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="407a-eb46-425e-d8eb" name="Rune of Flux Reversal" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d19-6e75-d37f-50c9" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8ff2-c37f-2cfe-ae60" name="Rune of Flux Reversal" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+                  <characteristics>
+                    <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Runesmiths only. The bearer may spend power cards when attempting a dispel roll. Each power card spent increases the chance of dispelling by +1, but a roll of one always fails.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2511,7 +2513,7 @@ Carries heavy armour. May take two magic items.</description>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4aee-2ce3-a01e-139b" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="c53a-336c-95e6-96c2" name="Rune of Burning" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c53a-336c-95e6-96c2" name="Rune of Burning" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5c8b-1aab-fdd6-0e5c" type="max"/>
           </constraints>
@@ -2526,7 +2528,7 @@ Carries heavy armour. May take two magic items.</description>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="18f6-c731-df7a-2c4d" name="Rune of Seeking" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="18f6-c731-df7a-2c4d" name="Rune of Seeking" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe35-9013-6640-67bc" type="max"/>
           </constraints>
@@ -2541,7 +2543,7 @@ Carries heavy armour. May take two magic items.</description>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ee36-562e-2e7b-c522" name="Rune of Penetrating" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ee36-562e-2e7b-c522" name="Rune of Penetrating" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="865d-1b1c-b2f9-1bc7" type="max"/>
           </constraints>
@@ -2556,7 +2558,7 @@ Carries heavy armour. May take two magic items.</description>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="62cd-358c-2f04-e9c9" name="Rune of Immolation" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="62cd-358c-2f04-e9c9" name="Rune of Immolation" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1892-ac95-a101-b014" type="max"/>
           </constraints>
@@ -2571,7 +2573,7 @@ Carries heavy armour. May take two magic items.</description>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="db7b-2788-4d3d-af12" name="Rune of Disguise" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="db7b-2788-4d3d-af12" name="Rune of Disguise" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2248-a2af-af08-c6cb" type="max"/>
           </constraints>
@@ -2586,7 +2588,7 @@ Carries heavy armour. May take two magic items.</description>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="073a-2c35-bc92-1de1" name="Rune of Forging" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="073a-2c35-bc92-1de1" name="Rune of Forging" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9546-106a-dc07-cbd9" type="max"/>
           </constraints>
@@ -2601,7 +2603,7 @@ Carries heavy armour. May take two magic items.</description>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c6af-5112-fe0c-94ab" name="Rune of Targeting" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c6af-5112-fe0c-94ab" name="Rune of Targeting" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="390e-2e02-a4fe-f816" type="max"/>
           </constraints>
@@ -2616,7 +2618,7 @@ Carries heavy armour. May take two magic items.</description>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3845-6e3c-d5ae-f06d" name="Rune of Accuracy" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3845-6e3c-d5ae-f06d" name="Rune of Accuracy" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="56ef-9609-3219-757e" type="max"/>
           </constraints>
@@ -2641,7 +2643,7 @@ Carries heavy armour. May take two magic items.</description>
     </selectionEntryGroup>
     <selectionEntryGroup id="3dc6-09ce-c697-3506" name="Magic Armour (Dwarfs only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="c4e6-b205-c88c-f42e" name="Armour of Skaldour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c4e6-b205-c88c-f42e" name="Armour of Skaldour" publicationId="451d-2372-ffc4-cf50" page="110" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9dc8-33e8-e0db-2b33" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c049-b7d5-c21d-afc2" type="max"/>
@@ -2661,7 +2663,7 @@ Carries heavy armour. May take two magic items.</description>
     </selectionEntryGroup>
     <selectionEntryGroup id="6402-bb68-3ebd-fef6" name="Magic Weapons (Dwarfs only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="a21f-8536-234f-4faf" name="Red Axe of Karak Eight Peaks" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a21f-8536-234f-4faf" name="Red Axe of Karak Eight Peaks" publicationId="451d-2372-ffc4-cf50" page="109" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="37d7-aa01-ecc0-a2d8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c7a7-addb-0088-563c" type="max"/>
@@ -2677,7 +2679,7 @@ Carries heavy armour. May take two magic items.</description>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b113-3bd0-211c-e37a" name="Axe of Grimnir" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b113-3bd0-211c-e37a" name="Axe of Grimnir" publicationId="451d-2372-ffc4-cf50" page="110" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1853-fd9e-a7c2-5eae" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ceb5-8911-536b-85a5" type="max"/>
@@ -2693,7 +2695,7 @@ Carries heavy armour. May take two magic items.</description>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c56a-a16a-c9d7-fb28" name="Gotrek&apos;s Axe" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c56a-a16a-c9d7-fb28" name="Gotrek&apos;s Axe" publicationId="451d-2372-ffc4-cf50" page="110" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2e3b-346b-e70c-2ce6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7838-f8c7-4466-2fc9" type="max"/>
@@ -2713,7 +2715,7 @@ Carries heavy armour. May take two magic items.</description>
     </selectionEntryGroup>
     <selectionEntryGroup id="8708-e3b4-6eb0-9315" name="Enchanted Items (Dwarfs only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="c41c-c0f9-8607-1589" name="Bugman&apos;s Tankard" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c41c-c0f9-8607-1589" name="Bugman&apos;s Tankard" publicationId="451d-2372-ffc4-cf50" page="109" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1284-75fb-ebc1-b32c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4e90-40e7-f31b-2fee" type="max"/>
@@ -2729,7 +2731,7 @@ Carries heavy armour. May take two magic items.</description>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d648-5494-77e3-8d04" name="Fiery Ring of Thori" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d648-5494-77e3-8d04" name="Fiery Ring of Thori" publicationId="451d-2372-ffc4-cf50" page="109" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7be0-5ffd-fc2d-e3ff" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e4e-c8f1-d638-abc5" type="max"/>
@@ -2745,7 +2747,7 @@ Carries heavy armour. May take two magic items.</description>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9d68-f08f-8129-b0d0" name="Dragon Crown of Karaz" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9d68-f08f-8129-b0d0" name="Dragon Crown of Karaz" publicationId="451d-2372-ffc4-cf50" page="109" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d077-32d1-68a2-4a6f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7f27-5600-61ed-c09b" type="max"/>
@@ -2761,7 +2763,7 @@ Carries heavy armour. May take two magic items.</description>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="59fa-208a-cbe8-48e7" name="Great Book of Grudges" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="59fa-208a-cbe8-48e7" name="Great Book of Grudges" publicationId="451d-2372-ffc4-cf50" page="109" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9011-c872-bf78-fcc4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="575f-7072-329f-2b2d" type="max"/>
@@ -2777,7 +2779,7 @@ Carries heavy armour. May take two magic items.</description>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e30e-d11d-db11-ced2" name="Golden Sceptre of Nogrim" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e30e-d11d-db11-ced2" name="Golden Sceptre of Nogrim" publicationId="451d-2372-ffc4-cf50" page="109" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6ffb-9bb6-c8f4-fa8b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e5bd-bf6f-14ec-e521" type="max"/>
@@ -2875,7 +2877,7 @@ Carries heavy armour. May take two magic items.</description>
       <description>All Dwarfs suffer -1 LD if they fight within 8” of elven allies (High Elves as well as Wood Elves).</description>
     </rule>
     <rule id="0a67-9c06-6a1f-f070" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false">
-      <description>Dwarfs cannot use bound spells.
+      <description>Dwarfs cannot use bound spells or arcane items.
 </description>
     </rule>
     <rule id="4df2-31ef-3c30-b112" name="Slayers" publicationId="78e3-1ead-0759-9022" hidden="false">
@@ -2935,7 +2937,7 @@ It is only possible to fire the steam cannon if the gyrocopter did not fly longe
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
       </characteristics>
     </profile>
-    <profile id="83cc-add6-b104-925a" name="Dwarf Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="83cc-add6-b104-925a" name="Dwarf Troll Slayer" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
@@ -2987,7 +2989,7 @@ It is only possible to fire the steam cannon if the gyrocopter did not fly longe
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
       </characteristics>
     </profile>
-    <profile id="416c-4ef1-366d-d97b" name="Daemon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="416c-4ef1-366d-d97b" name="Daemon Slayer" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">7</characteristic>
@@ -3013,7 +3015,7 @@ It is only possible to fire the steam cannon if the gyrocopter did not fly longe
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
       </characteristics>
     </profile>
-    <profile id="e322-fc67-0a96-0d28" name="Dwarf Champion" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="e322-fc67-0a96-0d28" name="Dwarf Champion" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
@@ -3026,7 +3028,7 @@ It is only possible to fire the steam cannon if the gyrocopter did not fly longe
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
       </characteristics>
     </profile>
-    <profile id="2c09-a096-d067-62bf" name="Dwarf Hero" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="2c09-a096-d067-62bf" name="Dwarf Hero" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
@@ -3039,7 +3041,7 @@ It is only possible to fire the steam cannon if the gyrocopter did not fly longe
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
       </characteristics>
     </profile>
-    <profile id="56b3-f37f-4c98-8596" name="Dwarf Lord" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="56b3-f37f-4c98-8596" name="Dwarf Lord" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">7</characteristic>
@@ -3052,7 +3054,7 @@ It is only possible to fire the steam cannon if the gyrocopter did not fly longe
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">11</characteristic>
       </characteristics>
     </profile>
-    <profile id="cd76-be2e-9bf4-5a24" name="Giant Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="cd76-be2e-9bf4-5a24" name="Giant Slayer" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
@@ -3065,7 +3067,7 @@ It is only possible to fire the steam cannon if the gyrocopter did not fly longe
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
       </characteristics>
     </profile>
-    <profile id="e39e-ef3a-8dc3-57de" name="Master Runesmith" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="e39e-ef3a-8dc3-57de" name="Master Runesmith" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">7</characteristic>
@@ -3075,10 +3077,10 @@ It is only possible to fire the steam cannon if the gyrocopter did not fly longe
         <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
         <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
         <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
-        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
       </characteristics>
     </profile>
-    <profile id="d9c1-6e8e-d2fe-9d16" name="Runelord" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="d9c1-6e8e-d2fe-9d16" name="Runelord" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">8</characteristic>
@@ -3088,10 +3090,10 @@ It is only possible to fire the steam cannon if the gyrocopter did not fly longe
         <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">4</characteristic>
         <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">5</characteristic>
         <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
-        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">11</characteristic>
       </characteristics>
     </profile>
-    <profile id="e9a4-fe88-40ad-cff5" name="Runesmith" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="e9a4-fe88-40ad-cff5" name="Runesmith" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>

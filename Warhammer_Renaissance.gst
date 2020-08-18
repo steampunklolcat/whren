@@ -5,7 +5,7 @@
     <publication id="78e3-1ead-0759-9022" name="Ravening Hordes"/>
   </publications>
   <costTypes>
-    <costType id="fcac-3c52-8cf7-add0" name="pts" defaultCostLimit="-1.0"/>
+    <costType id="fcac-3c52-8cf7-add0" name="pts" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="3f0c-8255-bce5-9c4b" name="Profile">
@@ -455,7 +455,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c78a-8df1-b1a5-3e7b" name="Sword of Swift Slaying" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c78a-8df1-b1a5-3e7b" name="Sword of Swift Slaying" publicationId="451d-2372-ffc4-cf50" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe15-3114-df69-9fdc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0f5a-f4fe-026b-c193" type="max"/>
@@ -629,7 +629,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="968f-6f33-4651-5117" name="Blade of Leaping Bronze" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
@@ -840,7 +840,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="45.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4067-3adc-665b-5711" name="Daemon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4067-3adc-665b-5711" name="Daemon Slayer" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8202-32c8-b783-ee34" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8224-28a8-bbdc-80b2" type="max"/>
@@ -856,7 +856,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a314-98c8-cd57-e9c8" name="Dragon Slayer" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a314-98c8-cd57-e9c8" name="Dragon Slayer" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bf20-67e3-4a1d-d338" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ab5-e2e2-b84b-30f5" type="max"/>
@@ -872,7 +872,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="08a4-2ab0-88dd-f6d0" name="Vampire Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="08a4-2ab0-88dd-f6d0" name="Vampire Slayer" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1bc0-7f48-8496-cb2e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d647-6dbb-ca64-de20" type="max"/>
@@ -901,7 +901,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="125.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2b90-f4d7-e2ff-7208" name="Hydra Sword" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
@@ -920,7 +920,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="125.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ad73-f967-40b4-161d" name="Hellfire Sword" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ad73-f967-40b4-161d" name="Hellfire Sword" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bbd5-a121-ac51-63f7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="523f-acf7-b662-aa1f" type="max"/>
@@ -934,6 +934,22 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="125.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="431c-b14d-24aa-0a5b" name="Sword of Teclis" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3593-080c-f975-069e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed9d-5ad4-dfe4-6fff" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="83bd-7cef-33f3-233e" name="Sword of Teclis" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+              <characteristics>
+                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Wounds automatically.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1196,7 +1212,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="decb-8aab-8c75-b0b5" name="Spelleater Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="decb-8aab-8c75-b0b5" name="Spelleater Shield" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="285e-ecfb-6dac-e3d4" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2ea8-044c-54f6-2ed9" type="max"/>
@@ -1212,7 +1228,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2deb-3cd0-8563-aafa" name="Armour of Unyielding" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2deb-3cd0-8563-aafa" name="Armour of Unyielding" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7c03-d6d9-3054-5624" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="feb3-3ef9-0749-8473" type="max"/>
@@ -1228,7 +1244,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bae9-15ee-125c-ad78" name="Armour of Protection" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bae9-15ee-125c-ad78" name="Armour of Protection" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6492-c5f5-8ad9-817b" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d08c-67b1-6fbe-662a" type="max"/>
@@ -1244,7 +1260,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="db02-995a-83bd-cc44" name="Armour of Brilliance" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="db02-995a-83bd-cc44" name="Armour of Brilliance" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a607-ba05-dc65-b02c" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ff00-279c-af89-e936" type="max"/>
@@ -1280,7 +1296,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3503-9c24-f9d8-59b8" name="Ghost Ring" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3503-9c24-f9d8-59b8" name="Ghost Ring" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7d9c-27f3-9f56-3c7d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="088f-1ea2-5497-54c5" type="max"/>
@@ -1296,7 +1312,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6f13-10c7-e995-a54a" name="Crimson Amulet" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6f13-10c7-e995-a54a" name="Crimson Amulet" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="97b0-5cab-7059-882a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d1e7-c16a-ab5d-bef4" type="max"/>
@@ -1312,7 +1328,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6096-53d3-b6c4-eeb2" name="Nullstone Ring" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6096-53d3-b6c4-eeb2" name="Nullstone Ring" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f797-4fe3-e91c-a65a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ca2-f8f7-4eea-9439" type="max"/>
@@ -1328,7 +1344,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f4ec-f56a-f2bc-4792" name="Talisman of Ravensdark" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f4ec-f56a-f2bc-4792" name="Talisman of Ravensdark" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eaf6-facd-0a43-542a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2faf-f499-2394-d79e" type="max"/>
@@ -1344,7 +1360,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ebe9-4037-5f09-4de6" name="Ring of Corin" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ebe9-4037-5f09-4de6" name="Ring of Corin" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f973-1408-a054-568c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="607b-168f-e224-f7bf" type="max"/>
@@ -1357,10 +1373,10 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f187-28fc-0149-fbbf" name="Drums of Swift Reform" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f187-28fc-0149-fbbf" name="Drums of Swift Reform" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="97de-0dbe-49d8-e286" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6598-8369-42b7-1eea" type="max"/>
@@ -1376,7 +1392,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7cf0-aaf5-0ff6-25c0" name="Van Horstman&apos;s Speculum" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7cf0-aaf5-0ff6-25c0" name="Van Horstman&apos;s Speculum" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9bf3-123a-156d-809e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f91b-eeb2-6e17-e328" type="max"/>
@@ -1392,7 +1408,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="63a2-b4bf-4faf-38e1" name="Potion of Strength" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="63a2-b4bf-4faf-38e1" name="Potion of Strength" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b462-fcb0-3d8c-0a2f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a878-884e-90cd-6ad2" type="max"/>
@@ -1408,7 +1424,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b67d-072c-3ac3-4414" name="Talisman of Luck" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b67d-072c-3ac3-4414" name="Talisman of Luck" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8f92-7d6f-b7fb-ff3e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87c3-1b09-bbf2-8d60" type="max"/>
@@ -1424,7 +1440,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="25c8-9018-7e38-0c33" name="Black Gem of Gnar" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="25c8-9018-7e38-0c33" name="Black Gem of Gnar" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b109-3c97-fe43-0610" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c9c-bd87-4acc-8e2a" type="max"/>
@@ -1440,7 +1456,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9fc9-53b5-c7f9-dcb5" name="Ring of Volans" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9fc9-53b5-c7f9-dcb5" name="Ring of Volans" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c81e-f939-8cc2-2ac4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d332-ae00-74b0-ad12" type="max"/>
@@ -1456,7 +1472,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b1f0-3bc8-5dd2-0db6" name="Drums of Marching" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b1f0-3bc8-5dd2-0db6" name="Drums of Marching" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0828-9552-ae52-9d33" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7715-534c-10cd-17e4" type="max"/>
@@ -1472,7 +1488,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f8eb-c453-ab9a-d78a" name="Amulet of Fire" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f8eb-c453-ab9a-d78a" name="Amulet of Fire" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8b1b-2281-98f2-78df" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9b4-157e-dc16-80e0" type="max"/>
@@ -1488,7 +1504,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6b21-2b7d-a819-0494" name="Pipes of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6b21-2b7d-a819-0494" name="Pipes of Doom" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3bec-47ff-4419-3c22" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fc2c-7ef6-93ad-f732" type="max"/>
@@ -1504,7 +1520,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7066-00a8-8986-d20c" name="Jade Amulet" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7066-00a8-8986-d20c" name="Jade Amulet" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="34fe-424e-4af7-5b12" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9767-b724-21e9-39e0" type="max"/>
@@ -1520,7 +1536,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="88f3-ad05-c3c5-d8e7" name="Claw of Nagash" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="88f3-ad05-c3c5-d8e7" name="Claw of Nagash" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dd27-70e9-c806-9908" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="853f-a870-7de8-c922" type="max"/>
@@ -1536,7 +1552,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bce5-d621-b3a6-2817" name="Horn of Orguk" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bce5-d621-b3a6-2817" name="Horn of Orguk" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c18-c2ef-6b21-45b0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="428b-435b-5509-1c1f" type="max"/>
@@ -1552,7 +1568,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2ccd-492b-abdc-d1cc" name="Ruby Chalice" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2ccd-492b-abdc-d1cc" name="Ruby Chalice" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="513a-baaa-2625-df71" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="df63-c4c6-c58c-df87" type="max"/>
@@ -1568,7 +1584,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e32e-7401-516e-0d7b" name="Crown of Command" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e32e-7401-516e-0d7b" name="Crown of Command" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c470-0858-ec86-79a0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e1e-b012-b259-a256" type="max"/>
@@ -1584,7 +1600,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="75cd-4f34-56c5-b8ba" name="Talisman of Obsidian" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="75cd-4f34-56c5-b8ba" name="Talisman of Obsidian" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e346-20b2-8058-b5a9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0eae-692b-3f3f-efb1" type="max"/>
@@ -1600,7 +1616,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1d4a-0293-adb8-7154" name="Doomfire Ring" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1d4a-0293-adb8-7154" name="Doomfire Ring" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f25c-1c33-c8be-02c2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7beb-9c7a-9a58-5f31" type="max"/>
@@ -1613,10 +1629,10 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="125.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="be6f-ec4a-fa50-55ae" name="Orb of Thunder" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="be6f-ec4a-fa50-55ae" name="Orb of Thunder" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7c6d-539c-dd5e-5fc5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="90ab-2b32-83bb-24b0" type="max"/>
@@ -1636,12 +1652,12 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="7cc5-4cea-9c72-ef51" name="Arcane Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
       <rules>
-        <rule id="a699-46fa-d8e6-c4a0" name="Arcane Items" publicationId="78e3-1ead-0759-9022" hidden="false">
+        <rule id="a699-46fa-d8e6-c4a0" name="Arcane Items" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false">
           <description>Only wizards may take arcane items.</description>
         </rule>
       </rules>
       <selectionEntries>
-        <selectionEntry id="edba-99f8-541b-7354" name="Skull Staff" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="edba-99f8-541b-7354" name="Skull Staff" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cdd8-86e6-7cca-81de" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c09b-c037-d0d3-0328" type="max"/>
@@ -1657,7 +1673,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8f00-cce4-9a1e-1e7e" name="Seerstone" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8f00-cce4-9a1e-1e7e" name="Seerstone" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e77-60f5-cae5-cff2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d374-cbca-7c08-2a2a" type="max"/>
@@ -1673,7 +1689,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5847-6cb7-ca56-56bf" name="Infusion of White" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5847-6cb7-ca56-56bf" name="Infusion of White" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ad6c-8b84-1bfc-2306" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d3b7-9e6e-936d-4989" type="max"/>
@@ -1689,7 +1705,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5db3-7711-177c-ca1e" name="Staff of Stealing" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5db3-7711-177c-ca1e" name="Staff of Stealing" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a2c-195d-200b-1149" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="95e9-1a1c-dadb-1aeb" type="max"/>
@@ -1702,10 +1718,10 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d65d-a387-c84c-2ec4" name="Ring of Darkness" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d65d-a387-c84c-2ec4" name="Ring of Darkness" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dfe4-c0ce-f3dd-dd3e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="10dc-a14c-03ef-6af2" type="max"/>
@@ -1721,7 +1737,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4126-6a06-5d08-1b38" name="Power Scroll" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4126-6a06-5d08-1b38" name="Power Scroll" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="77d0-0216-a00b-e1d4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="731e-8d1d-dc4d-0f07" type="max"/>
@@ -1737,7 +1753,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="15e6-6fc2-1b37-22fd" name="Enchanted Mirror" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="15e6-6fc2-1b37-22fd" name="Enchanted Mirror" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ff29-1bcb-7883-03a2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a23e-1c17-bd13-9896" type="max"/>
@@ -1753,7 +1769,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5f6e-efc9-0b1f-b68b" name="Chalice of Sorcery" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5f6e-efc9-0b1f-b68b" name="Chalice of Sorcery" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f859-9da3-eef5-45c7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c4ab-7ed9-fac2-76c4" type="max"/>
@@ -1769,7 +1785,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fdf3-76a1-a7b2-71d9" name="Dispel Magic Scroll" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fdf3-76a1-a7b2-71d9" name="Dispel Magic Scroll" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dce9-1293-1ee4-f8db" type="max"/>
           </constraints>
@@ -1784,7 +1800,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d725-e5a5-3389-8f53" name="Book of Secrets" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d725-e5a5-3389-8f53" name="Book of Secrets" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ff9-8016-4242-92f0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="00d3-d58c-d89a-d819" type="max"/>
@@ -1800,7 +1816,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c046-824f-913c-05eb" name="Warding Amulet" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c046-824f-913c-05eb" name="Warding Amulet" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe07-dc88-126d-afcb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf3c-83b9-4958-5a6c" type="max"/>
@@ -1816,7 +1832,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d527-1e27-9951-0d7a" name="Staff of the Three Sisters" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d527-1e27-9951-0d7a" name="Staff of the Three Sisters" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b741-8991-396c-901a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3762-50f9-6e1c-5ac0" type="max"/>
@@ -1829,10 +1845,10 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="45.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4022-48c6-4274-6a2f" name="Destroy Magic Scroll" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4022-48c6-4274-6a2f" name="Destroy Magic Scroll" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ad0-6e4b-35f1-b595" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e57-26df-a745-4c05" type="max"/>
@@ -1848,7 +1864,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7651-ffa9-e671-3557" name="Staff of Flaming Death" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7651-ffa9-e671-3557" name="Staff of Flaming Death" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="980d-9df3-013f-def0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd75-5cdc-e2d3-5773" type="max"/>
@@ -1864,7 +1880,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cf35-9018-d2c4-a407" name="Book of Ashur" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cf35-9018-d2c4-a407" name="Book of Ashur" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f2a-8149-5b61-c05c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0889-8b92-b689-909b" type="max"/>
@@ -1880,7 +1896,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="215e-48a6-41dd-3c43" name="Orb of Forbidden Knowledge" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="215e-48a6-41dd-3c43" name="Orb of Forbidden Knowledge" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4cd9-9b3a-2c0f-5d28" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e62-cda7-615f-3d48" type="max"/>
@@ -1896,7 +1912,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="70.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8e6f-77e0-f988-06f2" name="Staff of the Many Coloured Traitor" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8e6f-77e0-f988-06f2" name="Staff of the Many Coloured Traitor" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="994f-f0ad-f3ca-f700" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b9d1-d6ea-928a-f0ce" type="max"/>
@@ -1912,7 +1928,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="80.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e7fb-a3d5-3bf9-052e" name="Wand of Jet" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e7fb-a3d5-3bf9-052e" name="Wand of Jet" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ce9-2e43-0955-a127" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7cb1-dadb-0311-6737" type="max"/>
@@ -1925,7 +1941,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="125.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1935,10 +1951,10 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9737-ed56-cc22-1264" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="9310-62a1-b137-e2c0" name="Familiars" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="e9b5-dfb2-a871-25c0" type="rule"/>
+        <infoLink id="9310-62a1-b137-e2c0" name="Familiars" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" targetId="e9b5-dfb2-a871-25c0" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="abcb-2de2-b260-a8c1" name="Warrior Familiar" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="abcb-2de2-b260-a8c1" name="Warrior Familiar" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="8645-16e4-a7a7-c5ae" name="Warrior Familiar" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
               <characteristics>
@@ -1963,7 +1979,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bca1-7c83-b5d2-793c" name="Scroll Familiar" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bca1-7c83-b5d2-793c" name="Scroll Familiar" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="78c0-4fc6-7736-3ec2" name="Scroll Familiar" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
               <characteristics>
@@ -1985,10 +2001,10 @@
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0c9e-0240-0f49-db19" name="Spell Familiar" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0c9e-0240-0f49-db19" name="Spell Familiar" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="c3e3-9379-67cc-5b79" name="Spell Familiar" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
               <characteristics>
@@ -2010,14 +2026,14 @@
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="8e9b-87c4-a76e-4557" name="Magic Banners" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="be05-ba0a-3889-a4d8" name="Bifrost Banner" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="be05-ba0a-3889-a4d8" name="Bifrost Banner" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c6da-319f-7f07-73e1" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1eac-474b-c475-cf02" type="max"/>
@@ -2033,7 +2049,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="34e2-eca5-d7b4-b12e" name="Flaming Standard" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="34e2-eca5-d7b4-b12e" name="Flaming Standard" publicationId="78e3-1ead-0759-9022" page="74" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4634-fe3f-de08-af33" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2a02-4045-ec17-9a2e" type="max"/>
@@ -2049,7 +2065,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c065-3a38-b9fb-2972" name="Impetuous Standard" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c065-3a38-b9fb-2972" name="Impetuous Standard" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6407-f9c6-e25e-d0ad" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="be19-aff3-f6ca-1e4c" type="max"/>
@@ -2065,7 +2081,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9838-371e-5eec-d93f" name="Banner of Courage" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9838-371e-5eec-d93f" name="Banner of Courage" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="925f-aaff-e0b2-aa98" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e00-791e-6cc9-9bb1" type="max"/>
@@ -2081,7 +2097,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="be23-c9a7-dab9-fc70" name="Banner of Legion" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="be23-c9a7-dab9-fc70" name="Banner of Legion" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d05-a1dc-9b29-ebb9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="98ab-8fe2-95e9-d5b1" type="max"/>
@@ -2097,7 +2113,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ce17-2655-e524-4177" name="Scarecrow Banner" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ce17-2655-e524-4177" name="Scarecrow Banner" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="23a1-e16a-6602-728a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f3d5-5a66-6ac0-ac0c" type="max"/>
@@ -2113,7 +2129,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f19f-7373-c940-08a0" name="Banner of Spell Protection" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f19f-7373-c940-08a0" name="Banner of Spell Protection" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b2c1-913a-01d8-49e0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7e35-a4c7-06d1-b0c4" type="max"/>
@@ -2129,7 +2145,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c422-0404-ca5c-e354" name="Inspiring Standard" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c422-0404-ca5c-e354" name="Inspiring Standard" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="233e-b8a2-bed1-bbe3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="80c7-2db6-be92-80ce" type="max"/>
@@ -2142,10 +2158,10 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="17f7-8c99-88f4-1bf2" name="Valerous Standard" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="17f7-8c99-88f4-1bf2" name="Valerous Standard" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a276-b1ca-aa94-b251" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bc5c-9215-dcf2-4b1e" type="max"/>
@@ -2158,10 +2174,10 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="df64-a70b-97f9-ead4" name="Banner of Unyielding" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="df64-a70b-97f9-ead4" name="Banner of Unyielding" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5e4f-abb5-9dd8-38df" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="329e-24bb-287e-7aad" type="max"/>
@@ -2174,10 +2190,10 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f7ff-f424-7fdf-218a" name="Banner of Arcane Warding" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f7ff-f424-7fdf-218a" name="Banner of Arcane Warding" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c3bd-35f4-7990-938d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d09-34e2-239b-8b96" type="max"/>
@@ -2190,26 +2206,26 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3a0f-2ca0-e22d-8163" name="Banner of Glory" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3a0f-2ca0-e22d-8163" name="Banner of (Hope and) Glory" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c7f-d2c6-04b4-807f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f085-3aef-b4a0-d757" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8143-434c-c23e-d2ca" name="Banner of Glory" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+            <profile id="8143-434c-c23e-d2ca" name="Banner of (Hope and) Glory" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
               <characteristics>
                 <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 WS and BS (does not apply to mounts).</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f8e0-7d32-4d87-a6d3" name="Banner of Speed" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f8e0-7d32-4d87-a6d3" name="Banner of Speed" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c3d-cc56-83dd-c919" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f3d-b456-50ee-025c" type="max"/>
@@ -2222,10 +2238,10 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1430-9b5e-9775-6f4a" name="Banner of Missile Protection" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1430-9b5e-9775-6f4a" name="Banner of Missile Protection" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="47e1-2b9a-6525-4905" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6495-a67a-adf1-cda1" type="max"/>
@@ -2241,7 +2257,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8756-43f0-e8f0-f97f" name="Rending Banner" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8756-43f0-e8f0-f97f" name="Rending Banner" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="46ea-29f2-b7bf-e2cf" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7f1d-6c18-cfa8-748f" type="max"/>
@@ -2257,7 +2273,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="56a3-31bb-9c0c-dc4d" name="Assault Banner" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="56a3-31bb-9c0c-dc4d" name="Assault Banner" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ac9e-e95f-b2e7-f1b4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a210-be25-5e19-b390" type="max"/>
@@ -2270,10 +2286,10 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="152e-3d45-ab16-7aac" name="Phalanx Standard" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="152e-3d45-ab16-7aac" name="Phalanx Standard" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8b1b-8287-3b31-522c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed04-8e23-5e38-2c75" type="max"/>
@@ -2286,10 +2302,10 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="be5d-d0c7-2728-ffae" name="Dread Banner" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="be5d-d0c7-2728-ffae" name="Dread Banner" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bde6-4fb6-f7c7-16f9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e92-818c-21c1-249a" type="max"/>
@@ -2305,7 +2321,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="42ea-fb1d-aca9-a331" name="Standard of Shielding" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="42ea-fb1d-aca9-a331" name="Standard of Shielding" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="69fd-1f97-1c40-d44a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="419c-4f53-6fea-79c3" type="max"/>
@@ -2321,7 +2337,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9cdd-5639-3b9d-0083" name="Banner of Defiance" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9cdd-5639-3b9d-0083" name="Banner of Defiance" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="727c-55a1-beb9-6321" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="29eb-550e-1c44-4dac" type="max"/>
@@ -2337,7 +2353,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="52f1-e1d2-03b4-a435" name="Banner of Great Deeds" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="52f1-e1d2-03b4-a435" name="Banner of Great Deeds" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="23d3-ad3b-7129-6782" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1d3d-6406-2066-8cb8" type="max"/>
@@ -2350,10 +2366,10 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fe30-ce42-3cf1-41f5" name="Banner of Wrath" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fe30-ce42-3cf1-41f5" name="Banner of Wrath" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aae5-4b1e-53bc-9fc0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e25c-16d1-4842-932c" type="max"/>
@@ -2366,10 +2382,10 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="70.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="33d1-f1e2-a70e-8b74" name="Banner of Might" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="33d1-f1e2-a70e-8b74" name="Banner of Might" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e836-cfd0-3e90-ab49" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8acf-1dfc-d22d-9f38" type="max"/>
@@ -2397,13 +2413,20 @@
         <entryLink id="e1b0-1a09-0610-aa22" name="Light Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4e83-286d-b28a-b5b6" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="c449-1df3-af4a-6eae" name="Lores of Magic" publicationId="451d-2372-ffc4-cf50" page="44" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="1b4f-f582-e0a7-469f" name="Bright Magic" hidden="false" collective="false" import="true" type="upgrade"/>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="7709-a451-a56d-c778" name="Skirmish" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
     <rule id="f104-69d9-f117-ba9b" name="Fast Cavalry" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
     <rule id="345f-ce49-7ace-58a9" name="Hatred" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
     <rule id="3a08-7523-5fae-5b77" name="Frenzy" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
-    <rule id="c26b-a673-ee51-0087" name="Fear" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
+    <rule id="c26b-a673-ee51-0087" name="Fear" publicationId="451d-2372-ffc4-cf50" hidden="false">
+      <description></description>
+    </rule>
     <rule id="3185-3d09-a53e-4d76" name="Terror" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
     <rule id="138b-ec1d-f080-4490" name="Stupid" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
     <rule id="8fb9-768c-ad02-3a06" name="Unruly" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
@@ -2487,6 +2510,7 @@ At the beginning of the game, the number of Beastmasters in the regiment may not
 
 The speed of the combined regiment is limited to that of the slowest model present, except the regiment may make charge moves using the movement allowance of the beasts. In this case the Beastmasters move along, but if this move takes them beyond their normal maximum charge move, they are placed in the rear rank and cannot fight in the first round of melee combat. They may move to the front in the following melee combat round.</description>
     </rule>
+    <rule id="ad1e-c8d7-8e04-006f" name="Panic" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
   </sharedRules>
   <sharedProfiles>
     <profile id="ecb6-3d3b-03e4-dade" name="Short Bow" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="f767-d6d3-1e8d-1c63" typeName="Missile Weapon">
@@ -2531,7 +2555,7 @@ The speed of the combined regiment is limited to that of the slowest model prese
         <characteristic name="Special Rules" typeId="6ff4-071f-b06f-0d6a">May shoot twice at -1 penalty to hit.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d247-fd2c-7d5f-5383" name="Handgun" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="f767-d6d3-1e8d-1c63" typeName="Missile Weapon">
+    <profile id="d247-fd2c-7d5f-5383" name="Hand Gun" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="f767-d6d3-1e8d-1c63" typeName="Missile Weapon">
       <characteristics>
         <characteristic name="Range" typeId="d417-18e3-9a77-9951">24&quot;</characteristic>
         <characteristic name="Strength" typeId="c6f3-3301-ab84-cc67">4</characteristic>
@@ -2542,7 +2566,7 @@ The speed of the combined regiment is limited to that of the slowest model prese
       <characteristics>
         <characteristic name="Range" typeId="d417-18e3-9a77-9951">6&quot;</characteristic>
         <characteristic name="Strength" typeId="c6f3-3301-ab84-cc67">4</characteristic>
-        <characteristic name="Special Rules" typeId="6ff4-071f-b06f-0d6a">No penalty for shooting at long range. Armour piercing (brace of pistols = may shoot twice with no penalty). May shoot twice at -1 to hit (at short range only). On the first round of each combat engagement, the model gains one extra armour piercing attack with S4. On subsequent rounds, the model only gains one normal extra attack. If wielding two pistols (also called a brace of pistols), the model gains two armour piercing S4 attacks in the first round. A brace of pistols requires two hands.</characteristic>
+        <characteristic name="Special Rules" typeId="6ff4-071f-b06f-0d6a">No penalty for shooting at long range. Armour piercing (brace of pistols = may shoot twice with no penalty). On the first round of each combat engagement, the model gains one extra armour piercing attack with S4. On subsequent rounds, the model only gains one normal extra attack. If wielding two pistols (also called a brace of pistols), the model gains two armour piercing S4 attacks in the first round. A brace of pistols requires two hands.</characteristic>
       </characteristics>
     </profile>
     <profile id="5d10-981f-c0db-b0e4" name="Thrown Weapon" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="f767-d6d3-1e8d-1c63" typeName="Missile Weapon">
@@ -2678,6 +2702,13 @@ The speed of the combined regiment is limited to that of the slowest model prese
         <characteristic name="Range" typeId="eac9-46bf-d078-cf9e">60&quot;</characteristic>
         <characteristic name="Strength" typeId="089e-651f-f59d-7217">10</characteristic>
         <characteristic name="Rules" typeId="bf10-0bd7-92b7-35b2">1 wound = 1D6 wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3d8e-9557-3731-a64a" name="Sling" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="f767-d6d3-1e8d-1c63" typeName="Missile Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="d417-18e3-9a77-9951">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="c6f3-3301-ab84-cc67">3</characteristic>
+        <characteristic name="Special Rules" typeId="6ff4-071f-b06f-0d6a">May shoot twice at -1 to hit (at short range only).</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
