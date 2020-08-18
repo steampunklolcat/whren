@@ -435,7 +435,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="75a9-bb6c-d66d-5fdc" name="Reiksguard Knights" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="75a9-bb6c-d66d-5fdc" name="Reiksguard Knights" publicationId="451d-2372-ffc4-cf50" page="" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f08-b805-470a-9cda" type="max"/>
       </constraints>
@@ -496,7 +496,7 @@
                 </modifier>
               </modifiers>
               <infoLinks>
-                <infoLink id="030a-3e44-3ee7-05b8" name="Shield" publicationId="451d-2372-ffc4-cf50" page="123" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+                <infoLink id="030a-3e44-3ee7-05b8" name="Shield" publicationId="451d-2372-ffc4-cf50" page="" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
                 <infoLink id="b501-4f1f-b35a-a57a" name="Lance" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="7d87-b9be-57ac-1e51" type="profile"/>
                 <infoLink id="c12f-1449-17be-2098" name="Barding for a Warhorse" publicationId="451d-2372-ffc4-cf50" page="" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
                 <infoLink id="4be7-6869-87f8-4f55" name="Warhorse" publicationId="451d-2372-ffc4-cf50" page="" hidden="false" targetId="aeb3-0e7d-20fe-c973" type="profile"/>
@@ -511,6 +511,104 @@
       <entryLinks>
         <entryLink id="7f29-9ab8-f9a6-906a" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
         <entryLink id="6d32-4162-024b-daa4" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4f69-68fd-c402-6507" name="Knights of the White Wolf" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e93f-fcbf-c23d-0e8d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="403f-6fd2-235a-7938" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4700-301c-8924-f83c" name="Knights of the White Wolf" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb36-287f-78cd-0021" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ae72-4038-b0cd-fccf" name="Knight" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="e6a7-4121-1d09-dd3d" type="profile"/>
+            <infoLink id="303f-8111-1afc-9f43" name="Heavy Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="be87-4af1-de9d-3d9b" type="profile"/>
+            <infoLink id="4ef6-bc3f-c367-0b9e" name="Barding for a Warhorse" publicationId="451d-2372-ffc4-cf50" page="" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
+            <infoLink id="486d-1099-f13b-5b0e" name="Warhorse" publicationId="451d-2372-ffc4-cf50" page="" hidden="false" targetId="aeb3-0e7d-20fe-c973" type="profile"/>
+            <infoLink id="b759-139c-61b6-9a9d" name="Double Handed Weapon" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="b3f8-0c49-ca8e-18f4" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f331-e7ff-b58d-d44f" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
+        <entryLink id="8aad-7bf5-7657-f029" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0b0f-fd62-2feb-8a11" name="Knights Panther" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b68-7452-a00c-e651" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7f59-c480-63f8-b3f2" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6fd6-7b05-ddd0-c1b1" name="Knights Panther" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3997-2d7d-50f7-634a" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="02fb-4aa2-b47c-512f" name="Knight" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="e6a7-4121-1d09-dd3d" type="profile"/>
+            <infoLink id="7875-f656-d8fb-689e" name="Heavy Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="be87-4af1-de9d-3d9b" type="profile"/>
+            <infoLink id="41c3-003d-8f5b-a9b9" name="Barding for a Warhorse" publicationId="451d-2372-ffc4-cf50" page="" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
+            <infoLink id="9140-ae80-92c0-fbc1" name="Shield" publicationId="451d-2372-ffc4-cf50" page="123" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+            <infoLink id="2e3d-180a-5fc2-64b4" name="Lance" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="7d87-b9be-57ac-1e51" type="profile"/>
+            <infoLink id="3e9f-8ae6-e08c-6934" name="Warhorse" publicationId="451d-2372-ffc4-cf50" page="" hidden="false" targetId="aeb3-0e7d-20fe-c973" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="8279-464f-e1a8-c6b5" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
+        <entryLink id="5ec8-01ce-4ec6-60ee" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="adf7-0b7b-f746-24b4" name="Knights of the Blazing Sun" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9b9-4040-172f-8062" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9b63-2407-6bf1-1832" name="Regiments" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6953-253d-447a-3243" name="Knights of the Blazing Sun" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ff0-920f-f009-5546" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="53eb-a680-78d4-1413" name="Knight" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="e6a7-4121-1d09-dd3d" type="profile"/>
+            <infoLink id="aa7c-9862-91f1-4737" name="Heavy Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="be87-4af1-de9d-3d9b" type="profile"/>
+            <infoLink id="3f3b-7355-cd8d-af31" name="Barding for a Warhorse" publicationId="451d-2372-ffc4-cf50" page="" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
+            <infoLink id="2861-c15a-93f5-f3f0" name="Shield" publicationId="451d-2372-ffc4-cf50" page="123" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+            <infoLink id="4bc2-7c22-fa1b-2a0e" name="Lance" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="7d87-b9be-57ac-1e51" type="profile"/>
+            <infoLink id="f1e7-72ed-8840-a77a" name="Warhorse" publicationId="451d-2372-ffc4-cf50" page="" hidden="false" targetId="aeb3-0e7d-20fe-c973" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="21dd-1f3e-0a62-7581" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
+        <entryLink id="7c40-4fab-ef26-c889" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
