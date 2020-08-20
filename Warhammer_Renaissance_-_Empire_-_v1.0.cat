@@ -2,9 +2,6 @@
 <catalogue id="b575-b255-5c77-b1bf" name="Warhammer Renaissance - Empire - v1.0" revision="1" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="979a-fe4d-9fab-2ade" name="Steam Tank" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="fcac-3c52-8cf7-add0" scope="d54d-0a68-e41a-d537" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3657-4da6-3594-38b9" type="min"/>
-      </constraints>
       <profiles>
         <profile id="2178-fd55-7b9f-1a77" name="Steam Tank" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
           <characteristics>
@@ -613,6 +610,75 @@
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="4b0b-eb91-978f-372c" name="Emperor Karl Franz" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="7ecf-911e-31f2-62ba" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f8c-6e00-3be3-47d6" name="Magnus the Pious" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="8131-42cd-b415-6b11" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d442-b990-ad2f-de82" name="Ludwig Schwartzhelm" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="d8bb-ec94-9a66-2451" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a550-51ed-c012-47de" name="Grand Theogonist Volkmar" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="8f2d-bb44-40df-c785" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7529-ec45-1d4c-d254" name="Supreme Patriarch" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="1b31-ec33-4fbe-66dd" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="32a1-bb5e-1e72-f07f" name="Reiksmarshall Kurt Helborg" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="0054-6fc0-9156-c2d6" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="65f7-44cb-3399-106a" name="Elector Counts" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fdad-d680-2c66-e3e5" name="Tzarina Katarin the Ice Queen" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="3a46-d4ec-86ea-dc95" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3fba-010f-b563-e117" name="Empire Lord" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="e85b-c090-4344-2db2" name="Empire Lord" hidden="false" targetId="9c6f-0606-0f2f-a90f" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1527-cc1f-9eed-b333" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>

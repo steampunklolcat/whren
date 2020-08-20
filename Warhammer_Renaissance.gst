@@ -412,13 +412,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b81a-5a8b-9024-743d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a47f-501f-05c5-e6cd" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="c789-2e8c-faf0-6cc9" name="Biting Blade" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">-2 to armour save.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="a79f-fcba-593e-223e" name="Biting Blade" hidden="false" targetId="2b4e-05dd-07c1-34ee" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -428,13 +424,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c124-1bfa-ec30-109c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f914-dc6c-4d66-482f" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="25ab-5507-a408-0c7b" name="Blade of Leaping Copper" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1A.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="fa97-dc0a-c607-02b3" name="Blade of Leaping Copper" hidden="false" targetId="2563-0a9f-95e0-d0ff" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -444,13 +436,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="82d0-1d19-211a-c437" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f8e-8e9c-026f-4480" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="877c-57c7-2190-8ec3" name="Blades of Lorenzo" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Two hand weapons, +3 WS.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="f0db-c6c5-0618-9adc" name="Blades of Lorenzo" hidden="false" targetId="4d28-05d8-8d8c-3c59" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -460,13 +448,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe15-3114-df69-9fdc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0f5a-f4fe-026b-c193" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="f733-b857-7fc1-c272" name="Sword of Swift Slaying" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Always strike first.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="4c34-ad60-c1b3-33b7" name="Sword of Swift Slaying" hidden="false" targetId="d9bb-b330-3738-4170" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -476,13 +460,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0141-a0d5-aa7a-2cef" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9d10-3e1b-15c1-736f" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="ee7a-69db-c3ed-2dbf" name="Wyrmslayer Sword" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Always wound on 4+ or better. Large targets have no armour save.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="d4b9-4b94-c840-7526" name="Wyrmslayer Sword" hidden="false" targetId="3e58-6469-766a-3e26" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -492,13 +472,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0b18-d698-4372-3e79" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a37-86eb-521c-8e02" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="2a34-2899-718d-9eb3" name="Sword of Might" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1S.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="0e85-bc64-2fd0-4365" name="Sword of Might" hidden="false" targetId="0bd9-a15d-3d97-320e" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
@@ -508,13 +484,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="56b7-6b19-6501-f269" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7f49-48d1-0711-d903" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="0d57-49d4-8496-2fe1" name="Parrying Blade" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All enemy models in base contact have one less A.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="4cfa-224f-ad44-73ab" name="Parrying Blade" hidden="false" targetId="1169-b37f-3941-2520" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
@@ -525,13 +497,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ea0-ac1c-064d-9a5e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c0aa-55e4-d19b-48e3" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="d383-485d-0abb-a18c" name="Blade of Ensorcelled Iron" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Double handed weapon, +1 to hit.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="7fb9-4763-cb49-53e1" name="Blade of Ensorcelled Iron" hidden="false" targetId="1523-9885-fe6b-652f" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
@@ -541,13 +509,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7a7a-31ad-ccc5-cd88" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="011b-a0a2-1a19-9b53" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="7f3f-bc6e-42b2-fbb3" name="Heart Seeker" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">May re-roll missed attacks.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="2c30-d050-f4c7-1c92" name="Heart Seeker" hidden="false" targetId="7e77-1db2-d47d-bd98" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
@@ -557,13 +521,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b10f-e810-3f7a-482d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="587c-03e9-a17b-08c3" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="430e-dfc5-4d9d-c9b6" name="Blade of Sea Gold" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">-3 to armour save.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="b875-c5f0-ffa4-56ab" name="Blade of Sea Gold" hidden="false" targetId="6dea-10a3-01f9-3a67" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
@@ -573,13 +533,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="82e6-040d-eb66-8dfa" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d0c3-08f7-39e5-6a9b" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="1fb7-3912-0c1e-e48a" name="Sky Arrow of Naloer" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer must have a short bow, bow, or longbow. One use only. Must be shot at models flying high. No modifiers to hit apply. S10. 1 wound = 1D6 wounds.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="e52c-efdb-0729-502c" name="Sky Arrow of Naloer" hidden="false" targetId="60e1-752f-baf7-e971" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
@@ -589,13 +545,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4b1a-4380-287b-6898" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9746-26c6-e376-32a0" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="957d-8c19-b5d1-ac9e" name="Flail of Skulls" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Flail. 1 wound = 2 wounds.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="f7ce-1798-8e4b-df89" name="Flail of Skulls" hidden="false" targetId="4d24-e797-6b87-b8b0" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
@@ -605,13 +557,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8604-6c58-b20e-fc2f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="644f-2993-380d-4eb0" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="911c-b63a-171e-c8fc" name="Blessed Sword" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">WS 10.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="3422-0b49-b958-faba" name="Blessed Sword" hidden="false" targetId="83a0-3b1f-2e12-e6f8" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
@@ -621,13 +569,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a34b-2860-9463-f81b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8d68-7868-2275-59f9" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="30c9-b130-26a1-fd3b" name="Ogre Blade" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+2S.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="45c4-c6e8-a296-62a2" name="Ogre Blade" hidden="false" targetId="dc8d-d5cb-0d99-fac7" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
@@ -637,13 +581,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8ee-eb80-d3fb-7746" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c834-1192-d3cb-3ca6" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="9890-9032-d0a9-6c51" name="Blade of Leaping Bronze" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+2A.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="ffa8-e314-745a-8e4b" name="Blade of Leaping Bronze" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="0b71-4b4c-db7e-f29e" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
@@ -653,13 +593,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f93d-6f32-0bf9-cd97" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9455-14bb-19fe-f300" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="d0c4-edd3-6c75-aa5e" name="Silver Lance" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Lance. S10 (only on the charge).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="6990-1c52-303b-4ca8" name="Silver Lance" hidden="false" targetId="e279-a26c-f02a-929c" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
@@ -669,13 +605,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf7d-76f7-26f4-8fcc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="115a-8a4b-c5b6-1d06" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="945f-eb46-4c43-53f9" name="Beserker Sword" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer gains frenzy and +1S.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="e180-ed23-6223-d04a" name="Beserker Sword" hidden="false" targetId="590a-f854-b8aa-77ef" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
@@ -685,13 +617,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="23a0-c23d-b52f-df60" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="95f3-a7e1-c9bd-aa7e" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="0894-93ee-3e55-7d93" name="Dragon Blade" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Each hit becomes two hits. Roll to wound separately for each hit. If the attacks are directed against a single model, the model is hit twice as many times. If the attacks are directed against (identical) troops, twice as many models are hit.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="e518-5b56-5f10-c132" name="Dragon Blade" hidden="false" targetId="c3bc-c217-ec6f-6d8c" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
           </costs>
@@ -701,13 +629,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b37-50ff-d74b-eb7b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a125-238d-cf81-8240" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="91d6-324a-a26d-320a" name="Mace of Helsturm" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer forfeits normal attacks and makes one attack with S10 where 1 wound = 1D6 wounds.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="fcba-6649-f006-426e" name="Mace of Helsturm" hidden="false" targetId="bedf-76d1-8c91-d7d4" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
@@ -717,13 +641,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b08b-ecb5-865a-ca1c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2711-8234-4fd9-46f7" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="5e29-e5b5-ec86-6376" name="Venom Sword" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">1 wound = 1D6 wounds.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="2b71-d0a9-1601-ba08" name="Venom Sword" hidden="false" targetId="39b4-76e6-c603-c71d" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
@@ -733,13 +653,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="48f6-ecd5-fd40-bfa2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5893-9e23-2ce8-b8cf" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="cf16-ac2b-76f8-8026" name="Gromril Blade" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">No armour save allowed.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="f9a4-9da7-adb5-49d0" name="Gromril Blade" hidden="false" targetId="6696-5139-b5c7-773c" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
@@ -749,13 +665,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eeaa-076e-4fe7-ed2c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="457b-2a83-3569-fb91" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="5dba-4f63-df45-d9b9" name="Sword of Fortitude" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer and the bearer’s regiment are immune to psychology.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="5809-eb0a-57cc-49d1" name="Sword of Fortitude" hidden="false" targetId="0840-d1e1-97b3-d2be" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
@@ -765,13 +677,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c4db-fa4b-32ad-986c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="17cb-b1c2-973a-3236" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="35d5-d77a-de24-52d9" name="Sword of Heroes" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Against opponents with T5 or more: +3S, 1 wound = 1D3 wounds.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="d4d0-6bbb-ef1d-6daf" name="Sword of Heroes" hidden="false" targetId="beea-d7b5-98cc-a23c" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
@@ -781,13 +689,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bd53-124d-a5af-da29" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3b66-8a70-5185-ebf2" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="3997-b52c-cd28-36e2" name="Blade of Darting Steel" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Hits automatically.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="5a07-fd29-b9a0-c352" name="Blade of Darting Steel" hidden="false" targetId="5b4c-2d45-a7c0-fd66" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
@@ -797,13 +701,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f7f4-1b09-bade-a44d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c6ea-63ea-63ed-cb15" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="e8b8-d8d0-570c-3b67" name="Giant Blade" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+3S.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="d78c-71fd-e942-f68d" name="Giant Blade" hidden="false" targetId="77c4-e8aa-91eb-4881" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="45.0"/>
           </costs>
@@ -813,13 +713,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="03f3-7d17-df20-4a21" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="14b2-b403-c720-6033" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="1756-31f2-0723-1f0f" name="Blade of Leaping Gold" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+3A.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="0717-eaa9-b491-3c4e" name="Blade of Leaping Gold" hidden="false" targetId="0467-bbff-ddf6-03d2" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="45.0"/>
           </costs>
@@ -829,13 +725,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="100a-6301-5329-d14f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="590e-43f2-53ef-f86b" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="8152-41b4-3382-bfeb" name="Abolisher Blade" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Wielder may not carry other magic items. No magic items in base contact with the wielder work.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="f4ed-dcdf-685c-4ebf" name="Abolisher Blade" hidden="false" targetId="6fc0-8749-61c2-ce6d" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="45.0"/>
           </costs>
@@ -845,13 +737,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8202-32c8-b783-ee34" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8224-28a8-bbdc-80b2" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="e372-ce92-9eb7-a80b" name="Daemon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All hits inflict 1D3 wounds on Daemons with no armour save possible. Against other targets: +3S. 1 wound = 1D3 wounds.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="3a6d-b17d-baa1-6557" name="Daemon Slayer" hidden="false" targetId="09b8-6ba6-2127-c267" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
           </costs>
@@ -861,13 +749,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bf20-67e3-4a1d-d338" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ab5-e2e2-b84b-30f5" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="1c95-af08-254b-d6a2" name="Dragon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All hits inflict 1D3 wounds on Dragons with no armour save possible. Against other targets: +3S. 1 wound = 1D3 wounds.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="456c-83c5-35ad-70fc" name="Dragon Slayer" hidden="false" targetId="d690-7934-d59b-d56d" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
           </costs>
@@ -877,13 +761,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1bc0-7f48-8496-cb2e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d647-6dbb-ca64-de20" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="188c-0edd-3cbf-4445" name="Vampire Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All hits inflict 1D3 wounds on Vampires with no armour save possible. Against other targets: +3S. 1 wound = 1D3 wounds.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="2bac-aad6-f28b-9631" name="Vampire Slayer" hidden="false" targetId="8308-493f-1a64-1598" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
           </costs>
@@ -893,13 +773,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="703b-6ec3-a0b0-23e0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="56ff-c861-1aca-504d" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="2d4e-8912-62ca-211a" name="Frost Blade" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">A wounded opponent is killed instantly.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="f13e-2532-6894-47ca" name="Frost Blade" hidden="false" targetId="054b-2d98-e85f-5ce2" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="125.0"/>
           </costs>
@@ -909,13 +785,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9d26-9e89-6bba-6090" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="82f4-d357-e27b-517c" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="22a6-eebf-dd07-1410" name="Hydra Sword" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Each hit becomes 1D6 hits. Roll to wound separately for each hit. If the attacks are directed against a single model, the model is hit more times. If the attacks are directed against (identical) troops, more models are hit.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="ad9c-936a-308b-5733" name="Hydra Sword" hidden="false" targetId="0936-c49f-e2ae-d6a6" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="125.0"/>
           </costs>
@@ -925,13 +797,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bbd5-a121-ac51-63f7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="523f-acf7-b662-aa1f" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="5395-9954-5259-d267" name="Hellfire Sword" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">S10. Flaming. Killed enemies burst into flames and cause a panic test in the regiment the victim was a part of.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="eabc-fc4a-e490-82bc" name="Hellfire Sword" hidden="false" targetId="be1d-293a-cdcc-d24f" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="125.0"/>
           </costs>
@@ -941,13 +809,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3593-080c-f975-069e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed9d-5ad4-dfe4-6fff" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="83bd-7cef-33f3-233e" name="Sword of Teclis" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Wounds automatically.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="37ce-31c5-f989-ed29" name="Sword of Teclis" hidden="false" targetId="4afb-0fa5-8bf2-96f9" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
@@ -961,13 +825,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f157-b59b-561f-ad92" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d0e1-b981-12b6-2d13" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="2c6c-068a-0afd-e22a" name="Dragonhelm" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer is immune to terror, fire-based attacks, and breath weapons.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="44c1-fb51-94ef-e12d" name="Dragonhelm" hidden="false" targetId="df63-c5e7-c915-6beb" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -977,13 +837,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="942f-3122-9cda-6c54" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d262-bc6c-ae12-707a" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="27c4-a850-bed8-3131" name="Shield of Ptolos" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">1+ armour save (that cannot be improved) vs. shooting only.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="afc2-e809-7cf0-4e66" name="Shield of Ptolos" hidden="false" targetId="c715-9e55-9513-4030" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -993,13 +849,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c48-37ad-5e50-31a7" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9894-5eec-bf8f-123a" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="5dcf-dd31-9c05-215e" name="Enchanted Shield" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 armour save.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="c995-496b-937e-59e8" name="Enchanted Shield" hidden="false" targetId="d2a8-336a-0436-e8da" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -1009,13 +861,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="347a-93c9-c6fe-2956" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7f67-8090-616a-bdc7" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="b8d1-017a-a80c-2d77" name="Charmed Shield" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Discount the first hit against the bearer.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="44bb-e594-aeee-fef6" name="Charmed Shield" hidden="false" targetId="cb30-6948-92ad-3219" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
@@ -1025,13 +873,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2557-f625-7f0d-56f7" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e154-2968-b232-0173" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="c622-4922-00d7-c108" name="Armour of Resilience" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. +1 armour save.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="8969-5c7d-f055-bae7" name="Armour of Resilience" hidden="false" targetId="3d94-6ca5-5d5c-49ce" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
@@ -1041,13 +885,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e9cd-2fc1-98b1-2427" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="215d-8604-94de-1b50" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="a4a2-9c01-cf54-0843" name="Armour of Endurance" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. 6+ ward save.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="c0f1-5ddd-faaf-a05f" name="Armour of Endurance" hidden="false" targetId="2896-8d87-7b22-f17c" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
@@ -1057,13 +897,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="328b-9791-90a9-1ca3" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="117b-8138-dbec-1ad2" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="b48f-48d0-de51-639b" name="Oaken Armour" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Light armour. +1W.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="4bbb-8775-f607-96ec" name="Oaken Armour" hidden="false" targetId="cf92-be9c-cdaa-cec2" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
@@ -1073,13 +909,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ae9b-bb05-bff3-cefe" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4888-4212-47be-8e51" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="c92d-3785-d9e8-5343" name="Adamant Armour" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. +1T.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="b1e5-25ea-bb3a-1cc8" name="Adamant Armour" hidden="false" targetId="5f4e-bb4e-5d65-b821" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
@@ -1089,13 +921,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aef3-639a-83e4-eaca" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e1e3-e13a-998c-27fd" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="2039-af22-a929-36bc" name="Parrying Shield" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All enemies in base contact have one less A.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="39ca-186a-b0cd-3a5c" name="Parrying Shield" hidden="false" targetId="62fc-a4a7-44e4-1842" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
@@ -1105,13 +933,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="416e-49df-b93e-cc1b" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="16d9-94d2-baed-1ab8" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="70f6-462e-fb7b-bef9" name="Dawn Armour" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. Bearer may re-roll failed armour saves.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="10b7-af75-36fa-6f75" name="Dawn Armour" hidden="false" targetId="62e8-8851-4937-7105" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
@@ -1121,13 +945,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f6b6-d5b2-0615-40c2" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="14ec-8f6e-7aa6-1f44" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="536e-02de-2196-b09c" name="Shining Shield" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enemies suffer -1 to hit against the bearer and his mount.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="15f1-e3b8-6ff8-3480" name="Shining Shield" hidden="false" targetId="2fcd-cff8-1852-9c4a" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
@@ -1137,13 +957,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2a29-07c1-b215-21fa" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d6e-3dde-6b2b-97e3" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="9c72-f8e4-b272-23a6" name="Emerald Armour" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Light armour. Ignore first wound suffered.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="547c-325a-e9c4-271e" name="Emerald Armour" hidden="false" targetId="744b-28e4-27fe-af5b" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
           </costs>
@@ -1153,13 +969,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f1a1-7f95-a0c2-dfa4" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="575f-1940-6f3d-7641" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="3a42-339b-832f-5509" name="Shield of Magic Immunity" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer and the bearer’s mount are immune to the effect of spells (the bearer’s regiment may still be affected, if the regiment is teleported, the character remains where he is and so on).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="4539-f8ac-a141-7562" name="Shield of Magic Immunity" hidden="false" targetId="0e79-39bb-829e-88fc" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
           </costs>
@@ -1169,13 +981,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7abe-412f-857d-f9b0" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8d31-d43a-3739-3a93" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="f105-2d66-9e27-7ada" name="Trollhide Armour" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Light armour. Regeneration save 4+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="7d2b-e533-3cda-6bd5" name="Trollhide Armour" hidden="false" targetId="986c-398c-8a56-60c9" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
           </costs>
@@ -1185,13 +993,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3048-201f-85ad-a5fb" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a5b-4455-3820-9ba9" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="517c-8f62-72b1-b004" name="Armour of Fortune" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. Ward save 5+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="d866-2ea5-8de9-deaf" name="Armour of Fortune" hidden="false" targetId="9ddd-40c9-4ef7-48e8" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
           </costs>
@@ -1201,13 +1005,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a1f-b41d-d305-3a19" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d244-1c8c-4e89-fea8" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="679f-76da-6c38-f8be" name="Armour of Meteoric Iron" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Light armour. 2+ armour save (that cannot be improved).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="76e2-e0a6-c034-f01e" name="Armour of Meteoric Iron" hidden="false" targetId="e71c-f9e9-9672-9aeb" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
@@ -1217,13 +1017,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="285e-ecfb-6dac-e3d4" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2ea8-044c-54f6-2ed9" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="ea09-080f-7cbb-952d" name="Spelleater Shield" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Natural dispel 3+, dispelled spells are destroyed.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="d5b7-82db-ac9a-ef98" name="Spelleater Shield" hidden="false" targetId="c7a3-fe5d-8eb3-d0f6" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
@@ -1233,13 +1029,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7c03-d6d9-3054-5624" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="feb3-3ef9-0749-8473" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="2656-a840-ebde-53e6" name="Armour of Unyielding" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. +2T.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="90ea-c7fe-07e9-b7a2" name="Armour of Unyielding" hidden="false" targetId="3af6-47d5-2d07-a181" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
@@ -1249,13 +1041,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6492-c5f5-8ad9-817b" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d08c-67b1-6fbe-662a" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="81f3-d315-e90e-5a3e" name="Armour of Protection" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. Ward save 4+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="47cf-74a9-0add-bda1" name="Armour of Protection" hidden="false" targetId="5981-a72d-8127-8989" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
           </costs>
@@ -1265,13 +1053,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a607-ba05-dc65-b02c" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ff00-279c-af89-e936" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="29ec-21c6-f467-e4a8" name="Armour of Brilliance" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. Enemies suffer a -2 to hit against the bearer and the bearer’s mount.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="417b-955d-58a7-63c9" name="Armour of Brilliance" hidden="false" targetId="43ad-fb9c-fb65-7f8e" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="70.0"/>
           </costs>
@@ -1285,13 +1069,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="37d2-d975-deb5-caed" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2cfc-5dbc-b081-a6c9" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="77c0-c4a9-2f6d-d57d" name="Potion of Healing" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer recovers all lost wounds. May not be imbibed when the wearer is slain. Living models only. One use only.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="162b-fd73-10b1-0361" name="Potion of Healing" hidden="false" targetId="c9aa-884a-589c-a3cb" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -1301,13 +1081,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7d9c-27f3-9f56-3c7d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="088f-1ea2-5497-54c5" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="7cc1-fc69-eccd-2e1c" name="Ghost Ring" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer and his mount can move through solid objects and any kind of terrain.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="410c-4e93-2664-5939" name="Ghost Ring" hidden="false" targetId="0905-3915-6ece-8392" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -1317,13 +1093,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="97b0-5cab-7059-882a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d1e7-c16a-ab5d-bef4" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="f0af-95bd-413b-bc77" name="Crimson Amulet" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer automatically passes any characteristic test except LD tests.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="b5b7-f0de-9449-ee88" name="Crimson Amulet" hidden="false" targetId="0bc1-d1cd-5164-0db0" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -1333,13 +1105,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f797-4fe3-e91c-a65a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ca2-f8f7-4eea-9439" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="e7eb-f7d2-7561-3a9e" name="Nullstone Ring" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">No model in base contact with the bearer can cast spells.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="f784-994c-8319-c58c" name="Nullstone Ring" hidden="false" targetId="a9da-961b-41b5-d3b5" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -1349,13 +1117,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eaf6-facd-0a43-542a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2faf-f499-2394-d79e" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="3d9d-fcc2-7faa-886d" name="Talisman of Ravensdark" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Flying creatures (and their riders) cannot strike against the bearer (and his mount) in melee combat. This item cannot be carried by a character that can fly or that rides a mount with the fly ability.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="da62-f08e-6f42-d1dd" name="Talisman of Ravensdark" hidden="false" targetId="08bb-90f2-c5a5-8822" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -1365,13 +1129,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f973-1408-a054-568c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="607b-168f-e224-f7bf" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="4fe8-ed13-38f8-0373" name="Ring of Corin" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Destroys the magic properties of a magic item whose presence and name are known to the bearer and within 24” of the bearer.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="d3e7-fda6-8604-23f9" name="Ring of Corin" hidden="false" targetId="9567-6a29-a1fa-2ff1" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
@@ -1381,13 +1141,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="97de-0dbe-49d8-e286" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6598-8369-42b7-1eea" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="cdb1-0a7b-dcf6-d304" name="Drums of Swift Reform" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">In the movement phase during “remaining moves”, the bearer and his regiment may change formation before and after taking a normal move or a march move. Models on foot only.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="dcdc-f28c-d4c2-8257" name="Drums of Swift Reform" hidden="false" targetId="4351-8dec-ebeb-9ca9" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
@@ -1397,13 +1153,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9bf3-123a-156d-809e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f91b-eeb2-6e17-e328" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="1fca-4738-c66f-505c" name="Van Horstman&apos;s Speculum" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">In a challenge the bearer fights with his opponent’s number of A, WS and S (rider, not mount). The bearer attacks at exactly the same time as his opponent even if carrying a double handed weapon (in effect, the two models could kill each other simultaneously).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="2198-dd6b-dc2f-f551" name="Van Horstman&apos;s Speculum" hidden="false" targetId="98ab-d901-a530-b1db" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
@@ -1413,13 +1165,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b462-fcb0-3d8c-0a2f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a878-884e-90cd-6ad2" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="e27b-ee60-79ad-6839" name="Potion of Strength" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+3S in one melee combat round. Must be imbibed just before attacking. One use only.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="2c86-0cb2-c1f8-df2c" name="Potion of Strength" hidden="false" targetId="8c8f-830a-7e61-27f5" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
@@ -1429,13 +1177,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8f92-7d6f-b7fb-ff3e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87c3-1b09-bbf2-8d60" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="381d-ffed-95c8-54da" name="Talisman of Luck" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer may re-roll one personal die roll. One use only.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="42c1-3a5d-c78b-5fca" name="Talisman of Luck" hidden="false" targetId="7b8c-1fb3-6baa-10e1" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
@@ -1445,13 +1189,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b109-3c97-fe43-0610" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c9c-bd87-4acc-8e2a" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="038b-c6f1-cc9f-8c25" name="Black Gem of Gnar" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">In a challenge, the bearer and his opponent do not strike blows in the first round of melee combat (as they are frozen in time).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="949f-6c79-8d7d-1272" name="Black Gem of Gnar" hidden="false" targetId="b226-9f10-98b6-c9ba" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
@@ -1461,13 +1201,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c81e-f939-8cc2-2ac4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d332-ae00-74b0-ad12" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="d2e3-3d73-74a1-f2a8" name="Ring of Volans" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Select one spell from one of the eight colleges of magic requiring only one or two power cads to cast. This spell can be cast as a bound spell once in the game. One use only.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="7e67-0218-ae9a-62e2" name="Ring of Volans" hidden="false" targetId="1c58-830d-c86f-c963" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
@@ -1477,13 +1213,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0828-9552-ae52-9d33" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7715-534c-10cd-17e4" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="2b94-bacb-60f9-b390" name="Drums of Marching" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer’s regiment can always march even if there is an enemy unit within 8” at the start of the turn. Models on foot only.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="1ad0-0578-344c-9044" name="Drums of Marching" hidden="false" targetId="93dc-08a9-2716-6cd0" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
@@ -1493,13 +1225,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8b1b-2281-98f2-78df" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9b4-157e-dc16-80e0" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="beb0-99f5-79f5-48f3" name="Amulet of Fire" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Natural dispel 4+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="a86a-18d5-0342-d385" name="Amulet of Fire" hidden="false" targetId="2a0e-66c0-bfc1-e9be" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
@@ -1509,13 +1237,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3bec-47ff-4419-3c22" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fc2c-7ef6-93ad-f732" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="3fac-d7e2-14ff-7c2f" name="Pipes of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">When the bearer and the bearer’s regiment are charged by cavalry, the charging unit must take a LD test (even if immune to psychology). If the test is failed the cavalry regiment does not move (and the charge is failed). Models on foot only.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="1ecf-83bc-4d92-b5d7" name="Pipes of Doom" hidden="false" targetId="92aa-b63e-14b2-19e1" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
@@ -1525,13 +1249,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="34fe-424e-4af7-5b12" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9767-b724-21e9-39e0" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="f2ea-03ce-f894-aa51" name="Jade Amulet" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1T.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="3a31-e3be-f4cc-fc29" name="Jade Amulet" hidden="false" targetId="163c-1778-dc0d-dce4" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
@@ -1541,13 +1261,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dd27-70e9-c806-9908" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="853f-a870-7de8-c922" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="8cca-3e0a-4dee-64a2" name="Claw of Nagash" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Can be used against a single living model within 8”. The model suffers 1D6 wounds, no armour save allowed. One use only.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="6d06-2292-d3f1-2c37" name="Claw of Nagash" hidden="false" targetId="3f93-6e85-ef64-bc45" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
           </costs>
@@ -1557,13 +1273,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c18-c2ef-6b21-45b0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="428b-435b-5509-1c1f" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="a51d-6be0-7f6e-99ea" name="Horn of Orguk" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Casts the Grey spell Horn of Andar. Can be used three times only.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="1873-b87d-662c-3258" name="Horn of Orguk" hidden="false" targetId="bd5b-56c4-e561-ca2a" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
@@ -1573,13 +1285,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="513a-baaa-2625-df71" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="df63-c4c6-c58c-df87" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="d630-3960-27ee-d100" name="Ruby Chalice" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enemies suffer a -2 to hit with missiles against the bearer, the bearer’s mount, and the bearer’s regiment.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="46c7-3b43-bdfc-d1df" name="Ruby Chalice" hidden="false" targetId="6c03-3564-d1ba-4b29" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
@@ -1589,13 +1297,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c470-0858-ec86-79a0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e1e-b012-b259-a256" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="99c7-fc53-c477-a1a7" name="Crown of Command" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">LD 10 – if worn by the general, all units within 18” may benefit from the general’s LD.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="1879-787e-bd1b-d940" name="Crown of Command" hidden="false" targetId="509a-c741-e059-1f49" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
           </costs>
@@ -1605,13 +1309,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e346-20b2-8058-b5a9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0eae-692b-3f3f-efb1" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="19ce-0d9b-cf23-84e8" name="Talisman of Obsidian" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All spells cast against the bearer and the bearer’s regiment are dispelled automatically.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="04ca-3eeb-927c-3009" name="Talisman of Obsidian" hidden="false" targetId="6de5-7f60-a2c1-1e6c" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
           </costs>
@@ -1621,13 +1321,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f25c-1c33-c8be-02c2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7beb-9c7a-9a58-5f31" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="758c-b8b5-4714-4a5a" name="Doomfire Ring" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Requires line of sight. One target unit within 24” suffers 2D6 flaming S3 hits.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="d548-b811-8465-8acc" name="Doomfire Ring" hidden="false" targetId="df7c-5bb4-076d-e2a9" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="125.0"/>
           </costs>
@@ -1637,13 +1333,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7c6d-539c-dd5e-5fc5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="90ab-2b32-83bb-24b0" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="b259-6880-8a0d-70c7" name="Orb of Thunder" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. One use only. All flying high creatures are driven off. No flying movement is possible, use ground move instead. Remains in play.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="dba3-83d9-5916-39d0" name="Orb of Thunder" hidden="false" targetId="b7c7-8eee-90a1-933f" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
@@ -1662,13 +1354,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cdd8-86e6-7cca-81de" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c09b-c037-d0d3-0328" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="9d6a-3439-fc3f-7193" name="Skull Staff" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All enemy models within 24” of the wizard must reveal all magic items and spells.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="7e9b-22c9-a16e-1d99" name="Skull Staff" hidden="false" targetId="2be5-3ef3-95c4-fb17" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -1678,13 +1366,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e77-60f5-cae5-cff2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d374-cbca-7c08-2a2a" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="455e-5c38-6bf2-e37a" name="Seerstone" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">For each power point spent, the wizard may increase the range of a spell by 10”. This item has no effect on spells with no range (i.e. spells that only work on the wizard or models touching the wizard).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="ecec-10a2-6614-26c1" name="Seerstone" hidden="false" targetId="cae9-df9b-ba16-2133" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -1694,13 +1378,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ad6c-8b84-1bfc-2306" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d3b7-9e6e-936d-4989" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="2047-5f63-fbb3-0aef" name="Infusion of White" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Used at the start of the game turn when winds of magic are rolled. The bearer gains 2D6 extra magic cards that only he/she can use. On a roll of any double the wizard OD’s (pass out for the rest of the battle, slain if attacked in melee combat). One use only.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="2991-08b4-2698-05b6" name="Infusion of White" hidden="false" targetId="0d95-8438-6dc0-c650" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -1710,13 +1390,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a2c-195d-200b-1149" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="95e9-1a1c-dadb-1aeb" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="a35a-95a5-ddf1-63ad" name="Staff of Stealing" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Used at the start of the game turn when winds of magic are rolled. Your side steals two magic cards from your enemy. One use only.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="9bd9-e1ca-5201-0efc" name="Staff of Stealing" hidden="false" targetId="8a7b-a678-e2db-c860" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
@@ -1726,13 +1402,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dfe4-c0ce-f3dd-dd3e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="10dc-a14c-03ef-6af2" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="8f5a-e3ed-b952-3f14" name="Ring of Darkness" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. The wizard cannot be hit in this combat engagement. Remains in play.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="25f7-1442-50b2-2978" name="Ring of Darkness" hidden="false" targetId="b3c5-739d-148b-dcc1" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -1742,13 +1414,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="77d0-0216-a00b-e1d4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="731e-8d1d-dc4d-0f07" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="ddb3-4a11-c02a-a3a2" name="Power Scroll" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Automatically powers one of the wizard’s spells. One use only.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="9fe3-2a94-8ee5-c11b" name="Power Scroll" hidden="false" targetId="92b4-7ca2-c91e-0fc4" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
@@ -1758,13 +1426,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ff29-1bcb-7883-03a2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a23e-1c17-bd13-9896" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="0c3f-8fee-71c1-1554" name="Enchanted Mirror" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Dispel attempts always succeed on 4+ or better.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="305e-cc4f-3623-b1ec" name="Enchanted Mirror" hidden="false" targetId="75be-0eed-d8e7-345b" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
           </costs>
@@ -1774,13 +1438,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f859-9da3-eef5-45c7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c4ab-7ed9-fac2-76c4" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="40c8-9728-0e93-82e7" name="Chalice of Sorcery" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The wizard may drink from the chalice when casting a spell. The spell is cast for free (no power cards are spent). Afterwards roll a 1D6, on a roll of 1 or 2 the wizard suffers one wound and the chalice is empty (cannot be used again).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="a519-98ec-5002-2adf" name="Chalice of Sorcery" hidden="false" targetId="7064-4d32-8fd8-ccd6" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
@@ -1789,13 +1449,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dce9-1293-1ee4-f8db" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="1483-7cf0-11c4-445e" name="Dispel Magic Scroll" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Automatically dispels an enemy spell. This is the only magic item in the game of which you may have more than one in your army. One use only.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="403b-1e48-5c09-fa26" name="Dispel Magic Scroll" hidden="false" targetId="9a5c-ab97-c2d5-ff1a" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
@@ -1805,13 +1461,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ff9-8016-4242-92f0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="00d3-d58c-d89a-d819" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="1a5c-ec7f-05a8-3dbd" name="Book of Secrets" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Used at the start the game turn, just after rolling for winds of magic. The wizard may discard any number of magic cards and immediately draw replacements.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="540d-9e9e-aa6f-e53e" name="Book of Secrets" hidden="false" targetId="05da-09f7-2765-e1a2" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
@@ -1821,13 +1473,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe07-dc88-126d-afcb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf3c-83b9-4958-5a6c" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="f93f-1767-d014-10b5" name="Warding Amulet" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Ward save 5+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="f663-7a7b-bed7-0ab7" name="Warding Amulet" hidden="false" targetId="e129-20a0-c3ee-d98f" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
           </costs>
@@ -1837,13 +1485,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b741-8991-396c-901a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3762-50f9-6e1c-5ac0" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="7b5e-4701-3354-25ad" name="Staff of the Three Sisters" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Dispel attempts always succeed on 3+ or better.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="e021-7b4f-5dd4-29b5" name="Staff of the Three Sisters" hidden="false" targetId="d4d7-83ce-62dc-82c2" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
@@ -1853,13 +1497,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ad0-6e4b-35f1-b595" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e57-26df-a745-4c05" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="aad1-080a-d47a-5037" name="Destroy Magic Scroll" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Automatically dispels an enemy spell. Furthermore, roll a 1D6, on a 4+ the spell is destroyed. One use only.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="0000-61ad-8e85-ff0e" name="Destroy Magic Scroll" hidden="false" targetId="e9ce-595e-f315-62c2" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
@@ -1869,13 +1509,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="980d-9df3-013f-def0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd75-5cdc-e2d3-5773" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="ee26-0720-4c59-9271" name="Staff of Flaming Death" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. A large fireball flies from the staff and hits the first unit in its path. The target suffer a flaming S6 hit that causes 1D3 wounds. May be used three times only.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="6fd3-b753-6788-0f93" name="Staff of Flaming Death" hidden="false" targetId="2da2-8b08-cc64-ee15" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
@@ -1885,13 +1521,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f2a-8149-5b61-c05c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0889-8b92-b689-909b" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="3da5-ed61-95e7-bfdc" name="Book of Ashur" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 magic level and the bearer must choose spells from any one college lore.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="11e0-b485-0b7a-cab5" name="Book of Ashur" hidden="false" targetId="079a-267d-aca9-855c" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
           </costs>
@@ -1901,13 +1533,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4cd9-9b3a-2c0f-5d28" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e62-cda7-615f-3d48" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="b355-5c18-71e7-e146" name="Orb of Forbidden Knowledge" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer always counts as having the highest magic level when casting and dispelling spells (unless the enemy wizard is of the same level and also has the Orb of Forbidden Knowledge).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="31a8-591a-b4ea-c9a7" name="Orb of Forbidden Knowledge" hidden="false" targetId="32a8-1e1d-c577-8b1d" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="70.0"/>
           </costs>
@@ -1917,13 +1545,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="994f-f0ad-f3ca-f700" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b9d1-d6ea-928a-f0ce" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="babc-9b30-27c9-3b4a" name="Staff of the Many Coloured Traitor" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All successful rolls to dispel spells cast by the bearer of this item must be re-rolled.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="639c-e0bc-e32c-c2b4" name="Staff of the Many Coloured Traitor" hidden="false" targetId="5fe1-c237-6b5c-e267" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="80.0"/>
           </costs>
@@ -1933,13 +1557,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ce9-2e43-0955-a127" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7cb1-dadb-0311-6737" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="1870-a03c-5102-d50c" name="Wand of Jet" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Reduces the cost of casting a spell with one power card (power one spells are cast for free). Can be used once per magic phase.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="9c75-5ca9-67aa-8ca9" name="Wand of Jet" hidden="false" targetId="2628-c459-1e1b-3065" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="125.0"/>
           </costs>
@@ -1955,76 +1575,28 @@
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="abcb-2de2-b260-a8c1" name="Warrior Familiar" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="8645-16e4-a7a7-c5ae" name="Warrior Familiar" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
-              <characteristics>
-                <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
-                <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
-                <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
-                <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
-                <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
-                <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
-                <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
-                <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
-                <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="342c-65ad-4bd6-ecf3" name="Warrior Familiar" publicationId="78e3-1ead-0759-9022" hidden="false">
-              <description>If its master is attacked, the Familiar will interpose itself between him/her and his attackers, who must then fight the Familiar before blows can be struck against the wizard. Warrior Familiars always strike first.</description>
-            </rule>
-          </rules>
+          <infoLinks>
+            <infoLink id="7695-631e-9f83-6694" name="Warrior Familiar" hidden="false" targetId="ecda-9617-e688-c5c7" type="profile"/>
+            <infoLink id="8a29-06cf-980f-56fc" name="Warrior Familiar" hidden="false" targetId="9461-df50-6d70-30f9" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bca1-7c83-b5d2-793c" name="Scroll Familiar" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="78c0-4fc6-7736-3ec2" name="Scroll Familiar" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
-              <characteristics>
-                <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
-                <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
-                <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
-                <characteristic name="Strength" typeId="2186-3de1-32e2-581b">2</characteristic>
-                <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
-                <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
-                <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
-                <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
-                <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="bc58-f107-e388-5164" name="Scroll Familiar" publicationId="78e3-1ead-0759-9022" hidden="false">
-              <description>This Familiar may carry two scrolls just as a character. These scrolls may be used by the Familiar’s master, and only as long as he/she is in base contact with the Scroll Familiar.</description>
-            </rule>
-          </rules>
+          <infoLinks>
+            <infoLink id="85db-7767-0c03-b66d" name="Scroll Familiar" hidden="false" targetId="46ca-fb0e-8da1-9f11" type="profile"/>
+            <infoLink id="e081-bf51-170a-eb21" name="Scroll Familiar" hidden="false" targetId="07c2-f060-d32e-2031" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0c9e-0240-0f49-db19" name="Spell Familiar" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="c3e3-9379-67cc-5b79" name="Spell Familiar" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
-              <characteristics>
-                <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
-                <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
-                <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
-                <characteristic name="Strength" typeId="2186-3de1-32e2-581b">2</characteristic>
-                <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
-                <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
-                <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
-                <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
-                <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="56a0-fd06-baf2-5a7d" name="Spell Familiar" publicationId="78e3-1ead-0759-9022" hidden="false">
-              <description>After spells have been dealt, the spell familiar may pick a spell from its master’s lore which is not already in its master’s possession. As long as the familiar and its master are in base contact, the master may cast this spell.</description>
-            </rule>
-          </rules>
+          <infoLinks>
+            <infoLink id="3aba-945a-d2d8-bf1b" name="Spell Familiar" hidden="false" targetId="c5a1-8e59-fa4c-7456" type="profile"/>
+            <infoLink id="2325-37fc-2b56-cb23" name="Spell Familiar" hidden="false" targetId="795a-b8f2-ab18-2d9e" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
@@ -2038,13 +1610,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c6da-319f-7f07-73e1" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1eac-474b-c475-cf02" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="8d1a-ddc1-53c2-d315" name="Bifrost Banner" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Treat water (including swamp and quicksand) as open terrain.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="ce1d-f8f0-76fb-3eb8" name="Bifrost Banner" hidden="false" targetId="5a1a-0bde-8940-62cc" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -2054,13 +1622,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4634-fe3f-de08-af33" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2a02-4045-ec17-9a2e" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="7b0a-39f2-a672-4c75" name="Flaming Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All attacks count as flaming.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="a855-745c-940f-0786" name="Flaming Standard" hidden="false" targetId="bdb2-705d-febb-c7af" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -2070,13 +1634,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6407-f9c6-e25e-d0ad" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="be19-aff3-f6ca-1e4c" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="c8ba-db40-52d3-d291" name="Impetuous Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enemy units are not allowed to stand and shoot as a charge reaction.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="31c0-12db-c494-2815" name="Impetuous Standard" hidden="false" targetId="ffcb-a9af-8330-2e7f" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -2086,13 +1646,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="925f-aaff-e0b2-aa98" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e00-791e-6cc9-9bb1" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="b373-3cc5-5203-4ec8" name="Banner of Courage" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Re-roll failed panic tests.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="7627-cd86-a4fa-3a39" name="Banner of Courage" hidden="false" targetId="58ac-2139-00f7-601f" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -2102,13 +1658,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d05-a1dc-9b29-ebb9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="98ab-8fe2-95e9-d5b1" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="6569-5a68-5fe9-c832" name="Banner of Legion" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">May claim up to +4 in rank bonus.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="b781-e6b5-ca69-694a" name="Banner of Legion" hidden="false" targetId="a568-fda8-a619-e42a" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -2118,13 +1670,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="23a1-e16a-6602-728a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f3d5-5a66-6ac0-ac0c" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="3c2a-36cd-450e-4bc3" name="Scarecrow Banner" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Cannot be charged by flying enemies (the flying unit may choose another target).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="e2ba-41fd-38e3-d520" name="Scarecrow Banner" hidden="false" targetId="3b5c-ad1e-a107-7f8e" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
@@ -2134,13 +1682,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b2c1-913a-01d8-49e0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7e35-a4c7-06d1-b0c4" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="6721-ac1b-cad5-466f" name="Banner of Spell Protection" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Natural dispel 4+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="2b98-9721-0716-5cb9" name="Banner of Spell Protection" hidden="false" targetId="c26c-aa38-b594-a0ef" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
@@ -2150,13 +1694,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="233e-b8a2-bed1-bbe3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="80c7-2db6-be92-80ce" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="94fe-4d96-fa27-529d" name="Inspiring Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">When used as a battle standard, all units within 18” may re-roll LD tests.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="9ac8-f42a-cbc6-2f69" name="Inspiring Standard" hidden="false" targetId="0253-da3c-09ae-ee01" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
@@ -2166,13 +1706,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a276-b1ca-aa94-b251" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bc5c-9215-dcf2-4b1e" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="7498-04d5-a522-1666" name="Valerous Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Resolute. Does not affect regiments immune to psychology.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="9143-edf9-f81c-2d26" name="Valerous Standard" hidden="false" targetId="f3cb-3a96-e874-ec4b" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
@@ -2182,13 +1718,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5e4f-abb5-9dd8-38df" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="329e-24bb-287e-7aad" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="150c-eb9a-f5b8-3083" name="Banner of Unyielding" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Stubborn. Does not affect regiments immune to psychology.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="a34e-fd1d-3b07-4807" name="Banner of Unyielding" hidden="false" targetId="e8c4-41d3-be57-6e03" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
@@ -2198,13 +1730,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c3bd-35f4-7990-938d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d09-34e2-239b-8b96" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="2020-418c-5c37-59f9" name="Banner of Arcane Warding" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">When targeted by an enemy spell, roll 1D6. On a roll of 3+, the spell is scattered 4D6” in a random direction, hitting the first unit in its path more than 8” away from the banner.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="b3f0-814b-8843-6441" name="Banner of Arcane Warding" hidden="false" targetId="3840-38bf-ce82-5c07" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
@@ -2214,13 +1742,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c7f-d2c6-04b4-807f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f085-3aef-b4a0-d757" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="8143-434c-c23e-d2ca" name="Banner of (Hope and) Glory" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 WS and BS (does not apply to mounts).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="cb72-5c1b-2f8e-8092" name="Banner of (Hope and) Glory" hidden="false" targetId="afac-91a0-f718-f46b" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
@@ -2230,13 +1754,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c3d-cc56-83dd-c919" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f3d-b456-50ee-025c" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="4aa2-16b6-5795-e84c" name="Banner of Speed" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 movement allowance (applies to steeds if given to cavalry regiments).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="09f8-986e-4a52-06ab" name="Banner of Speed" hidden="false" targetId="c9f8-8445-d74c-4da2" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
@@ -2246,13 +1766,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="47e1-2b9a-6525-4905" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6495-a67a-adf1-cda1" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="9122-f64a-a7d4-e3ee" name="Banner of Missile Protection" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">4+ ward save vs. mundane shooting (not spells, banshee howls and such).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="a36f-f729-8708-4820" name="Banner of Missile Protection" hidden="false" targetId="f7dd-d5c2-f3a7-36ef" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
@@ -2262,13 +1778,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="46ea-29f2-b7bf-e2cf" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7f1d-6c18-cfa8-748f" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="1c5c-b141-6b2c-3ca6" name="Rending Banner" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All attacks (including shooting) are at -1 to armour save (does not apply to mounts).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="442f-bec2-ac9f-dbe0" name="Rending Banner" hidden="false" targetId="787e-1386-2377-c09b" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
@@ -2278,13 +1790,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ac9e-e95f-b2e7-f1b4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a210-be25-5e19-b390" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="b639-326a-a883-eded" name="Assault Banner" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1S on the charge (does not apply to mounts).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="008d-5974-6abb-e3da" name="Assault Banner" hidden="false" targetId="5f31-c9b8-5c9b-ecd3" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
@@ -2294,13 +1802,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8b1b-8287-3b31-522c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed04-8e23-5e38-2c75" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="7548-5d7c-482e-bae0" name="Phalanx Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">One extra rank fights to the front in melee combat with one attack (does not apply to mounts).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="22b1-eb58-3410-29fe" name="Phalanx Standard" hidden="false" targetId="c823-a23a-0639-87be" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
@@ -2310,13 +1814,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bde6-4fb6-f7c7-16f9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e92-818c-21c1-249a" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="286e-aaa8-bfcd-83ae" name="Dread Banner" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The regiment causes fear.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="9288-41ac-a599-9adf" name="Dread Banner" hidden="false" targetId="548b-818e-90f6-55ac" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
@@ -2326,13 +1826,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="69fd-1f97-1c40-d44a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="419c-4f53-6fea-79c3" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="9d5f-a73d-f898-1faf" name="Standard of Shielding" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 armour save (or 6+ armour save if the unit had no armour save beforehand).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="44d3-9418-54c5-5252" name="Standard of Shielding" hidden="false" targetId="9d15-cdf0-29d0-f626" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
@@ -2342,13 +1838,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="727c-55a1-beb9-6321" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="29eb-550e-1c44-4dac" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="cf59-aa51-ac72-113c" name="Banner of Defiance" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Double rank bonus, will never flee voluntarily, pursue or overrun. The banner nullifies hatred and frenzy applying to the regiment carrying the banner.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="2cd0-6994-bd6c-b918" name="Banner of Defiance" hidden="false" targetId="afb6-a35c-0968-cecc" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
@@ -2358,13 +1850,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="23d3-ad3b-7129-6782" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1d3d-6406-2066-8cb8" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="9d46-024e-6f8d-1a94" name="Banner of Great Deeds" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1A on the charge (does not apply to mounts).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="2d3f-c019-9961-af2d" name="Banner of Great Deeds" hidden="false" targetId="57e4-0771-e4f4-55b9" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
           </costs>
@@ -2374,13 +1862,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aae5-4b1e-53bc-9fc0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e25c-16d1-4842-932c" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="bcb6-1596-f2fe-1fcc" name="Banner of Wrath" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. 1D6 flaming S4 hits travel in a straight line up to 24” hitting the first unit in its path. No armour save allowed. If six flaming hits are conjured forth the banner exhausts and cannot be used again.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="0522-e76c-83e3-b439" name="Banner of Wrath" hidden="false" targetId="0348-1d6c-2178-13b2" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="70.0"/>
           </costs>
@@ -2390,13 +1874,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e836-cfd0-3e90-ab49" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8acf-1dfc-d22d-9f38" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="2253-5298-621e-8de3" name="Banner of Might" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-              <characteristics>
-                <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 to hit to both shooting and melee combat attacks. (does not apply to mounts).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="0752-2a73-264a-6eff" name="Banner of Might" hidden="false" targetId="ffe1-e794-ce96-ccc7" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
           </costs>
@@ -2415,7 +1895,11 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="c449-1df3-af4a-6eae" name="Lores of Magic" publicationId="451d-2372-ffc4-cf50" page="44" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="1b4f-f582-e0a7-469f" name="Bright Magic" hidden="false" collective="false" import="true" type="upgrade"/>
+        <selectionEntry id="1b4f-f582-e0a7-469f" name="Bright Magic" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -2424,9 +1908,7 @@
     <rule id="f104-69d9-f117-ba9b" name="Fast Cavalry" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
     <rule id="345f-ce49-7ace-58a9" name="Hatred" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
     <rule id="3a08-7523-5fae-5b77" name="Frenzy" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
-    <rule id="c26b-a673-ee51-0087" name="Fear" publicationId="451d-2372-ffc4-cf50" hidden="false">
-      <description></description>
-    </rule>
+    <rule id="c26b-a673-ee51-0087" name="Fear" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
     <rule id="3185-3d09-a53e-4d76" name="Terror" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
     <rule id="138b-ec1d-f080-4490" name="Stupid" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
     <rule id="8fb9-768c-ad02-3a06" name="Unruly" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
@@ -2511,6 +1993,15 @@ At the beginning of the game, the number of Beastmasters in the regiment may not
 The speed of the combined regiment is limited to that of the slowest model present, except the regiment may make charge moves using the movement allowance of the beasts. In this case the Beastmasters move along, but if this move takes them beyond their normal maximum charge move, they are placed in the rear rank and cannot fight in the first round of melee combat. They may move to the front in the following melee combat round.</description>
     </rule>
     <rule id="ad1e-c8d7-8e04-006f" name="Panic" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
+    <rule id="07c2-f060-d32e-2031" name="Scroll Familiar" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>This Familiar may carry two scrolls just as a character. These scrolls may be used by the Familiar’s master, and only as long as he/she is in base contact with the Scroll Familiar.</description>
+    </rule>
+    <rule id="795a-b8f2-ab18-2d9e" name="Spell Familiar" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>After spells have been dealt, the spell familiar may pick a spell from its master’s lore which is not already in its master’s possession. As long as the familiar and its master are in base contact, the master may cast this spell.</description>
+    </rule>
+    <rule id="9461-df50-6d70-30f9" name="Warrior Familiar" publicationId="78e3-1ead-0759-9022" hidden="false">
+      <description>If its master is attacked, the Familiar will interpose itself between him/her and his attackers, who must then fight the Familiar before blows can be struck against the wizard. Warrior Familiars always strike first.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="ecb6-3d3b-03e4-dade" name="Short Bow" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="f767-d6d3-1e8d-1c63" typeName="Missile Weapon">
@@ -2709,6 +2200,635 @@ The speed of the combined regiment is limited to that of the slowest model prese
         <characteristic name="Range" typeId="d417-18e3-9a77-9951">18&quot;</characteristic>
         <characteristic name="Strength" typeId="c6f3-3301-ab84-cc67">3</characteristic>
         <characteristic name="Special Rules" typeId="6ff4-071f-b06f-0d6a">May shoot twice at -1 to hit (at short range only).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0b71-4b4c-db7e-f29e" name="Blade of Leaping Bronze" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+2A.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="079a-267d-aca9-855c" name="Book of Ashur" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 magic level and the bearer must choose spells from any one college lore.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="05da-09f7-2765-e1a2" name="Book of Secrets" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Used at the start the game turn, just after rolling for winds of magic. The wizard may discard any number of magic cards and immediately draw replacements.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7064-4d32-8fd8-ccd6" name="Chalice of Sorcery" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The wizard may drink from the chalice when casting a spell. The spell is cast for free (no power cards are spent). Afterwards roll a 1D6, on a roll of 1 or 2 the wizard suffers one wound and the chalice is empty (cannot be used again).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e9ce-595e-f315-62c2" name="Destroy Magic Scroll" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Automatically dispels an enemy spell. Furthermore, roll a 1D6, on a 4+ the spell is destroyed. One use only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9a5c-ab97-c2d5-ff1a" name="Dispel Magic Scroll" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Automatically dispels an enemy spell. This is the only magic item in the game of which you may have more than one in your army. One use only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="75be-0eed-d8e7-345b" name="Enchanted Mirror" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Dispel attempts always succeed on 4+ or better.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0d95-8438-6dc0-c650" name="Infusion of White" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Used at the start of the game turn when winds of magic are rolled. The bearer gains 2D6 extra magic cards that only he/she can use. On a roll of any double the wizard OD’s (pass out for the rest of the battle, slain if attacked in melee combat). One use only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="32a8-1e1d-c577-8b1d" name="Orb of Forbidden Knowledge" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer always counts as having the highest magic level when casting and dispelling spells (unless the enemy wizard is of the same level and also has the Orb of Forbidden Knowledge).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="92b4-7ca2-c91e-0fc4" name="Power Scroll" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Automatically powers one of the wizard’s spells. One use only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b3c5-739d-148b-dcc1" name="Ring of Darkness" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. The wizard cannot be hit in this combat engagement. Remains in play.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cae9-df9b-ba16-2133" name="Seerstone" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">For each power point spent, the wizard may increase the range of a spell by 10”. This item has no effect on spells with no range (i.e. spells that only work on the wizard or models touching the wizard).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2be5-3ef3-95c4-fb17" name="Skull Staff" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All enemy models within 24” of the wizard must reveal all magic items and spells.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2da2-8b08-cc64-ee15" name="Staff of Flaming Death" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. A large fireball flies from the staff and hits the first unit in its path. The target suffer a flaming S6 hit that causes 1D3 wounds. May be used three times only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8a7b-a678-e2db-c860" name="Staff of Stealing" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Used at the start of the game turn when winds of magic are rolled. Your side steals two magic cards from your enemy. One use only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5fe1-c237-6b5c-e267" name="Staff of the Many Coloured Traitor" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All successful rolls to dispel spells cast by the bearer of this item must be re-rolled.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d4d7-83ce-62dc-82c2" name="Staff of the Three Sisters" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Dispel attempts always succeed on 3+ or better.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2628-c459-1e1b-3065" name="Wand of Jet" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Reduces the cost of casting a spell with one power card (power one spells are cast for free). Can be used once per magic phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e129-20a0-c3ee-d98f" name="Warding Amulet" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Ward save 5+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2a0e-66c0-bfc1-e9be" name="Amulet of Fire" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Natural dispel 4+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b226-9f10-98b6-c9ba" name="Black Gem of Gnar" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">In a challenge, the bearer and his opponent do not strike blows in the first round of melee combat (as they are frozen in time).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3f93-6e85-ef64-bc45" name="Claw of Nagash" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Can be used against a single living model within 8”. The model suffers 1D6 wounds, no armour save allowed. One use only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0bc1-d1cd-5164-0db0" name="Crimson Amulet" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer automatically passes any characteristic test except LD tests.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="509a-c741-e059-1f49" name="Crown of Command" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">LD 10 – if worn by the general, all units within 18” may benefit from the general’s LD.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="df7c-5bb4-076d-e2a9" name="Doomfire Ring" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Requires line of sight. One target unit within 24” suffers 2D6 flaming S3 hits.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="93dc-08a9-2716-6cd0" name="Drums of Marching" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer’s regiment can always march even if there is an enemy unit within 8” at the start of the turn. Models on foot only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4351-8dec-ebeb-9ca9" name="Drums of Swift Reform" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">In the movement phase during “remaining moves”, the bearer and his regiment may change formation before and after taking a normal move or a march move. Models on foot only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0905-3915-6ece-8392" name="Ghost Ring" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer and his mount can move through solid objects and any kind of terrain.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bd5b-56c4-e561-ca2a" name="Horn of Orguk" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Casts the Grey spell Horn of Andar. Can be used three times only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="163c-1778-dc0d-dce4" name="Jade Amulet" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1T.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a9da-961b-41b5-d3b5" name="Nullstone Ring" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">No model in base contact with the bearer can cast spells.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b7c7-8eee-90a1-933f" name="Orb of Thunder" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. One use only. All flying high creatures are driven off. No flying movement is possible, use ground move instead. Remains in play.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="92aa-b63e-14b2-19e1" name="Pipes of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">When the bearer and the bearer’s regiment are charged by cavalry, the charging unit must take a LD test (even if immune to psychology). If the test is failed the cavalry regiment does not move (and the charge is failed). Models on foot only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c9aa-884a-589c-a3cb" name="Potion of Healing" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer recovers all lost wounds. May not be imbibed when the wearer is slain. Living models only. One use only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8c8f-830a-7e61-27f5" name="Potion of Strength" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+3S in one melee combat round. Must be imbibed just before attacking. One use only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9567-6a29-a1fa-2ff1" name="Ring of Corin" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Destroys the magic properties of a magic item whose presence and name are known to the bearer and within 24” of the bearer.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1c58-830d-c86f-c963" name="Ring of Volans" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Select one spell from one of the eight colleges of magic requiring only one or two power cads to cast. This spell can be cast as a bound spell once in the game. One use only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6c03-3564-d1ba-4b29" name="Ruby Chalice" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enemies suffer a -2 to hit with missiles against the bearer, the bearer’s mount, and the bearer’s regiment.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7b8c-1fb3-6baa-10e1" name="Talisman of Luck" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer may re-roll one personal die roll. One use only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6de5-7f60-a2c1-1e6c" name="Talisman of Obsidian" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All spells cast against the bearer and the bearer’s regiment are dispelled automatically.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="08bb-90f2-c5a5-8822" name="Talisman of Ravensdark" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Flying creatures (and their riders) cannot strike against the bearer (and his mount) in melee combat. This item cannot be carried by a character that can fly or that rides a mount with the fly ability.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="98ab-d901-a530-b1db" name="Van Horstman&apos;s Speculum" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">In a challenge the bearer fights with his opponent’s number of A, WS and S (rider, not mount). The bearer attacks at exactly the same time as his opponent even if carrying a double handed weapon (in effect, the two models could kill each other simultaneously).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="46ca-fb0e-8da1-9f11" name="Scroll Familiar" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">2</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c5a1-8e59-fa4c-7456" name="Spell Familiar" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">2</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ecda-9617-e688-c5c7" name="Warrior Familiar" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5f4e-bb4e-5d65-b821" name="Adamant Armour" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. +1T.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="43ad-fb9c-fb65-7f8e" name="Armour of Brilliance" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. Enemies suffer a -2 to hit against the bearer and the bearer’s mount.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2896-8d87-7b22-f17c" name="Armour of Endurance" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. 6+ ward save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9ddd-40c9-4ef7-48e8" name="Armour of Fortune" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. Ward save 5+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e71c-f9e9-9672-9aeb" name="Armour of Meteoric Iron" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Light armour. 2+ armour save (that cannot be improved).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5981-a72d-8127-8989" name="Armour of Protection" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. Ward save 4+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3d94-6ca5-5d5c-49ce" name="Armour of Resilience" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. +1 armour save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3af6-47d5-2d07-a181" name="Armour of Unyielding" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. +2T.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cb30-6948-92ad-3219" name="Charmed Shield" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Discount the first hit against the bearer.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="62e8-8851-4937-7105" name="Dawn Armour" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. Bearer may re-roll failed armour saves.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="df63-c5e7-c915-6beb" name="Dragonhelm" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer is immune to terror, fire-based attacks, and breath weapons.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="744b-28e4-27fe-af5b" name="Emerald Armour" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Light armour. Ignore first wound suffered.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d2a8-336a-0436-e8da" name="Enchanted Shield" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 armour save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cf92-be9c-cdaa-cec2" name="Oaken Armour" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Light armour. +1W.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="62fc-a4a7-44e4-1842" name="Parrying Shield" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All enemies in base contact have one less A.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0e79-39bb-829e-88fc" name="Shield of Magic Immunity" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer and the bearer’s mount are immune to the effect of spells (the bearer’s regiment may still be affected, if the regiment is teleported, the character remains where he is and so on).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c715-9e55-9513-4030" name="Shield of Ptolos" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">1+ armour save (that cannot be improved) vs. shooting only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2fcd-cff8-1852-9c4a" name="Shining Shield" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enemies suffer -1 to hit against the bearer and his mount.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c7a3-fe5d-8eb3-d0f6" name="Spelleater Shield" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Natural dispel 3+, dispelled spells are destroyed.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="986c-398c-8a56-60c9" name="Trollhide Armour" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Light armour. Regeneration save 4+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5f31-c9b8-5c9b-ecd3" name="Assault Banner" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1S on the charge (does not apply to mounts).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="afac-91a0-f718-f46b" name="Banner of (Hope and) Glory" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 WS and BS (does not apply to mounts).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3840-38bf-ce82-5c07" name="Banner of Arcane Warding" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">When targeted by an enemy spell, roll 1D6. On a roll of 3+, the spell is scattered 4D6” in a random direction, hitting the first unit in its path more than 8” away from the banner.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f3cb-3a96-e874-ec4b" name="Valerous Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Resolute. Does not affect regiments immune to psychology.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9d15-cdf0-29d0-f626" name="Standard of Shielding" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 armour save (or 6+ armour save if the unit had no armour save beforehand).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3b5c-ad1e-a107-7f8e" name="Scarecrow Banner" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Cannot be charged by flying enemies (the flying unit may choose another target).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="787e-1386-2377-c09b" name="Rending Banner" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All attacks (including shooting) are at -1 to armour save (does not apply to mounts).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c823-a23a-0639-87be" name="Phalanx Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">One extra rank fights to the front in melee combat with one attack (does not apply to mounts).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0253-da3c-09ae-ee01" name="Inspiring Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">When used as a battle standard, all units within 18” may re-roll LD tests.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ffcb-a9af-8330-2e7f" name="Impetuous Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enemy units are not allowed to stand and shoot as a charge reaction.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bdb2-705d-febb-c7af" name="Flaming Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All attacks count as flaming.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="548b-818e-90f6-55ac" name="Dread Banner" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The regiment causes fear.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5a1a-0bde-8940-62cc" name="Bifrost Banner" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Treat water (including swamp and quicksand) as open terrain.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0348-1d6c-2178-13b2" name="Banner of Wrath" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. 1D6 flaming S4 hits travel in a straight line up to 24” hitting the first unit in its path. No armour save allowed. If six flaming hits are conjured forth the banner exhausts and cannot be used again.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e8c4-41d3-be57-6e03" name="Banner of Unyielding" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Stubborn. Does not affect regiments immune to psychology.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c26c-aa38-b594-a0ef" name="Banner of Spell Protection" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Natural dispel 4+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c9f8-8445-d74c-4da2" name="Banner of Speed" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 movement allowance (applies to steeds if given to cavalry regiments).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f7dd-d5c2-f3a7-36ef" name="Banner of Missile Protection" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">4+ ward save vs. mundane shooting (not spells, banshee howls and such).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a568-fda8-a619-e42a" name="Banner of Legion" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">May claim up to +4 in rank bonus.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="afb6-a35c-0968-cecc" name="Banner of Defiance" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Double rank bonus, will never flee voluntarily, pursue or overrun. The banner nullifies hatred and frenzy applying to the regiment carrying the banner.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="57e4-0771-e4f4-55b9" name="Banner of Great Deeds" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1A on the charge (does not apply to mounts).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="58ac-2139-00f7-601f" name="Banner of Courage" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Re-roll failed panic tests.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ffe1-e794-ce96-ccc7" name="Banner of Might" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 to hit to both shooting and melee combat attacks. (does not apply to mounts).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3e58-6469-766a-3e26" name="Wyrmslayer Sword" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Always wound on 4+ or better. Large targets have no armour save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="39b4-76e6-c603-c71d" name="Venom Sword" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">1 wound = 1D6 wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8308-493f-1a64-1598" name="Vampire Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All hits inflict 1D3 wounds on Vampires with no armour save possible. Against other targets: +3S. 1 wound = 1D3 wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4afb-0fa5-8bf2-96f9" name="Sword of Teclis" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Wounds automatically.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d9bb-b330-3738-4170" name="Sword of Swift Slaying" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Always strike first.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0bd9-a15d-3d97-320e" name="Sword of Might" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1S.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="beea-d7b5-98cc-a23c" name="Sword of Heroes" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Against opponents with T5 or more: +3S, 1 wound = 1D3 wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0840-d1e1-97b3-d2be" name="Sword of Fortitude" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer and the bearer’s regiment are immune to psychology.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="60e1-752f-baf7-e971" name="Sky Arrow of Naloer" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer must have a short bow, bow, or longbow. One use only. Must be shot at models flying high. No modifiers to hit apply. S10. 1 wound = 1D6 wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e279-a26c-f02a-929c" name="Silver Lance" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Lance. S10 (only on the charge).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1169-b37f-3941-2520" name="Parrying Blade" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All enemy models in base contact have one less A.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dc8d-d5cb-0d99-fac7" name="Ogre Blade" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+2S.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bedf-76d1-8c91-d7d4" name="Mace of Helsturm" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer forfeits normal attacks and makes one attack with S10 where 1 wound = 1D6 wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0936-c49f-e2ae-d6a6" name="Hydra Sword" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Each hit becomes 1D6 hits. Roll to wound separately for each hit. If the attacks are directed against a single model, the model is hit more times. If the attacks are directed against (identical) troops, more models are hit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="be1d-293a-cdcc-d24f" name="Hellfire Sword" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">S10. Flaming. Killed enemies burst into flames and cause a panic test in the regiment the victim was a part of.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7e77-1db2-d47d-bd98" name="Heart Seeker" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">May re-roll missed attacks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6696-5139-b5c7-773c" name="Gromril Blade" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">No armour save allowed.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="77c4-e8aa-91eb-4881" name="Giant Blade" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+3S.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="054b-2d98-e85f-5ce2" name="Frost Blade" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">A wounded opponent is killed instantly.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4d24-e797-6b87-b8b0" name="Flail of Skulls" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Flail. 1 wound = 2 wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d690-7934-d59b-d56d" name="Dragon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All hits inflict 1D3 wounds on Dragons with no armour save possible. Against other targets: +3S. 1 wound = 1D3 wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c3bc-c217-ec6f-6d8c" name="Dragon Blade" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Each hit becomes two hits. Roll to wound separately for each hit. If the attacks are directed against a single model, the model is hit twice as many times. If the attacks are directed against (identical) troops, twice as many models are hit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="09b8-6ba6-2127-c267" name="Daemon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All hits inflict 1D3 wounds on Daemons with no armour save possible. Against other targets: +3S. 1 wound = 1D3 wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="83a0-3b1f-2e12-e6f8" name="Blessed Sword" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">WS 10.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4d28-05d8-8d8c-3c59" name="Blades of Lorenzo" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Two hand weapons, +3 WS.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6dea-10a3-01f9-3a67" name="Blade of Sea Gold" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">-3 to armour save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0467-bbff-ddf6-03d2" name="Blade of Leaping Gold" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+3A.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2563-0a9f-95e0-d0ff" name="Blade of Leaping Copper" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1A.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1523-9885-fe6b-652f" name="Blade of Ensorcelled Iron" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Double handed weapon, +1 to hit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5b4c-2d45-a7c0-fd66" name="Blade of Darting Steel" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Hits automatically.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2b4e-05dd-07c1-34ee" name="Biting Blade" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">-2 to armour save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="590a-f854-b8aa-77ef" name="Beserker Sword" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer gains frenzy and +1S.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6fc0-8749-61c2-ce6d" name="Abolisher Blade" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Wielder may not carry other magic items. No magic items in base contact with the wielder work.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
