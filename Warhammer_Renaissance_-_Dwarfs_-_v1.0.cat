@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="11cd-9eab-efa6-b75e" name="Warhammer Renaissance - Dwarfs - v1.0" revision="9" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="11cd-9eab-efa6-b75e" name="Warhammer Renaissance - Dwarfs - v1.0" revision="12" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9d36-bc62-8899-dade" name="Dwarf Lord" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -8,6 +8,7 @@
         <infoLink id="d37a-7070-d780-07d1" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
         <infoLink id="cb80-2a53-0b79-7ff9" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
         <infoLink id="197a-7ee4-3bf2-f441" name="Dwarf Lord" hidden="false" targetId="6680-4f27-7928-7fab" type="rule"/>
+        <infoLink id="9b0f-8dcc-5334-c2c4" name="Gromril Armour" publicationId="7c1e-d670-1979-5f95" hidden="false" targetId="21dc-9416-205e-bcd5" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0215-741e-acc0-aebf" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
@@ -47,7 +48,6 @@
       <entryLinks>
         <entryLink id="3692-3c5d-e72a-b586" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
         <entryLink id="7291-77e2-1be6-c974" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="6ec3-fd33-9ff6-183f" type="selectionEntry"/>
-        <entryLink id="c9ca-cbb0-69c3-7786" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" targetId="b5a4-1cae-3c72-48ab" type="selectionEntryGroup"/>
         <entryLink id="1872-7bbe-9846-c92a" name="Missile Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="dcf3-c95c-d164-40da" type="selectionEntryGroup"/>
         <entryLink id="92cd-a65b-e197-787b" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry"/>
         <entryLink id="3fe0-31bf-5ff2-a76b" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4dda-3947-a55c-7582" type="selectionEntry"/>
@@ -55,6 +55,7 @@
         <entryLink id="984c-9b76-31c0-3795" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d615-7c4d-e887-3da9" type="selectionEntry"/>
         <entryLink id="34fb-b72d-22a6-6009" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="e402-f801-58ef-470b" type="selectionEntry"/>
         <entryLink id="c20d-3eb8-3197-c1d7" name="Additional Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="74ef-a2c8-56a5-5167" type="selectionEntry"/>
+        <entryLink id="2c94-b983-87eb-4011" name="Armour" hidden="false" collective="false" import="true" targetId="9456-fa34-8d5f-6442" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
@@ -449,10 +450,10 @@ May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e470-7c36-6c6a-172d" name="Dwarf Warriors" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e470-7c36-6c6a-172d" name="Dwarf Warriors" publicationId="7c1e-d670-1979-5f95" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="990d-b50a-41fb-ce9d" name="Dwarf Warriors" publicationId="78e3-1ead-0759-9022" hidden="false">
-          <description>DWARF WARRIORS 8 pts
+          <description>DWARF WARRIORS 7 pts
 Dwarf Soldiers with light armour. May swap light armour for heavy armour (+2). May take shields (+1), spears (+11⁄2), double handed weapons (+3), crossbows (+2).</description>
         </rule>
       </rules>
@@ -460,7 +461,6 @@ Dwarf Soldiers with light armour. May swap light armour for heavy armour (+2). M
         <infoLink id="f621-0b82-5c98-c58f" name="Hatred: Orcs &amp; Goblins" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="4856-345b-34c5-ac6e" type="rule"/>
         <infoLink id="3095-18c4-ad2a-eefb" name="Mistrust of Elves" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0e53-5d0c-8b32-0294" type="rule"/>
         <infoLink id="f332-78f1-7562-4774" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
-        <infoLink id="40a9-b5ff-397f-fef4" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3b68-58a0-1d18-0b4e" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
@@ -474,28 +474,39 @@ Dwarf Soldiers with light armour. May swap light armour for heavy armour (+2). M
             <infoLink id="5cd6-15aa-d283-a640" name="Dwarf Soldier" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="9b68-b25c-17dd-7126" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="8.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8b3f-90a0-0ef4-11fa" name="Crossbows" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="increment" field="fcac-3c52-8cf7-add0" value="2.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebc5-fa4c-0f2d-3ab9" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="c2ce-dbc7-0ae1-4330" name="Crossbow" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="b591-16aa-5bfe-2b5b" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a783-e3f0-a40d-1e91" name="Weapon options" publicationId="7c1e-d670-1979-5f95" hidden="false" collective="false" import="true" defaultSelectionEntryId="7abb-1ae0-0e65-a5a0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="356f-fb87-4ab9-72c6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a64-4bb2-6ae5-f2b8" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3c15-7870-d986-e1f9" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="6ec3-fd33-9ff6-183f" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="cc9b-24af-68e2-0c54" name="Spear" hidden="false" collective="false" import="true" targetId="4907-6f1e-f938-438d" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="7abb-1ae0-0e65-a5a0" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="b397-dfac-ab40-1bab" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c7b2-6b7a-b2fd-e298" name="Standard Bearer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry">
           <costs>
@@ -511,15 +522,22 @@ Dwarf Soldiers with light armour. May swap light armour for heavy armour (+2). M
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="cdad-8c69-ebdd-9956" name="Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="true" import="true" targetId="b5a4-1cae-3c72-48ab" type="selectionEntryGroup"/>
         <entryLink id="3975-2fc3-db67-65b4" name="Musician" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </entryLink>
-        <entryLink id="54fd-e1d2-31e6-e8c0" name="Spear" hidden="false" collective="false" import="true" targetId="4907-6f1e-f938-438d" type="selectionEntry"/>
-        <entryLink id="468c-1baf-a24f-de12" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry"/>
-        <entryLink id="839e-bdba-51aa-a58f" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="6ec3-fd33-9ff6-183f" type="selectionEntry"/>
+        <entryLink id="468c-1baf-a24f-de12" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="76aa-6ce0-fb04-fa66" name="Regimental Armour" publicationId="7c1e-d670-1979-5f95" hidden="false" collective="false" import="true" targetId="fc7d-eb25-00ea-35cc" type="selectionEntryGroup"/>
+        <entryLink id="b74d-8c01-917b-06b3" name="Dwarf Champion" hidden="false" collective="false" import="true" targetId="5c22-fbfa-6d9d-a3f2" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
@@ -854,7 +872,7 @@ Slayers come equipped with either additional hand weapons or double handed weapo
       </profiles>
       <infoLinks>
         <infoLink id="c10c-7ba3-bdeb-3efe" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
-        <infoLink id="7cc8-c688-c02e-15cf" name="Heavy Armour" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="be87-4af1-de9d-3d9b" type="profile"/>
+        <infoLink id="7cc8-c688-c02e-15cf" name="Gromril Armour" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="21dc-9416-205e-bcd5" type="profile"/>
         <infoLink id="7e03-221d-0bb2-ec32" name="Hatred: Orcs &amp; Goblins" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="4856-345b-34c5-ac6e" type="rule"/>
         <infoLink id="0f7a-c1c8-9b3f-c277" name="Mistrust of Elves" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0e53-5d0c-8b32-0294" type="rule"/>
         <infoLink id="2d36-e3bd-e5ae-fae5" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
@@ -870,7 +888,7 @@ Slayers come equipped with either additional hand weapons or double handed weapo
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4cd-ff82-0f8f-82c9" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="fba7-9963-b91a-fcf9" name="Dwarf Ironbreaker" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="1a01-4504-3827-0333" type="profile"/>
+            <infoLink id="fba7-9963-b91a-fcf9" name="Dwarf Elite Soldier" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="9a97-c96e-236f-06db" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
@@ -922,7 +940,7 @@ Slayers come equipped with either additional hand weapons or double handed weapo
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1880-39f6-277e-314d" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="88e9-bc66-4df1-4333" name="Dwarf Hammerer" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="32c0-beb9-fb7d-87cf" type="profile"/>
+            <infoLink id="88e9-bc66-4df1-4333" name="Dwarf Elite Soldier" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="9a97-c96e-236f-06db" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="17.0"/>
@@ -1132,7 +1150,8 @@ Carries the Hammer of Karak Azul (+2 WS, +1S, one wound kills), a shield and the
         <infoLink id="8b6c-bd21-b573-c8b4" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b495-f2f1-2d5b-a55e" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+        <categoryLink id="fff9-7088-5499-6280" name="New CategoryLink" hidden="false" targetId="c062-c69c-1d17-dd1e" primary="false"/>
+        <categoryLink id="3ce8-6a08-5a67-67df" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6579-6126-1725-8be2" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
@@ -1170,7 +1189,8 @@ Carries the Axe of Dargo (one enemy loses 1 attack, +1 strength, 1 wound = 1D6 w
         <infoLink id="c9dd-031a-d422-631a" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e7eb-1c70-3fdb-b89a" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+        <categoryLink id="935e-4c01-513e-cd9c" name="New CategoryLink" hidden="false" targetId="c062-c69c-1d17-dd1e" primary="false"/>
+        <categoryLink id="82a5-48b5-002a-0cc3" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7d98-059f-3301-bb6e" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
@@ -1207,7 +1227,8 @@ Carries Kragg’s Hammer (S10, +1A, 1 wound = 1D6 wounds), Kragg’s Armour (2+ 
         <infoLink id="b452-05ec-8504-2675" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3f2f-fdfc-b710-8c7e" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+        <categoryLink id="e846-0cba-c085-c60e" name="New CategoryLink" hidden="false" targetId="c062-c69c-1d17-dd1e" primary="false"/>
+        <categoryLink id="a38c-c79d-c0dd-3dd2" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="cc8f-3089-8415-4c4c" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
@@ -1229,7 +1250,8 @@ Carries Kragg’s Hammer (S10, +1A, 1 wound = 1D6 wounds), Kragg’s Armour (2+ 
         <infoLink id="1a8c-b9ce-b379-0d3c" name="Gotrek Gurnisson and Felix Jaeger" hidden="false" targetId="2a47-c9a5-9ace-a861" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="bb57-bfbe-4fe5-b53a" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+        <categoryLink id="91ab-7ca6-5192-aa11" name="Special Characters" hidden="false" targetId="c062-c69c-1d17-dd1e" primary="false"/>
+        <categoryLink id="65aa-22a8-9d10-3d07" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="300.0"/>
@@ -1283,7 +1305,8 @@ Carries Kragg’s Hammer (S10, +1A, 1 wound = 1D6 wounds), Kragg’s Armour (2+ 
         <infoLink id="d558-020f-6f9f-5fe0" name="Throne of Power" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a305-eb7c-66a3-d147" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="be1f-a7fe-cf03-bb03" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+        <categoryLink id="fa1a-04c5-7d51-e4f5" name="New CategoryLink" hidden="false" targetId="c062-c69c-1d17-dd1e" primary="false"/>
+        <categoryLink id="c765-3315-3d8c-a975" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="557f-5eb3-e444-f76b" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
@@ -1306,7 +1329,8 @@ Carries Kragg’s Hammer (S10, +1A, 1 wound = 1D6 wounds), Kragg’s Armour (2+ 
         <infoLink id="4cb3-d00a-6454-1e39" name="Josef Bugman" hidden="false" targetId="4f47-0abc-58d6-6d65" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7391-8223-876f-9cb5" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+        <categoryLink id="ddf1-4d71-8792-9a7c" name="New CategoryLink" hidden="false" targetId="c062-c69c-1d17-dd1e" primary="false"/>
+        <categoryLink id="6ae9-e3de-dfb2-79cb" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="142c-9a4e-6354-d6ef" name="Army General" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="4353-9bc0-51c7-c1d8" type="selectionEntry"/>
@@ -1319,7 +1343,7 @@ Carries Kragg’s Hammer (S10, +1A, 1 wound = 1D6 wounds), Kragg’s Armour (2+ 
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7081-aa7f-c156-971c" name="Engineer Guildmaster Burlok Damminson" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="7081-aa7f-c156-971c" name="Engineer Guildmaster Burlok Damminson" publicationId="7c1e-d670-1979-5f95" hidden="false" collective="false" import="true" type="model">
       <rules>
         <rule id="3ebe-6fa3-6b4b-32f7" name="Engineer Guildmaster Burlok Damminson" publicationId="78e3-1ead-0759-9022" hidden="false">
           <description>ENGINEER GUILDMASTER BURLOK DAMMNISON 110 pts
@@ -1334,7 +1358,8 @@ Carries heavy armour. May take two magic items.</description>
         <infoLink id="cfa7-afe3-29ce-7edc" name="Engineer Guildmaster Burlok Damminson" hidden="false" targetId="2882-3088-7a02-0bd8" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6059-9381-769d-9e38" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+        <categoryLink id="ec6f-b5f1-9554-1d9e" name="Special Characters" hidden="false" targetId="c062-c69c-1d17-dd1e" primary="false"/>
+        <categoryLink id="06d6-290e-6f2e-4a45" name="Characters" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e5c5-5a75-077d-7c8e" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
@@ -1389,6 +1414,82 @@ Carries heavy armour. May take two magic items.</description>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="110.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="cd92-7538-4b8a-3215" name="Dwarf Crossbowmen" publicationId="7c1e-d670-1979-5f95" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="6b3f-ec3f-b315-866c" name="Dwarf Warriors" publicationId="78e3-1ead-0759-9022" hidden="false">
+          <description>DWARF WARRIORS 8 pts
+Dwarf Soldiers with light armour. May swap light armour for heavy armour (+2). May take shields (+1), spears (+11⁄2), double handed weapons (+3), crossbows (+2).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b691-d4b8-b3ba-e74b" name="Hatred: Orcs &amp; Goblins" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="4856-345b-34c5-ac6e" type="rule"/>
+        <infoLink id="cf96-1e45-d45f-cd67" name="Mistrust of Elves" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0e53-5d0c-8b32-0294" type="rule"/>
+        <infoLink id="2b9a-5227-84e9-e373" name="No Bound Spells" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="0a67-9c06-6a1f-f070" type="rule"/>
+        <infoLink id="739d-ff05-d233-86d1" name="Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0e2f-c618-755e-49d7" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="deb1-0d6d-d742-4625" name="Dwarf Warrior" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36fe-d955-4f60-7bf7" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="70e6-eedb-71e3-d0c4" name="Dwarf Soldier" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="9b68-b25c-17dd-7126" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="df4a-36dc-c871-4a64" name="Crossbows" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="fcac-3c52-8cf7-add0" value="2.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14e0-7cee-a9ee-566e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0596-7347-d43a-9df7" name="Crossbow" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="b591-16aa-5bfe-2b5b" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="808a-3d25-ec5d-8e59" name="Standard Bearer" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="7906-4890-8c39-3e8e" name="Runes of Protection" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="a5de-0f0c-03ec-46c5" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="483e-1a5d-b243-f702" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="adb3-9e6d-2c6d-305b" name="Musician" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="6c31-f15d-1c62-02df" name="Spear" hidden="false" collective="false" import="true" targetId="4907-6f1e-f938-438d" type="selectionEntry"/>
+        <entryLink id="7cf1-08ed-2515-0bbc" name="Shield" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="b352-961b-c5c6-59d9" type="selectionEntry"/>
+        <entryLink id="0d64-e34c-245c-e323" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="6ec3-fd33-9ff6-183f" type="selectionEntry"/>
+        <entryLink id="a670-449d-5909-cf8e" name="Regimental Armour" publicationId="7c1e-d670-1979-5f95" hidden="false" collective="false" import="true" targetId="fc7d-eb25-00ea-35cc" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="4dda-3947-a55c-7582" name="Dwarf Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
@@ -1407,7 +1508,7 @@ Carries heavy armour. May take two magic items.</description>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8cd-bce4-5343-9358" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="ac02-0b41-f04a-882d" name="Enchanted Items and Talismanic Runes" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="ee69-2d02-2c54-5ef1" type="selectionEntryGroup"/>
+        <entryLink id="ac02-0b41-f04a-882d" name="Enchanted Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="ee69-2d02-2c54-5ef1" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
@@ -1444,6 +1545,17 @@ Carries heavy armour. May take two magic items.</description>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c22-fbfa-6d9d-a3f2" name="Dwarf Champion" publicationId="7c1e-d670-1979-5f95" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="da97-f509-57ab-d5f9" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="42e8-3d76-ebbc-b96a" name="Dwarf Champion" hidden="false" targetId="e322-fc67-0a96-0d28" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1686,13 +1798,9 @@ Carries heavy armour. May take two magic items.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="647f-f61b-a3b1-d96c" type="max"/>
               </constraints>
-              <profiles>
-                <profile id="c1ee-f320-7371-de96" name="Rune of Cleaving" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-                  <characteristics>
-                    <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 strength (can be taken several times).</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink id="0878-4387-f423-33a6" name="Rune of Cleaving" hidden="false" targetId="362d-6e7d-9cba-c005" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
               </costs>
@@ -2591,34 +2699,112 @@ Carries heavy armour. May take two magic items.</description>
     <selectionEntryGroup id="9c54-d472-d7dc-1555" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="a74d-dadf-59e5-0504" name="Magic Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="3801-b50c-d8b0-3f20" type="selectionEntryGroup"/>
-        <entryLink id="c4ca-53af-c8be-8e62" name="Magic Dwarf Armour" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="3dc6-09ce-c697-3506" type="selectionEntryGroup"/>
+        <entryLink id="c4ca-53af-c8be-8e62" name="Magic Armour (Dwarfs only)" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="3dc6-09ce-c697-3506" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="d344-fb89-de18-1e64" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="d344-fb89-de18-1e64" name="Magic Weapons" publicationId="7c1e-d670-1979-5f95" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="1bca-4ef7-ac8f-02b8" name="Magic Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="d034-1301-2ee0-681d" type="selectionEntryGroup"/>
         <entryLink id="8823-1ec9-974d-543b" name="Magic Dwarf Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" targetId="6402-bb68-3ebd-fef6" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="9456-fa34-8d5f-6442" name="Character Armour" publicationId="7c1e-d670-1979-5f95" hidden="false" collective="false" import="true" defaultSelectionEntryId="e515-d5a6-a474-f7fc">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2538-bbcf-75e3-5d70" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89ae-e13b-9963-5dea" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="e515-d5a6-a474-f7fc" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="916d-8c03-5b82-655b" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7753-fd7a-9383-c7d7" name="Light Armour" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2bb9-794d-bd58-c883" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="693c-bb2d-697c-ecbb" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a6a8-777d-65d2-d2fc" name="Heavy Armour" hidden="false" targetId="be87-4af1-de9d-3d9b" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5e95-ab8d-254c-0db6" name="Gromril Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d175-cac1-5e39-cab1" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="29c0-cd78-0ab1-0f28" name="Gromril Armour" hidden="false" targetId="21dc-9416-205e-bcd5" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fc7d-eb25-00ea-35cc" name="Regimental Armour" publicationId="7c1e-d670-1979-5f95" hidden="false" collective="false" import="true" defaultSelectionEntryId="091a-5d98-963a-ffc4">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="480c-cb41-4216-5720" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f857-6436-e999-904b" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="091a-5d98-963a-ffc4" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="776d-e824-12d9-e774" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b025-9921-1c46-a074" name="Light Armour" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c939-dc5d-5457-80e2" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e062-71f6-ae7c-36e1" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3d3a-e7fd-39c0-f104" name="Heavy Armour" hidden="false" targetId="be87-4af1-de9d-3d9b" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="4856-345b-34c5-ac6e" name="Hatred: Orcs &amp; Goblins" publicationId="451d-2372-ffc4-cf50" hidden="false">
+    <rule id="4856-345b-34c5-ac6e" name="Hatred: Orcs &amp; Goblins" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>Dwarfs hate all Orcs &amp; Goblins. This includes all types of orcs, goblins, snotlings and even hobgoblins (but does not include ogres, trolls and giants).</description>
     </rule>
-    <rule id="0e53-5d0c-8b32-0294" name="Mistrust of Elves" publicationId="451d-2372-ffc4-cf50" hidden="false">
+    <rule id="0e53-5d0c-8b32-0294" name="Mistrust of Elves" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>All Dwarfs suffer -1 LD if they fight within 8” of elven allies (High Elves as well as Wood Elves).</description>
     </rule>
-    <rule id="0a67-9c06-6a1f-f070" name="No Bound Spells" publicationId="451d-2372-ffc4-cf50" hidden="false">
+    <rule id="0a67-9c06-6a1f-f070" name="No Bound Spells" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>Dwarfs cannot use bound spells or arcane items.
 </description>
     </rule>
-    <rule id="4df2-31ef-3c30-b112" name="Slayers" publicationId="451d-2372-ffc4-cf50" hidden="false">
+    <rule id="4df2-31ef-3c30-b112" name="Slayers" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>Slayers are unbreakable. They always wound their opponent on 4+ or better, even if the opponent has higher toughness than the Slayer has strength. Slayers never wear armour. Slayer characters must either walk alone or join slayer regiments. Slayers cannot become the army general or carry the battle standard, and they can take no other magic items than magic weapons.</description>
     </rule>
-    <rule id="2ac2-2335-3e59-1c7d" name="Miners Special Deployment" publicationId="451d-2372-ffc4-cf50" hidden="false">
+    <rule id="2ac2-2335-3e59-1c7d" name="Miners Special Deployment" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>Miners may utilise the Ambush special rules. Troops with this special rule may choose not to deploy but arrive at any table edge in their second turn. They enter the table as if they had pursued out of the table (i.e. they cannot charge but may otherwise move normally).</description>
     </rule>
-    <rule id="0066-375b-c068-c353" name="Dwarf Runes" publicationId="451d-2372-ffc4-cf50" hidden="false">
+    <rule id="0066-375b-c068-c353" name="Dwarf Runes" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>RULES FOR CREATING RUNIC ITEMS
 Runic items fall into the standard categories of magic items. I.e. they are either weapons, armour, banners, etc. and follow the usual rules for those items, meaning you can only take one magic weapon, one magic armour, only standard bearers can take banners etc.
 
@@ -2626,24 +2812,24 @@ Weapon runes are inscribed onto hand weapons. Armour runes are inscribed upon a 
 
 Up to three runes may be inscribed onto the same item (weapon, piece of armour, amulet, banner or war machine). No item may bear the same combination of runes. No master rune may be used more than once in the whole army, and no item can carry more than one master rune (while some runes may be inscribed multiple times). Master runes of protection (to be inscribed on banners) can only be carried by the battle standard bearer (of which the army can have only one).</description>
     </rule>
-    <rule id="a305-eb7c-66a3-d147" name="Throne of Power" publicationId="451d-2372-ffc4-cf50" hidden="false">
+    <rule id="a305-eb7c-66a3-d147" name="Throne of Power" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>A Dwarf Lord may be carried atop a Throne of Power if he acts as the army general. The Throne takes up the space of six infantry- men and may be placed within a regiment of troops (in the front). It may be targeted separately by missile fire, of course. The Throne of Power provides the general with four additional attacks, four additional wounds, and a 4+ ward save.</description>
     </rule>
-    <rule id="f43c-9422-7806-3fa7" name="Anvil of Doom" publicationId="451d-2372-ffc4-cf50" hidden="false">
+    <rule id="f43c-9422-7806-3fa7" name="Anvil of Doom" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>One Runesmith in the army may take an Anvil of Doom accompanied by two Anvil Guards (Hammerers). The anvil is operated as if it were a war machine, except it is indestructible and counts as a terrain piece blocking movement.
 
 If the anvil has not moved and does not participate in combat, the Runesmith operating it may strike the anvil in the magic phase, thereby effectively casting spells as a level 4 wizard. The Runesmith must expend power cards as if he were a normal wizard when casting spells. The spells a Runesmith with an Anvil of Doom can cast is the Bright Spell Burning Head, the Bright Spell Piercing Bolts of Burning, the Celestial Spell Lightning, and the Grey Spell Stormcall.
 
 As long as the Runesmith operates the Anvil of Doom, he is in effect a wizard, although he may use armour and weapons that require two hands. He may retain magic cards. He can be turned into a frog by Bufo’s Hex Scroll and his head will explode if he comes into contact with Mork’s War Banner. He can lose spells from the effect of a Destroy Magic card or scroll, he can suffer a wound if he loses a Mental Duel, and so on.</description>
     </rule>
-    <rule id="c9dd-287a-95b7-0d0e" name="Flame Cannon" publicationId="451d-2372-ffc4-cf50" hidden="false">
+    <rule id="c9dd-287a-95b7-0d0e" name="Flame Cannon" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>Shoots like a cannon. Guess range (max. 12”) and add the artillery die. Place the teardrop template with the small end where you hit and the large end facing away from the cannon (do not roll for bouncing). All models hit (more than half covered by the template) suffer a strength 5 hit with -2 to armour save, 1 wound = 1D3 wounds. Units suffering even a single casualty from the flame cannon must take a panic test. Manned by 3 dwarf soldier crewmen. Flame Cannons are unique because they may stand and shoot. Resolve this before moving the enemy unit.
 </description>
     </rule>
     <rule id="7e19-83f0-08cc-eede" name="Organ Gun" publicationId="451d-2372-ffc4-cf50" hidden="false">
       <description>Shoots like a cannon, range 24”, strength 7, no armour save, 1 wound = 1D3 wounds. May shoot five times in the same turn (against the same unit). When all barrels have been fired, the organ gun must re-load, spending an entire turn doing so.</description>
     </rule>
-    <rule id="59da-5e77-8650-f2c0" name="Gyrocoptor" publicationId="451d-2372-ffc4-cf50" hidden="false">
+    <rule id="59da-5e77-8650-f2c0" name="Gyrocoptor" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>The gyrocopter works like a flying light chariot with one dwarf soldier crewman (movement 20, weapon skill 4, ballistic skill 3, strength 3, toughness 4, wounds 4, initiative 2, attacks 1, leadership 9).
 
 The gyrocopter won’t charge enemies but can be charged itself. If beaten (not broken) in melee combat it will scatter 2D6” in a random direction, moving above units in its way, until it crashes and inflicts 2D6 strength 4 hits on any unit unfortunate enough to be on the spot (a crashed gyrocopter counts as slain).
@@ -2658,12 +2844,12 @@ It is only possible to fire the steam cannon if the gyrocopter did not fly longe
       <description>BOLT THROWERS 50 pts
 Manned by three Dwarf Soldiers.</description>
     </rule>
-    <rule id="bbfb-563e-85a4-0455" name="Josef Bugman" publicationId="451d-2372-ffc4-cf50" hidden="false">
+    <rule id="bbfb-563e-85a4-0455" name="Josef Bugman" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>JOSEF BUGMAN 100 pts
 Josef may scout along with a regiment of Rangers.
 Carries a crossbow, light armour, a shield, a double handed weapon, and Bugman’s Tankard. May take one additional magic item.</description>
     </rule>
-    <rule id="2a47-c9a5-9ace-a861" name="Gotrek Gurnisson and Felix Jaeger" publicationId="451d-2372-ffc4-cf50" hidden="false">
+    <rule id="2a47-c9a5-9ace-a861" name="Gotrek Gurnisson and Felix Jaeger" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>GOTREK GURNISSON AND FELIX JAEGER 300 pts
 Gotrek and Felix must stay together throughout the battle. As long as Gotrek is alive both models benefit from Gotrek’s Doom (a 4+ ward save and 4+ natural dispel). Felix is a human (and so does not hate Orcs &amp; Goblins).
 Gotrek carries Gotrek’s Axe, and Felix carries a Blade of Leaping Bronze.</description>
@@ -2672,38 +2858,38 @@ Gotrek carries Gotrek’s Axe, and Felix carries a Blade of Leaping Bronze.</des
       <description>SMALL CANNONS 100 pts
 Manned by three Dwarf Soldiers.</description>
     </rule>
-    <rule id="44d6-a7e4-8483-36e0" name="Daemon Slayer" publicationId="451d-2372-ffc4-cf50" hidden="false">
+    <rule id="44d6-a7e4-8483-36e0" name="Daemon Slayer" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>May take an additional hand weapon (+1) or a double handed weapon (+3). May take 1 magic item (only a magic weapon).</description>
     </rule>
-    <rule id="802e-0977-be00-5bf8" name="Dragon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false">
+    <rule id="802e-0977-be00-5bf8" name="Dragon Slayer" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>May take an additional hand weapon (+1) or a double handed weapon (+3). May take 1 magic item (only a magic weapon).</description>
     </rule>
-    <rule id="3c83-c398-1a21-aa15" name="Dwarf Champion" publicationId="78e3-1ead-0759-9022" hidden="false">
+    <rule id="3c83-c398-1a21-aa15" name="Dwarf Champion" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>DWARF CHAMPION 42 pts
 May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand weapon (+1), a double handed weapon (+3), a crossbow (+3), a hand gun (+3), a pistol (+2), a brace of pistols (+4). May take 1 magic item.</description>
     </rule>
-    <rule id="7f53-9592-557e-a04d" name="Dwarf Hammerers" publicationId="78e3-1ead-0759-9022" hidden="false">
+    <rule id="7f53-9592-557e-a04d" name="Dwarf Hammerers" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>DWARF HAMMERERS 17 pts
 If the general of the army joins the Hammerers, they will automatically pass any LD tests, including break tests, they have to take. They may still break if outnumbered by fear causing enemies and other factors that do not allow a LD test.
 Dwarf Hammerers with heavy armour, shields and double handed weapons.</description>
     </rule>
-    <rule id="2826-5aaa-5a67-7549" name="Dwarf Hero" publicationId="78e3-1ead-0759-9022" hidden="false">
+    <rule id="2826-5aaa-5a67-7549" name="Dwarf Hero" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>DWARF HERO 79 pts
 May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand weapon (+1), a double handed weapon (+3), a crossbow (+3), a hand gun (+3), a pistol (+2), a brace of pistols (+4). May take 2 magic items.</description>
     </rule>
-    <rule id="cc69-f5f5-87ed-80dc" name="Dwarf Ironbreakers" publicationId="78e3-1ead-0759-9022" hidden="false">
+    <rule id="cc69-f5f5-87ed-80dc" name="Dwarf Ironbreakers" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>DWARF IRON BREAKERS 15 pts
 Dwarf Iron Breakers with shields and heavy armour inscribed with the Rune of Stone (for a total armour saves of 3+).</description>
     </rule>
-    <rule id="0308-01d8-128a-3cef" name="Dwarf Longbeards" publicationId="78e3-1ead-0759-9022" hidden="false">
+    <rule id="0308-01d8-128a-3cef" name="Dwarf Longbeards" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>DWARF LONGBEARDS 13 pts
 Dwarf Longbeards with heavy armour and shields. May take double handed weapons (+3).</description>
     </rule>
-    <rule id="6680-4f27-7928-7fab" name="Dwarf Lord" publicationId="78e3-1ead-0759-9022" hidden="false">
+    <rule id="6680-4f27-7928-7fab" name="Dwarf Lord" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>DWARF LORD 116 pts
 May take a shield (+1), light armour (+1), heavy armour (+3), an additional hand weapon (+1), a double handed weapon (+3), a crossbow (+3), a hand gun (+3), a pistol (+2), a brace of pistols (+4). A Dwarf Lord may ride atop a Throne of Power (+150). May take 3 magic items.</description>
     </rule>
-    <rule id="2bfd-e651-4040-fd44" name="Dwarf Miner" publicationId="78e3-1ead-0759-9022" hidden="false">
+    <rule id="2bfd-e651-4040-fd44" name="Dwarf Miner" publicationId="7c1e-d670-1979-5f95" hidden="false">
       <description>DWARF MINERS 110 pts for the first 5 models, +11 pts for each additional model in the regiment
 May arrive on any table edge during the battle. A Dwarf army may only include one regiment of Miners.
 Dwarf soldiers with light armour and double handed weapons.</description>
@@ -2723,7 +2909,7 @@ Dwarf soldiers with light armour and double handed weapons.</description>
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
       </characteristics>
     </profile>
-    <profile id="83cc-add6-b104-925a" name="Dwarf Troll Slayer" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="83cc-add6-b104-925a" name="Troll Slayer" publicationId="7c1e-d670-1979-5f95" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
@@ -2736,7 +2922,7 @@ Dwarf soldiers with light armour and double handed weapons.</description>
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
       </characteristics>
     </profile>
-    <profile id="9a97-c96e-236f-06db" name="Dwarf Longbeard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="9a97-c96e-236f-06db" name="Dwarf Elite Soldier" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
@@ -2749,33 +2935,7 @@ Dwarf soldiers with light armour and double handed weapons.</description>
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
       </characteristics>
     </profile>
-    <profile id="1a01-4504-3827-0333" name="Dwarf Ironbreaker" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
-      <characteristics>
-        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
-        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
-        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
-        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
-        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
-        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
-        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
-        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
-        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="32c0-beb9-fb7d-87cf" name="Dwarf Hammerer" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
-      <characteristics>
-        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
-        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
-        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
-        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
-        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
-        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
-        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
-        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
-        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="416c-4ef1-366d-d97b" name="Daemon Slayer" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="416c-4ef1-366d-d97b" name="Daemon Slayer" publicationId="7c1e-d670-1979-5f95" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">7</characteristic>
@@ -2788,7 +2948,7 @@ Dwarf soldiers with light armour and double handed weapons.</description>
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">11</characteristic>
       </characteristics>
     </profile>
-    <profile id="3f9c-4eec-d7cf-dff4" name="Dragon Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="3f9c-4eec-d7cf-dff4" name="Dragon Slayer" publicationId="7c1e-d670-1979-5f95" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
@@ -2808,13 +2968,13 @@ Dwarf soldiers with light armour and double handed weapons.</description>
         <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
         <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
         <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
-        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
         <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
         <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
       </characteristics>
     </profile>
-    <profile id="2c09-a096-d067-62bf" name="Dwarf Hero" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="2c09-a096-d067-62bf" name="Dwarf Hero" publicationId="7c1e-d670-1979-5f95" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
@@ -2827,7 +2987,7 @@ Dwarf soldiers with light armour and double handed weapons.</description>
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
       </characteristics>
     </profile>
-    <profile id="56b3-f37f-4c98-8596" name="Dwarf Lord" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="56b3-f37f-4c98-8596" name="Dwarf Lord" publicationId="7c1e-d670-1979-5f95" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">7</characteristic>
@@ -2847,7 +3007,7 @@ Dwarf soldiers with light armour and double handed weapons.</description>
         <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
         <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
         <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
-        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
         <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
         <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
@@ -2866,7 +3026,7 @@ Dwarf soldiers with light armour and double handed weapons.</description>
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
       </characteristics>
     </profile>
-    <profile id="d9c1-6e8e-d2fe-9d16" name="Runelord" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="d9c1-6e8e-d2fe-9d16" name="Runelord" publicationId="7c1e-d670-1979-5f95" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">8</characteristic>
@@ -2892,7 +3052,7 @@ Dwarf soldiers with light armour and double handed weapons.</description>
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
       </characteristics>
     </profile>
-    <profile id="2882-3088-7a02-0bd8" name="Engineer Guildmaster Burlok Damminson" publicationId="451d-2372-ffc4-cf50" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="2882-3088-7a02-0bd8" name="Engineer Guildmaster Burlok Damminson" publicationId="7c1e-d670-1979-5f95" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
@@ -2943,7 +3103,7 @@ Dwarf soldiers with light armour and double handed weapons.</description>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. The bearer or one model in the bearer’s unit recovers one lost wound. Drink it just after a phase (i.e. just after shooting, or just after melee combat, or just after magic). Three uses only.</characteristic>
       </characteristics>
     </profile>
-    <profile id="dc74-4c1e-4be9-db9e" name="Armour of Skaldour" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="dc74-4c1e-4be9-db9e" name="Armour of Skaldour" publicationId="7c1e-d670-1979-5f95" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Heavy armour. Armour save 2+ (cannot be improved). Ward save 4+ (3+ if combined with a Throne of Power). Immune to fire based attacks.</characteristic>
       </characteristics>
@@ -3013,6 +3173,43 @@ Dwarf soldiers with light armour and double handed weapons.</description>
         <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">5</characteristic>
         <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">4</characteristic>
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">11</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="362d-6e7d-9cba-c005" name="Rune of Cleaving" publicationId="7c1e-d670-1979-5f95" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 strength (can be taken several times).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="21dc-9416-205e-bcd5" name="Gromril Armour" publicationId="7c1e-d670-1979-5f95" hidden="false" typeId="ce53-2d2c-8872-2f43" typeName="Armour">
+      <characteristics>
+        <characteristic name="Armour Save" typeId="4ff6-21c0-92db-2679">4+</characteristic>
+        <characteristic name="Special Rules" typeId="2dc0-e00b-2607-2c71">Some Dwarfs may use Gromril Armour, this type of heavy armour confers a 4+ armour save which may be combined with a shield as normal.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="39df-f3fc-e4af-9f23" name="Dwarf Commander" publicationId="7c1e-d670-1979-5f95" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2d08-f8ba-6ad3-475d" name="Dwarf Battle Standard Bearer" publicationId="7c1e-d670-1979-5f95" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

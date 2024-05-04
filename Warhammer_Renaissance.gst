@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1216-28de-7047-6b53" name="Warhammer Renaissance" revision="9" battleScribeVersion="2.03" authorName="M. Strårup" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1216-28de-7047-6b53" name="Warhammer Renaissance" revision="13" battleScribeVersion="2.03" authorName="M. Strårup" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="451d-2372-ffc4-cf50" name="The Rulebook"/>
     <publication id="78e3-1ead-0759-9022" name="Ravening Hordes"/>
@@ -77,6 +77,7 @@
     <categoryEntry id="89a6-c778-43ae-7cc5" name="Warmachines" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
     <categoryEntry id="fc59-3c6f-195c-d608" name="Chariots" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
     <categoryEntry id="19f2-06aa-b776-0cdc" name="Monsters" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
+    <categoryEntry id="c062-c69c-1d17-dd1e" name="Special Characters" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="aa0f-9635-0072-503d" name="Warhammer Renaissance" publicationId="451d-2372-ffc4-cf50" hidden="false">
@@ -132,13 +133,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4907-6f1e-f938-438d" name="Spear" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74ed-1bdf-7d7b-02c6" type="max"/>
       </constraints>
@@ -150,13 +144,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="40b6-a4d4-f6c5-ab17" name="Heavy Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9361-490a-d811-f515" type="max"/>
       </constraints>
@@ -168,13 +155,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4e83-286d-b28a-b5b6" name="Light Armour" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d760-feb9-91e7-c04a" type="max"/>
       </constraints>
@@ -186,13 +166,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6ec3-fd33-9ff6-183f" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e356-9498-c2df-7378" type="max"/>
       </constraints>
@@ -204,13 +177,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b352-961b-c5c6-59d9" name="Shield" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="89e8-6df4-90c3-19f6" type="max"/>
       </constraints>
@@ -222,13 +188,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="13d9-8e30-8fe1-5283" name="Crossbow" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a859-15b4-1119-d547" type="max"/>
       </constraints>
@@ -240,31 +199,17 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3e40-f751-baab-2ee1" name="Barding for a Warhorse" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="4.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3912-f8ae-1d4b-8d2c" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="37f8-1163-cb14-ae12" name="Barding for a Warhorse" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
+        <infoLink id="37f8-1163-cb14-ae12" name="Barding for steed" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c0f4-d976-0c62-1b37" name="Flail" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f6b-3cd0-5ef8-99c0" type="max"/>
       </constraints>
@@ -276,13 +221,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="26fe-f48b-e245-e548" name="Halberd" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="2.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c57-bf1f-a8e6-35f6" type="max"/>
       </constraints>
@@ -294,13 +232,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="cbf9-1b83-6a69-ad9c" name="Lance" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="2.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a54c-b303-9da0-2dc5" type="max"/>
       </constraints>
@@ -312,13 +243,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="12b9-cf16-c17f-fcbc" name="Longbow" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cada-b013-0858-c81e" type="max"/>
       </constraints>
@@ -330,31 +254,17 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fd3a-e295-46b6-9092" name="Handgun" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8c7-3df7-1ebe-92a4" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="d290-517e-4291-2ee9" name="Handgun" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="d247-fd2c-7d5f-5383" type="profile"/>
+        <infoLink id="d290-517e-4291-2ee9" name="Hand Gun" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="d247-fd2c-7d5f-5383" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="798b-ab09-5a4b-90d6" name="Pistol" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="2.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb5a-2f3c-d48d-b6b8" type="max"/>
       </constraints>
@@ -366,13 +276,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="227a-0209-7101-8fae" name="Brace of Pistols" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="4.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1572-0fda-0607-c18d" type="max"/>
       </constraints>
@@ -384,13 +287,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="74ef-a2c8-56a5-5167" name="Additional Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b046-89d0-4326-4656" type="max"/>
       </constraints>
@@ -405,6 +301,14 @@
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="b397-dfac-ab40-1bab" name="Hand Weapon" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9276-96bd-f8f7-4c6c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3852-3235-2e36-f264" name="Hand Weapon" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -591,18 +495,6 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f560-7992-7558-9194" name="Silver Lance" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f93d-6f32-0bf9-cd97" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9455-14bb-19fe-f300" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="6990-1c52-303b-4ca8" name="Silver Lance" hidden="false" targetId="e279-a26c-f02a-929c" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="ab8d-c805-8e5e-6a20" name="Beserker Sword" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf7d-76f7-26f4-8fcc" type="max"/>
@@ -757,18 +649,6 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="85.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="08a4-2ab0-88dd-f6d0" name="Vampire Slayer" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1bc0-7f48-8496-cb2e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d647-6dbb-ca64-de20" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="2bac-aad6-f28b-9631" name="Vampire Slayer" hidden="false" targetId="8308-493f-1a64-1598" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b8f0-7043-c855-30b2" name="Frost Blade" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
@@ -1148,7 +1028,7 @@
             <infoLink id="d3e7-fda6-8604-23f9" name="Ring of Corin" hidden="false" targetId="9567-6a29-a1fa-2ff1" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="45.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f187-28fc-0149-fbbf" name="Drums of Swift Reform" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
@@ -1160,7 +1040,7 @@
             <infoLink id="dcdc-f28c-d4c2-8257" name="Drums of Swift Reform" hidden="false" targetId="4351-8dec-ebeb-9ca9" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7cf0-aaf5-0ff6-25c0" name="Van Horstman&apos;s Speculum" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
@@ -1184,7 +1064,7 @@
             <infoLink id="2c86-0cb2-c1f8-df2c" name="Potion of Strength" hidden="false" targetId="8c8f-830a-7e61-27f5" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b67d-072c-3ac3-4414" name="Talisman of Luck" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
@@ -1196,7 +1076,7 @@
             <infoLink id="42c1-3a5d-c78b-5fca" name="Talisman of Luck" hidden="false" targetId="7b8c-1fb3-6baa-10e1" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="25c8-9018-7e38-0c33" name="Black Gem of Gnar" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
@@ -1220,7 +1100,7 @@
             <infoLink id="7e67-0218-ae9a-62e2" name="Ring of Volans" hidden="false" targetId="1c58-830d-c86f-c963" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b1f0-3bc8-5dd2-0db6" name="Drums of Marching" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
@@ -1256,7 +1136,7 @@
             <infoLink id="1ecf-83bc-4d92-b5d7" name="Pipes of Doom" hidden="false" targetId="92aa-b63e-14b2-19e1" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7066-00a8-8986-d20c" name="Jade Amulet" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
@@ -1316,7 +1196,7 @@
             <infoLink id="1879-787e-bd1b-d940" name="Crown of Command" hidden="false" targetId="509a-c741-e059-1f49" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="75cd-4f34-56c5-b8ba" name="Talisman of Obsidian" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
@@ -1331,18 +1211,6 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1d4a-0293-adb8-7154" name="Doomfire Ring" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f25c-1c33-c8be-02c2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7beb-9c7a-9a58-5f31" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="d548-b811-8465-8acc" name="Doomfire Ring" hidden="false" targetId="df7c-5bb4-076d-e2a9" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="125.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="be6f-ec4a-fa50-55ae" name="Orb of Thunder" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7c6d-539c-dd5e-5fc5" type="max"/>
@@ -1352,19 +1220,19 @@
             <infoLink id="dba3-83d9-5916-39d0" name="Orb of Thunder" hidden="false" targetId="b7c7-8eee-90a1-933f" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="7cc5-4cea-9c72-ef51" name="Arcane Items" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="7cc5-4cea-9c72-ef51" name="Arcane Items" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true">
       <rules>
         <rule id="a699-46fa-d8e6-c4a0" name="Arcane Items" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false">
           <description>Only wizards may take arcane items.</description>
         </rule>
       </rules>
       <selectionEntries>
-        <selectionEntry id="edba-99f8-541b-7354" name="Skull Staff" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="edba-99f8-541b-7354" name="Skull Staff" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cdd8-86e6-7cca-81de" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c09b-c037-d0d3-0328" type="max"/>
@@ -1376,7 +1244,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8f00-cce4-9a1e-1e7e" name="Seerstone" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8f00-cce4-9a1e-1e7e" name="Seerstone" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e77-60f5-cae5-cff2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d374-cbca-7c08-2a2a" type="max"/>
@@ -1388,7 +1256,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5847-6cb7-ca56-56bf" name="Infusion of White" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5847-6cb7-ca56-56bf" name="Infusion of White" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ad6c-8b84-1bfc-2306" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d3b7-9e6e-936d-4989" type="max"/>
@@ -1400,7 +1268,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5db3-7711-177c-ca1e" name="Staff of Stealing" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5db3-7711-177c-ca1e" name="Staff of Stealing" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a2c-195d-200b-1149" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="95e9-1a1c-dadb-1aeb" type="max"/>
@@ -1409,10 +1277,10 @@
             <infoLink id="9bd9-e1ca-5201-0efc" name="Staff of Stealing" hidden="false" targetId="8a7b-a678-e2db-c860" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d65d-a387-c84c-2ec4" name="Ring of Darkness" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d65d-a387-c84c-2ec4" name="Ring of Darkness" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dfe4-c0ce-f3dd-dd3e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="10dc-a14c-03ef-6af2" type="max"/>
@@ -1421,10 +1289,10 @@
             <infoLink id="25f7-1442-50b2-2978" name="Ring of Darkness" hidden="false" targetId="b3c5-739d-148b-dcc1" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4126-6a06-5d08-1b38" name="Power Scroll" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4126-6a06-5d08-1b38" name="Power Scroll" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="77d0-0216-a00b-e1d4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="731e-8d1d-dc4d-0f07" type="max"/>
@@ -1433,10 +1301,10 @@
             <infoLink id="9fe3-2a94-8ee5-c11b" name="Power Scroll" hidden="false" targetId="92b4-7ca2-c91e-0fc4" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="15e6-6fc2-1b37-22fd" name="Enchanted Mirror" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="15e6-6fc2-1b37-22fd" name="Enchanted Mirror" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ff29-1bcb-7883-03a2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a23e-1c17-bd13-9896" type="max"/>
@@ -1445,10 +1313,10 @@
             <infoLink id="305e-cc4f-3623-b1ec" name="Enchanted Mirror" hidden="false" targetId="75be-0eed-d8e7-345b" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="15.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5f6e-efc9-0b1f-b68b" name="Chalice of Sorcery" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5f6e-efc9-0b1f-b68b" name="Chalice of Sorcery" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f859-9da3-eef5-45c7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c4ab-7ed9-fac2-76c4" type="max"/>
@@ -1457,10 +1325,10 @@
             <infoLink id="a519-98ec-5002-2adf" name="Chalice of Sorcery" hidden="false" targetId="7064-4d32-8fd8-ccd6" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fdf3-76a1-a7b2-71d9" name="Dispel Magic Scroll" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fdf3-76a1-a7b2-71d9" name="Dispel Magic Scroll" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dce9-1293-1ee4-f8db" type="max"/>
           </constraints>
@@ -1471,7 +1339,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d725-e5a5-3389-8f53" name="Book of Secrets" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d725-e5a5-3389-8f53" name="Book of Secrets" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ff9-8016-4242-92f0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="00d3-d58c-d89a-d819" type="max"/>
@@ -1483,19 +1351,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c046-824f-913c-05eb" name="Warding Amulet" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe07-dc88-126d-afcb" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf3c-83b9-4958-5a6c" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="f663-7a7b-bed7-0ab7" name="Warding Amulet" hidden="false" targetId="e129-20a0-c3ee-d98f" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d527-1e27-9951-0d7a" name="Staff of the Three Sisters" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d527-1e27-9951-0d7a" name="Staff of the Three Sisters" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b741-8991-396c-901a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3762-50f9-6e1c-5ac0" type="max"/>
@@ -1504,10 +1360,10 @@
             <infoLink id="e021-7b4f-5dd4-29b5" name="Staff of the Three Sisters" hidden="false" targetId="d4d7-83ce-62dc-82c2" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4022-48c6-4274-6a2f" name="Destroy Magic Scroll" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4022-48c6-4274-6a2f" name="Destroy Magic Scroll" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ad0-6e4b-35f1-b595" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e57-26df-a745-4c05" type="max"/>
@@ -1519,7 +1375,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7651-ffa9-e671-3557" name="Staff of Flaming Death" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7651-ffa9-e671-3557" name="Staff of Flaming Death" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="980d-9df3-013f-def0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd75-5cdc-e2d3-5773" type="max"/>
@@ -1528,10 +1384,10 @@
             <infoLink id="6fd3-b753-6788-0f93" name="Staff of Flaming Death" hidden="false" targetId="2da2-8b08-cc64-ee15" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cf35-9018-d2c4-a407" name="Book of Ashur" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cf35-9018-d2c4-a407" name="Book of Ashur" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f2a-8149-5b61-c05c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0889-8b92-b689-909b" type="max"/>
@@ -1540,10 +1396,10 @@
             <infoLink id="11e0-b485-0b7a-cab5" name="Book of Ashur" hidden="false" targetId="079a-267d-aca9-855c" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="215e-48a6-41dd-3c43" name="Orb of Forbidden Knowledge" publicationId="451d-2372-ffc4-cf50" page="73" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="215e-48a6-41dd-3c43" name="Orb of Forbidden Knowledge" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4cd9-9b3a-2c0f-5d28" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e62-cda7-615f-3d48" type="max"/>
@@ -1552,10 +1408,10 @@
             <infoLink id="31a8-591a-b4ea-c9a7" name="Orb of Forbidden Knowledge" hidden="false" targetId="32a8-1e1d-c577-8b1d" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="70.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8e6f-77e0-f988-06f2" name="Staff of the Many Coloured Traitor" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8e6f-77e0-f988-06f2" name="Staff of the Many Coloured Traitor" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="994f-f0ad-f3ca-f700" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b9d1-d6ea-928a-f0ce" type="max"/>
@@ -1564,10 +1420,10 @@
             <infoLink id="639c-e0bc-e32c-c2b4" name="Staff of the Many Coloured Traitor" hidden="false" targetId="5fe1-c237-6b5c-e267" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="80.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="125.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e7fb-a3d5-3bf9-052e" name="Wand of Jet" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e7fb-a3d5-3bf9-052e" name="Wand of Jet" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ce9-2e43-0955-a127" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7cb1-dadb-0311-6737" type="max"/>
@@ -1576,7 +1432,127 @@
             <infoLink id="9c75-5ca9-67aa-8ca9" name="Wand of Jet" hidden="false" targetId="2628-c459-1e1b-3065" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="125.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5e2b-633e-f375-bca4" name="Purple Reaper" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3efb-b681-7448-856c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="40c1-40b2-3c2b-a448" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e6b1-b7ca-a3b4-86ce" name="Purple Reaper" hidden="false" targetId="f074-4112-73c7-7f3e" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4b6a-3d65-38d7-01fa" name="White Cloak" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="68b8-0d50-bde1-7211" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1593-f43e-da2c-d63f" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="cecc-e3de-f706-b0c3" name="White Cloak" publicationId="de82-78e0-d4de-d8ab" hidden="false" targetId="79cf-b9ce-2c2f-a868" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="25dd-3c73-02c1-520f" name="Cloak of Horrors" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f171-0923-35d4-306f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5190-a782-52f2-94ec" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7fc1-f037-2c4a-b9b6" name="Cloak of Horrors" publicationId="de82-78e0-d4de-d8ab" hidden="false" targetId="85ce-e180-13a2-5e7e" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f0a0-209a-bac4-59c2" name="Flameforged Cape" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="faee-9826-89c4-74ab" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4927-4044-e6a3-d032" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e390-b62d-5d93-8fc4" name="Flameforged Cape" publicationId="de82-78e0-d4de-d8ab" hidden="false" targetId="ddb9-283c-1a87-a013" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cab2-1d3d-0153-3cad" name="Crown of Shadows" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6273-b068-a765-5d3a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="65f8-93ff-3a29-7048" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a911-298f-0d52-e3f6" name="Crown of Shadows" publicationId="de82-78e0-d4de-d8ab" hidden="false" targetId="1950-dffd-7076-33ff" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fe30-f400-8f86-b75c" name="Teclis&apos; Textbook" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f96c-94d2-277d-252b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="744e-cb5e-09af-00a6" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9aba-da5d-9527-2145" name="Teclis&apos; Textbook" publicationId="de82-78e0-d4de-d8ab" hidden="false" targetId="86d6-ded4-7a04-a365" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="762e-e967-6d16-1928" name="Amulet of Steel" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2a61-75d9-421d-8ac9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c348-4852-d30d-57fd" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2570-4072-2cd5-a92d" name="Amulet of Steel" publicationId="de82-78e0-d4de-d8ab" hidden="false" targetId="d32e-82c4-1e89-bf31" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="96c5-5151-7260-3228" name="Wand of Resurrection" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd86-d7c8-029d-45e0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ce27-205b-8003-add6" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="44e8-d974-d0f9-2b63" name="Wand of Resurrection" publicationId="de82-78e0-d4de-d8ab" hidden="false" targetId="579f-0087-d4ad-c096" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ae05-300e-a6d7-8293" name="Stormcrow Staff" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1487-1531-e108-ce45" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="95f6-51c4-5e1a-25be" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="24be-88cb-952a-b364" name="Stormcrow Staff" publicationId="de82-78e0-d4de-d8ab" hidden="false" targetId="0860-a49c-a0fc-8e63" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cec3-6d4a-206b-5544" name="Doomfire Ring" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4929-c291-c10e-421b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b1ec-5915-9691-0086" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="1206-f107-1a2f-3fd1" name="Doomfire Ring" publicationId="de82-78e0-d4de-d8ab" hidden="false" targetId="df7c-5bb4-076d-e2a9" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1620,7 +1596,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="8e9b-87c4-a76e-4557" name="Magic Banners" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="be05-ba0a-3889-a4d8" name="Bifrost Banner" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="be05-ba0a-3889-a4d8" name="Bifrost Banner" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c6da-319f-7f07-73e1" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1eac-474b-c475-cf02" type="max"/>
@@ -1632,7 +1608,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="34e2-eca5-d7b4-b12e" name="Flaming Standard" publicationId="78e3-1ead-0759-9022" page="74" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="34e2-eca5-d7b4-b12e" name="Flaming Standard" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4634-fe3f-de08-af33" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2a02-4045-ec17-9a2e" type="max"/>
@@ -1644,7 +1620,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c065-3a38-b9fb-2972" name="Impetuous Standard" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c065-3a38-b9fb-2972" name="Impetuous Standard" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6407-f9c6-e25e-d0ad" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="be19-aff3-f6ca-1e4c" type="max"/>
@@ -1656,19 +1632,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9838-371e-5eec-d93f" name="Banner of Courage" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="925f-aaff-e0b2-aa98" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e00-791e-6cc9-9bb1" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="7627-cd86-a4fa-3a39" name="Banner of Courage" hidden="false" targetId="58ac-2139-00f7-601f" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="be23-c9a7-dab9-fc70" name="Banner of Legion" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="be23-c9a7-dab9-fc70" name="Banner of Legion" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d05-a1dc-9b29-ebb9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="98ab-8fe2-95e9-d5b1" type="max"/>
@@ -1677,10 +1641,10 @@
             <infoLink id="b781-e6b5-ca69-694a" name="Banner of Legion" hidden="false" targetId="a568-fda8-a619-e42a" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ce17-2655-e524-4177" name="Scarecrow Banner" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ce17-2655-e524-4177" name="Scarecrow Banner" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="23a1-e16a-6602-728a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f3d5-5a66-6ac0-ac0c" type="max"/>
@@ -1689,10 +1653,10 @@
             <infoLink id="e2ba-41fd-38e3-d520" name="Scarecrow Banner" hidden="false" targetId="3b5c-ad1e-a107-7f8e" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f19f-7373-c940-08a0" name="Banner of Spell Protection" publicationId="451d-2372-ffc4-cf50" page="74" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f19f-7373-c940-08a0" name="Banner of Spell Protection" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b2c1-913a-01d8-49e0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7e35-a4c7-06d1-b0c4" type="max"/>
@@ -1701,10 +1665,10 @@
             <infoLink id="2b98-9721-0716-5cb9" name="Banner of Spell Protection" hidden="false" targetId="c26c-aa38-b594-a0ef" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c422-0404-ca5c-e354" name="Inspiring Standard" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c422-0404-ca5c-e354" name="Inspiring Standard" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="233e-b8a2-bed1-bbe3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="80c7-2db6-be92-80ce" type="max"/>
@@ -1713,10 +1677,10 @@
             <infoLink id="9ac8-f42a-cbc6-2f69" name="Inspiring Standard" hidden="false" targetId="0253-da3c-09ae-ee01" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="17f7-8c99-88f4-1bf2" name="Valerous Standard" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="17f7-8c99-88f4-1bf2" name="Valerous Standard" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a276-b1ca-aa94-b251" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bc5c-9215-dcf2-4b1e" type="max"/>
@@ -1725,10 +1689,10 @@
             <infoLink id="9143-edf9-f81c-2d26" name="Valerous Standard" hidden="false" targetId="f3cb-3a96-e874-ec4b" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="df64-a70b-97f9-ead4" name="Banner of Unyielding" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="df64-a70b-97f9-ead4" name="Banner of Unyielding" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5e4f-abb5-9dd8-38df" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="329e-24bb-287e-7aad" type="max"/>
@@ -1737,10 +1701,10 @@
             <infoLink id="a34e-fd1d-3b07-4807" name="Banner of Unyielding" hidden="false" targetId="e8c4-41d3-be57-6e03" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f7ff-f424-7fdf-218a" name="Banner of Arcane Warding" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f7ff-f424-7fdf-218a" name="Banner of Arcane Warding" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c3bd-35f4-7990-938d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d09-34e2-239b-8b96" type="max"/>
@@ -1749,10 +1713,10 @@
             <infoLink id="b3f0-814b-8843-6441" name="Banner of Arcane Warding" hidden="false" targetId="3840-38bf-ce82-5c07" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3a0f-2ca0-e22d-8163" name="Banner of (Hope and) Glory" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3a0f-2ca0-e22d-8163" name="Banner of Glory" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c7f-d2c6-04b4-807f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f085-3aef-b4a0-d757" type="max"/>
@@ -1761,10 +1725,10 @@
             <infoLink id="cb72-5c1b-2f8e-8092" name="Banner of (Hope and) Glory" hidden="false" targetId="afac-91a0-f718-f46b" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f8e0-7d32-4d87-a6d3" name="Banner of Speed" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f8e0-7d32-4d87-a6d3" name="Banner of Speed" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c3d-cc56-83dd-c919" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f3d-b456-50ee-025c" type="max"/>
@@ -1773,10 +1737,10 @@
             <infoLink id="09f8-986e-4a52-06ab" name="Banner of Speed" hidden="false" targetId="c9f8-8445-d74c-4da2" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1430-9b5e-9775-6f4a" name="Banner of Missile Protection" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1430-9b5e-9775-6f4a" name="Banner of Missile Protection" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="47e1-2b9a-6525-4905" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6495-a67a-adf1-cda1" type="max"/>
@@ -1785,10 +1749,10 @@
             <infoLink id="a36f-f729-8708-4820" name="Banner of Missile Protection" hidden="false" targetId="f7dd-d5c2-f3a7-36ef" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8756-43f0-e8f0-f97f" name="Rending Banner" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8756-43f0-e8f0-f97f" name="Rending Banner" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="46ea-29f2-b7bf-e2cf" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7f1d-6c18-cfa8-748f" type="max"/>
@@ -1800,7 +1764,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="56a3-31bb-9c0c-dc4d" name="Assault Banner" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="56a3-31bb-9c0c-dc4d" name="Assault Banner" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ac9e-e95f-b2e7-f1b4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a210-be25-5e19-b390" type="max"/>
@@ -1809,10 +1773,10 @@
             <infoLink id="008d-5974-6abb-e3da" name="Assault Banner" hidden="false" targetId="5f31-c9b8-5c9b-ecd3" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="152e-3d45-ab16-7aac" name="Phalanx Standard" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="152e-3d45-ab16-7aac" name="Phalanx Standard" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8b1b-8287-3b31-522c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed04-8e23-5e38-2c75" type="max"/>
@@ -1824,7 +1788,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="be5d-d0c7-2728-ffae" name="Dread Banner" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="be5d-d0c7-2728-ffae" name="Dread Banner" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bde6-4fb6-f7c7-16f9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e92-818c-21c1-249a" type="max"/>
@@ -1833,10 +1797,10 @@
             <infoLink id="9288-41ac-a599-9adf" name="Dread Banner" hidden="false" targetId="548b-818e-90f6-55ac" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="42ea-fb1d-aca9-a331" name="Standard of Shielding" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="42ea-fb1d-aca9-a331" name="Standard of Shielding" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="69fd-1f97-1c40-d44a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="419c-4f53-6fea-79c3" type="max"/>
@@ -1848,19 +1812,7 @@
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9cdd-5639-3b9d-0083" name="Banner of Defiance" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="727c-55a1-beb9-6321" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="29eb-550e-1c44-4dac" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="2cd0-6994-bd6c-b918" name="Banner of Defiance" hidden="false" targetId="afb6-a35c-0968-cecc" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="52f1-e1d2-03b4-a435" name="Banner of Great Deeds" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="52f1-e1d2-03b4-a435" name="Banner of Great Deeds" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="23d3-ad3b-7129-6782" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1d3d-6406-2066-8cb8" type="max"/>
@@ -1869,10 +1821,10 @@
             <infoLink id="2d3f-c019-9961-af2d" name="Banner of Great Deeds" hidden="false" targetId="57e4-0771-e4f4-55b9" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fe30-ce42-3cf1-41f5" name="Banner of Wrath" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fe30-ce42-3cf1-41f5" name="Banner of Wrath" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aae5-4b1e-53bc-9fc0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e25c-16d1-4842-932c" type="max"/>
@@ -1881,10 +1833,10 @@
             <infoLink id="0522-e76c-83e3-b439" name="Banner of Wrath" hidden="false" targetId="0348-1d6c-2178-13b2" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="70.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="80.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="33d1-f1e2-a70e-8b74" name="Banner of Might" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="33d1-f1e2-a70e-8b74" name="Banner of Might" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e836-cfd0-3e90-ab49" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8acf-1dfc-d22d-9f38" type="max"/>
@@ -1893,8 +1845,17 @@
             <infoLink id="0752-2a73-264a-6eff" name="Banner of Might" hidden="false" targetId="ffe1-e794-ce96-ccc7" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="975b-7e2a-0ea6-ed90" name="Endless Banner" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f40f-5e09-2a07-24c2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5830-9c2c-d940-ff3a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4d2a-cba5-be7a-c597" name="Endless Banner" publicationId="de82-78e0-d4de-d8ab" hidden="false" targetId="656b-7eee-22be-5dad" type="profile"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -1998,7 +1959,7 @@ It is convenient to fight challenges after all other models in the combat engage
 You may appoint one champion or hero to be the army’s battle standard bearer. The battle standard bearer may not ride a monster, cannot wield a shield or carry a weapon that requires two hands. This includes all missile weapons. All units within 12” of the battle standard bearer may re-roll all failed LD tests.</description>
     </rule>
     <rule id="e9b5-dfb2-a871-25c0" name="Familiars" publicationId="78e3-1ead-0759-9022" hidden="false">
-      <description>Only wizards can take familiars. A wizard can only have one Familiar. The Familiar is represented on the board by a suitable model with its own base of 20x20 mm or 25x25 mm. The Familiar must stand together with its master (to the front if standing in a regiment). The Familiar’s LD cannot be utilized by other troops. While familiars count towards the maximum number of magic items a character can have, they are not magic items as such, and are not nullified by special rules that nullify the effect of magic items.</description>
+      <description>Only wizards on foot can take familiars. A wizard can only have one Familiar. A Familiar is represented on the board by a suitable model with its own base of 20x20 mm or 25x25 mm. A Familiar must stand together with its master, to the front if standing in a regiment. A Familiar will always move together with his master, even if he teleports away. Familiars are so small that wizards walking alone with their familiars move and have line of sight like individual models. The Familiar’s LD cannot be utilized by other troops. While familiars count towards the maximum number of magic items a character can have, they are not magic items as such, and are not nullified by special rules that nullify the effect of magic items, nor do they disappear if their master is slain. Each type of familiar can only be taken once.</description>
     </rule>
     <rule id="42aa-f583-5869-e2e2" name="Beasts and Beastmasters" publicationId="451d-2372-ffc4-cf50" hidden="false">
       <description>Regiments of beasts may be led by Beastmasters who must be positioned either in the front or the rear rank. Such regiments cannot include standard bearers, musicians or be joined by characters.
@@ -2008,14 +1969,14 @@ At the beginning of the game, the number of Beastmasters in the regiment may not
 The speed of the combined regiment is limited to that of the slowest model present, except the regiment may make charge moves using the movement allowance of the beasts. In this case the Beastmasters move along, but if this move takes them beyond their normal maximum charge move, they are placed in the rear rank and cannot fight in the first round of melee combat. They may move to the front in the following melee combat round.</description>
     </rule>
     <rule id="ad1e-c8d7-8e04-006f" name="Panic" publicationId="451d-2372-ffc4-cf50" hidden="false"/>
-    <rule id="07c2-f060-d32e-2031" name="Scroll Familiar" publicationId="78e3-1ead-0759-9022" hidden="false">
-      <description>This Familiar may carry two scrolls just as a character. These scrolls may be used by the Familiar’s master, and only as long as he/she is in base contact with the Scroll Familiar.</description>
+    <rule id="07c2-f060-d32e-2031" name="Scroll Familiar" publicationId="de82-78e0-d4de-d8ab" hidden="false">
+      <description>This Familiar may carry two scrolls just as a character. These scrolls may be used by the Familiar’s master, but only as long as he/she is in base contact with the Scroll Familiar.</description>
     </rule>
-    <rule id="795a-b8f2-ab18-2d9e" name="Spell Familiar" publicationId="78e3-1ead-0759-9022" hidden="false">
+    <rule id="795a-b8f2-ab18-2d9e" name="Spell Familiar" publicationId="de82-78e0-d4de-d8ab" hidden="false">
       <description>After spells have been dealt, the spell familiar may pick a spell from its master’s lore which is not already in its master’s possession. As long as the familiar and its master are in base contact, the master may cast this spell.</description>
     </rule>
     <rule id="9461-df50-6d70-30f9" name="Warrior Familiar" publicationId="78e3-1ead-0759-9022" hidden="false">
-      <description>If its master is attacked, the Familiar will interpose itself between him/her and his attackers, who must then fight the Familiar before blows can be struck against the wizard. Warrior Familiars always strike first.</description>
+      <description>If its master is attacked in melee, the Familiar will interpose itself between him and his attackers, who must then kill the Familiar before blows can be struck against the wizard (even in a challenge). Warrior Familiars always strike first.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -2228,9 +2189,9 @@ attack is gained from using a pistol or pistols. On the first round of melee com
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 magic level and the bearer must choose spells from any one college lore.</characteristic>
       </characteristics>
     </profile>
-    <profile id="05da-09f7-2765-e1a2" name="Book of Secrets" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="05da-09f7-2765-e1a2" name="Book of Secrets" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Used at the start the game turn, just after rolling for winds of magic. The wizard may discard any number of magic cards and immediately draw replacements.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Used just after rolling for winds of magic. The player may discard any number of magic cards not belonging to a particular wizard (such as a card stored from the previous magic phase) and immediately draw replacements.</characteristic>
       </characteristics>
     </profile>
     <profile id="7064-4d32-8fd8-ccd6" name="Chalice of Sorcery" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
@@ -2243,14 +2204,14 @@ attack is gained from using a pistol or pistols. On the first round of melee com
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Automatically dispels an enemy spell. Furthermore, roll a 1D6, on a 4+ the spell is destroyed. One use only.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9a5c-ab97-c2d5-ff1a" name="Dispel Magic Scroll" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="9a5c-ab97-c2d5-ff1a" name="Dispel Magic Scroll" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Automatically dispels an enemy spell. This is the only magic item in the game of which you may have more than one in your army. One use only.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Automatically dispels an enemy spell, even if cast with Total Power. One use only. You may include two Dispel Magic Scrolls in your army.</characteristic>
       </characteristics>
     </profile>
-    <profile id="75be-0eed-d8e7-345b" name="Enchanted Mirror" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="75be-0eed-d8e7-345b" name="Enchanted Mirror" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Dispel attempts always succeed on 4+ or better.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Dispel attempts made by the bearer always succeed on 4+.</characteristic>
       </characteristics>
     </profile>
     <profile id="0d95-8438-6dc0-c650" name="Infusion of White" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
@@ -2263,7 +2224,7 @@ attack is gained from using a pistol or pistols. On the first round of melee com
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer always counts as having the highest magic level when casting and dispelling spells (unless the enemy wizard is of the same level and also has the Orb of Forbidden Knowledge).</characteristic>
       </characteristics>
     </profile>
-    <profile id="92b4-7ca2-c91e-0fc4" name="Power Scroll" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="92b4-7ca2-c91e-0fc4" name="Power Scroll" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Automatically powers one of the wizard’s spells. One use only.</characteristic>
       </characteristics>
@@ -2273,14 +2234,14 @@ attack is gained from using a pistol or pistols. On the first round of melee com
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. The wizard cannot be hit in this combat engagement. Remains in play.</characteristic>
       </characteristics>
     </profile>
-    <profile id="cae9-df9b-ba16-2133" name="Seerstone" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="cae9-df9b-ba16-2133" name="Seerstone" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">For each power point spent, the wizard may increase the range of a spell by 10”. This item has no effect on spells with no range (i.e. spells that only work on the wizard or models touching the wizard).</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">For each extra power card spent when attempting to cast a spell, the wizard may increase the range of the spell by 12”. This item has no effect on spells with no range (i.e. spells that only work on the wizard or models touching the wizard) or spells with an effect that take place within a radius of the wizard (such as Drain Life and similar spells).</characteristic>
       </characteristics>
     </profile>
-    <profile id="2be5-3ef3-95c4-fb17" name="Skull Staff" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="2be5-3ef3-95c4-fb17" name="Skull Staff" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All enemy models within 24” of the wizard must reveal all magic items and spells.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All enemy models within 12” of the wizard must reveal all magic items and spells.</characteristic>
       </characteristics>
     </profile>
     <profile id="2da2-8b08-cc64-ee15" name="Staff of Flaming Death" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
@@ -2288,9 +2249,9 @@ attack is gained from using a pistol or pistols. On the first round of melee com
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. A large fireball flies from the staff and hits the first unit in its path. The target suffer a flaming S6 hit that causes 1D3 wounds. May be used three times only.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8a7b-a678-e2db-c860" name="Staff of Stealing" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="8a7b-a678-e2db-c860" name="Staff of Stealing" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Used at the start of the game turn when winds of magic are rolled. Your side steals two magic cards from your enemy. One use only.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Used when winds of magic are rolled. Your side steals one (1) magic card from your enemy. One use only.</characteristic>
       </characteristics>
     </profile>
     <profile id="5fe1-c237-6b5c-e267" name="Staff of the Many Coloured Traitor" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
@@ -2308,129 +2269,124 @@ attack is gained from using a pistol or pistols. On the first round of melee com
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Reduces the cost of casting a spell with one power card (power one spells are cast for free). Can be used once per magic phase.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e129-20a0-c3ee-d98f" name="Warding Amulet" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-      <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Ward save 5+.</characteristic>
-      </characteristics>
-    </profile>
     <profile id="2a0e-66c0-bfc1-e9be" name="Amulet of Fire" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Natural dispel 4+.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Natural dispel 4+. Can only be used once each magic phase.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b226-9f10-98b6-c9ba" name="Black Gem of Gnar" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="b226-9f10-98b6-c9ba" name="Black Gem of Gnar" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">In a challenge, the bearer and his opponent do not strike blows in the first round of melee combat (as they are frozen in time).</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">In a challenge, the bearer and his opponent (and any mounts) do not strike blows in the first round of melee combat (as they are frozen in time).</characteristic>
       </characteristics>
     </profile>
-    <profile id="3f93-6e85-ef64-bc45" name="Claw of Nagash" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="3f93-6e85-ef64-bc45" name="Claw of Nagash" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Can be used against a single living model within 8”. The model suffers 1D6 wounds, no armour save allowed. One use only.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Can be used against a single living model within 8”. The model suffers 1D6 wounds, no armour save allowed. One use only</characteristic>
       </characteristics>
     </profile>
-    <profile id="0bc1-d1cd-5164-0db0" name="Crimson Amulet" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="0bc1-d1cd-5164-0db0" name="Crimson Amulet" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer automatically passes any characteristic test except LD tests.</characteristic>
       </characteristics>
     </profile>
-    <profile id="509a-c741-e059-1f49" name="Crown of Command" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="509a-c741-e059-1f49" name="Crown of Command" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">LD 10 – if worn by the general, all units within 18” may benefit from the general’s LD.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">LD 10.</characteristic>
       </characteristics>
     </profile>
-    <profile id="df7c-5bb4-076d-e2a9" name="Doomfire Ring" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="df7c-5bb4-076d-e2a9" name="Doomfire Ring" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Requires line of sight. One target unit within 24” suffers 2D6 flaming S3 hits.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound Spell: A firebolt of doom launces from the ringbearer’s hand and strikes the first target in its path. A single target unit within 24” suffers 2D6 flaming Strength 4 hits. This spell can be used three times.</characteristic>
       </characteristics>
     </profile>
-    <profile id="93dc-08a9-2716-6cd0" name="Drums of Marching" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="93dc-08a9-2716-6cd0" name="Drums of Marching" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer’s regiment can always march even if there is an enemy unit within 8” at the start of the turn. Models on foot only.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer’s regiment can march even if there is an enemy unit within 8” at the start of the turn. Models on foot only.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4351-8dec-ebeb-9ca9" name="Drums of Swift Reform" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="4351-8dec-ebeb-9ca9" name="Drums of Swift Reform" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">In the movement phase during “remaining moves”, the bearer and his regiment may change formation before and after taking a normal move or a march move. Models on foot only.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer and his regiment may make a complete reform before and after taking a normal move or even a march move. Models on foot only.</characteristic>
       </characteristics>
     </profile>
-    <profile id="0905-3915-6ece-8392" name="Ghost Ring" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="0905-3915-6ece-8392" name="Ghost Ring" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer and his mount can move through solid objects and any kind of terrain.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer and his mount can move through solid objects and any kind of terrain. The bearer may not move through enemy troops. Note that the move must take the bearer clear of impassable terrain.</characteristic>
       </characteristics>
     </profile>
-    <profile id="bd5b-56c4-e561-ca2a" name="Horn of Orguk" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="bd5b-56c4-e561-ca2a" name="Horn of Orguk" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Casts the Grey spell Horn of Andar. Can be used three times only.</characteristic>
       </characteristics>
     </profile>
-    <profile id="163c-1778-dc0d-dce4" name="Jade Amulet" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="163c-1778-dc0d-dce4" name="Jade Amulet" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1T.</characteristic>
       </characteristics>
     </profile>
-    <profile id="a9da-961b-41b5-d3b5" name="Nullstone Ring" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="a9da-961b-41b5-d3b5" name="Nullstone Ring" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">No model in base contact with the bearer can cast spells.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b7c7-8eee-90a1-933f" name="Orb of Thunder" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="b7c7-8eee-90a1-933f" name="Orb of Thunder" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. One use only. All flying high creatures are driven off. No flying movement is possible, use ground move instead. Remains in play.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. One use only. All creatures flying high are driven off. No flying movement is possible, use ground move instead. Remains in play.</characteristic>
       </characteristics>
     </profile>
-    <profile id="92aa-b63e-14b2-19e1" name="Pipes of Doom" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="92aa-b63e-14b2-19e1" name="Pipes of Doom" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">When the bearer and the bearer’s regiment are charged by cavalry, the charging unit must take a LD test (even if immune to psychology). If the test is failed the cavalry regiment does not move (and the charge is failed). Models on foot only.</characteristic>
       </characteristics>
     </profile>
-    <profile id="c9aa-884a-589c-a3cb" name="Potion of Healing" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="c9aa-884a-589c-a3cb" name="Potion of Healing" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer recovers all lost wounds. May not be imbibed when the wearer is slain. Living models only. One use only.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer recovers 1D6 lost wounds. May not be imbibed when the bearer is slain. Living models only. One use only.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8c8f-830a-7e61-27f5" name="Potion of Strength" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="8c8f-830a-7e61-27f5" name="Potion of Strength" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+3S in one melee combat round. Must be imbibed just before attacking. One use only.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9567-6a29-a1fa-2ff1" name="Ring of Corin" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="9567-6a29-a1fa-2ff1" name="Ring of Corin" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Destroys the magic properties of a magic item whose presence and name are known to the bearer and within 24” of the bearer.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Destroys the magic properties of a magic item within 12” of the bearer of the Ring of Corin if the bearer can identify the name of the opposing player&apos;s magic item (only one guess permitted). Cannot be used against scrolls.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1c58-830d-c86f-c963" name="Ring of Volans" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="1c58-830d-c86f-c963" name="Ring of Volans" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Select one spell from one of the eight colleges of magic requiring only one or two power cads to cast. This spell can be cast as a bound spell once in the game. One use only.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. Select one spell from one of the eight College Magic lores requiring only one or two power cards to cast. This spell can be cast as a bound spell once in the game. One use only.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6c03-3564-d1ba-4b29" name="Ruby Chalice" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="6c03-3564-d1ba-4b29" name="Ruby Chalice" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enemies suffer a -2 to hit with missiles against the bearer, the bearer’s mount, and the bearer’s regiment.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7b8c-1fb3-6baa-10e1" name="Talisman of Luck" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="7b8c-1fb3-6baa-10e1" name="Talisman of Luck" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer may re-roll one personal die roll. One use only.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6de5-7f60-a2c1-1e6c" name="Talisman of Obsidian" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="6de5-7f60-a2c1-1e6c" name="Talisman of Obsidian" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All spells cast against the bearer and the bearer’s regiment are dispelled automatically.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Neither the bearer, nor anyone within his regiment, can cast spells, and spells cast against the bearer and the bearer’s regiment are dispelled automatically (except if cast with Total Power).</characteristic>
       </characteristics>
     </profile>
-    <profile id="08bb-90f2-c5a5-8822" name="Talisman of Ravensdark" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="08bb-90f2-c5a5-8822" name="Talisman of Ravensdark" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Flying creatures (and their riders) cannot strike against the bearer (and his mount) in melee combat. This item cannot be carried by a character that can fly or that rides a mount with the fly ability.</characteristic>
       </characteristics>
     </profile>
-    <profile id="98ab-d901-a530-b1db" name="Van Horstman&apos;s Speculum" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="98ab-d901-a530-b1db" name="Van Horstman&apos;s Speculum" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">In a challenge the bearer fights with his opponent’s number of A, WS and S (rider, not mount). The bearer attacks at exactly the same time as his opponent even if carrying a double handed weapon (in effect, the two models could kill each other simultaneously).</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">In a challenge the bearer fights with his opponent’s number of A, WS and S as they appear on the opponent’s profile. The bearer attacks at exactly the same time as his opponent even if carrying a double handed weapon (in effect, the two models could kill each other simultaneously)</characteristic>
       </characteristics>
     </profile>
-    <profile id="46ca-fb0e-8da1-9f11" name="Scroll Familiar" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="46ca-fb0e-8da1-9f11" name="Scroll Familiar" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
-        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
         <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
         <characteristic name="Strength" typeId="2186-3de1-32e2-581b">2</characteristic>
@@ -2441,9 +2397,9 @@ attack is gained from using a pistol or pistols. On the first round of melee com
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
       </characteristics>
     </profile>
-    <profile id="c5a1-8e59-fa4c-7456" name="Spell Familiar" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="c5a1-8e59-fa4c-7456" name="Spell Familiar" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
-        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
         <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
         <characteristic name="Strength" typeId="2186-3de1-32e2-581b">2</characteristic>
@@ -2454,13 +2410,13 @@ attack is gained from using a pistol or pistols. On the first round of melee com
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
       </characteristics>
     </profile>
-    <profile id="ecda-9617-e688-c5c7" name="Warrior Familiar" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+    <profile id="ecda-9617-e688-c5c7" name="Warrior Familiar" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
-        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
         <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
         <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
-        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
-        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
         <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
         <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
         <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
@@ -2568,77 +2524,78 @@ attack is forfeit. This effect stacks when combined with items and abilities of 
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Light armour. Regeneration save 4+.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5f31-c9b8-5c9b-ecd3" name="Assault Banner" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="5f31-c9b8-5c9b-ecd3" name="Assault Banner" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1S on the charge (does not apply to mounts).</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1S on the first charge made by the bearer’s unit (does not apply to mounts). One use only.</characteristic>
       </characteristics>
     </profile>
-    <profile id="afac-91a0-f718-f46b" name="Banner of (Hope and) Glory" publicationId="451d-2372-ffc4-cf50" page="75" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="afac-91a0-f718-f46b" name="Banner of Glory" publicationId="de82-78e0-d4de-d8ab" page="" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 WS and BS (does not apply to mounts).</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 WS (does not apply to mounts).</characteristic>
       </characteristics>
     </profile>
-    <profile id="3840-38bf-ce82-5c07" name="Banner of Arcane Warding" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="3840-38bf-ce82-5c07" name="Banner of Arcane Warding" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">When targeted by an enemy spell, roll 1D6. On a roll of 3+, the spell is scattered 4D6” in a random direction, hitting the first unit in its path more than 8” away from the banner.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">4+ natural dispel that will work even against Total Power. If the dispel is successful, the spell will be rebounded, and can potentially hit the enemy. From the standard bearer, the spell will rebound 4D6” in a random direction hitting the first enemy unit in its path.
+If the spell uses a stationary template, centre the template 4D6” away from the standard bearer in the direction rolled. If the spell uses a template that moves in a direction from the caster (e.g. Purple Sun of Xereus), move the template 4D6” in the direction rolled from the standard bearer. If the spell is an effect along a line (e.g., Cracks Call), the line will originate from the standard bearer and extend 4D6” in the direction rolled. Note that only enemy units can be affected and that several enemy units can be hit by spells travelling in a line.</characteristic>
       </characteristics>
     </profile>
-    <profile id="f3cb-3a96-e874-ec4b" name="Valerous Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="f3cb-3a96-e874-ec4b" name="Valerous Standard" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Resolute. Does not affect regiments immune to psychology.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9d15-cdf0-29d0-f626" name="Standard of Shielding" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="9d15-cdf0-29d0-f626" name="Standard of Shielding" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 armour save (or 6+ armour save if the unit had no armour save beforehand).</characteristic>
       </characteristics>
     </profile>
-    <profile id="3b5c-ad1e-a107-7f8e" name="Scarecrow Banner" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="3b5c-ad1e-a107-7f8e" name="Scarecrow Banner" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Cannot be charged by flying enemies (the flying unit may choose another target).</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Cannot be charged by units able to fly. The unit may choose another regiment to charge.</characteristic>
       </characteristics>
     </profile>
-    <profile id="787e-1386-2377-c09b" name="Rending Banner" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="787e-1386-2377-c09b" name="Rending Banner" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All attacks (including shooting) are at -1 to armour save (does not apply to mounts).</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All attacks (including shooting) inflict a -1 penalty to armour save (does not apply to mounts).</characteristic>
       </characteristics>
     </profile>
     <profile id="c823-a23a-0639-87be" name="Phalanx Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">One extra rank fights to the front in melee combat with one attack (does not apply to mounts).</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">One extra rank fights to the front in melee combat with one attack. Infantry only.</characteristic>
       </characteristics>
     </profile>
-    <profile id="0253-da3c-09ae-ee01" name="Inspiring Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="0253-da3c-09ae-ee01" name="Inspiring Standard" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">When used as a battle standard, all units within 18” may re-roll LD tests.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">May re-roll any LD test. When used as a battle standard, all units within 18” may re-roll LD tests.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ffcb-a9af-8330-2e7f" name="Impetuous Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="ffcb-a9af-8330-2e7f" name="Impetuous Standard" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enemy units are not allowed to stand and shoot as a charge reaction.</characteristic>
       </characteristics>
     </profile>
-    <profile id="bdb2-705d-febb-c7af" name="Flaming Standard" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="bdb2-705d-febb-c7af" name="Flaming Standard" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All attacks count as flaming.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All attacks (both melee and missile) count as flaming and magical.</characteristic>
       </characteristics>
     </profile>
-    <profile id="548b-818e-90f6-55ac" name="Dread Banner" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="548b-818e-90f6-55ac" name="Dread Banner" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The regiment causes fear.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5a1a-0bde-8940-62cc" name="Bifrost Banner" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="5a1a-0bde-8940-62cc" name="Bifrost Banner" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Treat water (including swamp and quicksand) as open terrain.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Treat difficult terrain, steep slopes, and water (including swamp and quicksand) as open terrain.</characteristic>
       </characteristics>
     </profile>
-    <profile id="0348-1d6c-2178-13b2" name="Banner of Wrath" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="0348-1d6c-2178-13b2" name="Banner of Wrath" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. 1D6 flaming S4 hits travel in a straight line up to 24” hitting the first unit in its path. No armour save allowed. If six flaming hits are conjured forth the banner exhausts and cannot be used again.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Bound spell. 1D6 flaming S3 hits travel in a straight line up to 18” hitting the first unit in its path. No armour save allowed. After use, roll 1D6, on a roll of one the banner exhausts and cannot be used any more.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e8c4-41d3-be57-6e03" name="Banner of Unyielding" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="e8c4-41d3-be57-6e03" name="Banner of Unyielding" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Stubborn. Does not affect regiments immune to psychology.</characteristic>
       </characteristics>
@@ -2648,14 +2605,14 @@ attack is forfeit. This effect stacks when combined with items and abilities of 
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Natural dispel 4+.</characteristic>
       </characteristics>
     </profile>
-    <profile id="c9f8-8445-d74c-4da2" name="Banner of Speed" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="c9f8-8445-d74c-4da2" name="Banner of Speed" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 movement allowance (applies to steeds if given to cavalry regiments).</characteristic>
       </characteristics>
     </profile>
     <profile id="f7dd-d5c2-f3a7-36ef" name="Banner of Missile Protection" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">4+ ward save vs. mundane shooting (not spells, banshee howls and such).</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">4+ ward save vs. all shooting (including ranged spells, banshee howls, and such).</characteristic>
       </characteristics>
     </profile>
     <profile id="a568-fda8-a619-e42a" name="Banner of Legion" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
@@ -2663,24 +2620,14 @@ attack is forfeit. This effect stacks when combined with items and abilities of 
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">May claim up to +4 in rank bonus.</characteristic>
       </characteristics>
     </profile>
-    <profile id="afb6-a35c-0968-cecc" name="Banner of Defiance" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="57e4-0771-e4f4-55b9" name="Banner of Great Deeds" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Double rank bonus, will never flee voluntarily, pursue or overrun. The banner nullifies hatred and frenzy applying to the regiment carrying the banner.</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1A on the first charge (does not apply to mounts). One use only. Remember that the second rank only delivers one attack per model, regardless of the models’ number of attacks.</characteristic>
       </characteristics>
     </profile>
-    <profile id="57e4-0771-e4f4-55b9" name="Banner of Great Deeds" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+    <profile id="ffe1-e794-ce96-ccc7" name="Banner of Might" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1A on the charge (does not apply to mounts).</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="58ac-2139-00f7-601f" name="Banner of Courage" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-      <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Re-roll failed panic tests.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ffe1-e794-ce96-ccc7" name="Banner of Might" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-      <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 to hit to both shooting and melee combat attacks. (does not apply to mounts).</characteristic>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">+1 to hit on the first charge made by the bearer’s unit (does not apply to mounts). One use only.</characteristic>
       </characteristics>
     </profile>
     <profile id="3e58-6469-766a-3e26" name="Wyrmslayer Sword" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
@@ -2691,11 +2638,6 @@ attack is forfeit. This effect stacks when combined with items and abilities of 
     <profile id="39b4-76e6-c603-c71d" name="Venom Sword" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">1 wound = 1D6 wounds.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="8308-493f-1a64-1598" name="Vampire Slayer" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-      <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">All hits inflict 1D3 wounds on Vampires with no armour save possible. Against other targets: +3S. 1 wound = 1D3 wounds.</characteristic>
       </characteristics>
     </profile>
     <profile id="4afb-0fa5-8bf2-96f9" name="Sword of Teclis" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
@@ -2726,11 +2668,6 @@ attack is forfeit. This effect stacks when combined with items and abilities of 
     <profile id="60e1-752f-baf7-e971" name="Sky Arrow of Naloer" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The bearer must have a short bow, bow, or longbow. One use only. Must be shot at models flying high. No modifiers to hit apply. S10. 1 wound = 1D6 wounds.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="e279-a26c-f02a-929c" name="Silver Lance" publicationId="78e3-1ead-0759-9022" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
-      <characteristics>
-        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Lance. S10 (only on the charge).</characteristic>
       </characteristics>
     </profile>
     <profile id="1169-b37f-3941-2520" name="Parrying Blade" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
@@ -2879,6 +2816,60 @@ attack is forfeit. This effect stacks when combined with items and abilities of 
     <profile id="4a5d-5899-810e-8a82" name="Star Lance" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
       <characteristics>
         <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Lance. S10 (only on the charge).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f074-4112-73c7-7f3e" name="Purple Reaper" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">An arcane item and a double-handed magic weapon limited exclusively to wizards using the Amethyst lore. A wizard who wields this enchanted scythe may exchange any dealt spell during spell selection with the Purple Scythe spell, as long as they did not receive it initially. When equipped with the Purple Reaper, the Purple Scythe spell inflicts 1D6 strength 10 hits on each enemy model in base contact during the melee phase,
+surpassing the standard 1D3 strength 5 hits. May be used even while mounted.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="79cf-b9ce-2c2f-a868" name="White Cloak" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">An arcane item reserved exclusively for wizards using the Light lore. When a wizard adorns this cloak, they gain the ability to replace any dealt spell during spell selection with the Shimmering Cloak spell, provided they did not receive it initially. Moreover, the White Cloak enhances the effects of the Shimmering Cloak spell. As long as the spell is active, the protective properties of the Shimmering Cloak (which deflect ranged attacks harmlessly and require natural sixes to hit in melee combat) extend to any regiment the bearer of the White Cloak joins.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="85ce-e180-13a2-5e7e" name="Cloak of Horrors" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">An arcane item. Exclusive to wizards using the Amber lore. This cloak is embroidered with the number of the beast. When wearing this cloak, the wizard can replace any dealt spell during spell selection with the Savage Beast of Horrors spell, given that the wizard did not initially receive this spell. The cloak amplifies the effects of the Savage Beast of Horrors spell. Instead of the bonuses mentioned in the spell description, the bearer
+automatically inflicts 6 hits at strength 6, and the bearer&apos;s own toughness increases to 6.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ddb9-283c-1a87-a013" name="Flameforged Cape" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">An arcane item. Exclusive to wizards using the Bright lore. When the wizard wears this bright cape, they may replace any dealt spell during spell selection with the Scarlet Scimitar spell, as long as they were not originally granted this spell. The cape enhances the effects of the Scarlet Scimitar spell. In addition to the benefits mentioned in the spell&apos;s description, the bearer of the cape becomes incredibly elusive in combat. All attempts to hit the bearer, whether in melee or with ranged attacks, require a natural roll of six to succeed, as long as the Scarlet Scimitar is active. Even attacks that would normally automatically hit, such as those from the Helblaster or most spells, must be rolled for, and only a natural roll of six will result in a successful hit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1950-dffd-7076-33ff" name="Crown of Shadows" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">An arcane item only available to wizards using the Grey lore. When a wizard dons this magnificent crown, they may exchange any dealt spell during spell selection with the Crown of Taidron spell, provided they did not receive it initially. The cloak amplifies the range of the Crown of Taidron to 18 inches instead of only three inches. The Crown of Taidron costs one power to cast and deals 1D6 lightning strength 6 hits distributed like normal shooting.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="86d6-ded4-7a04-a365" name="Teclis&apos; Textbook" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">This Textbook, referred to as College Magic 101 by wizards&apos; apprentices all over The Empire, was devised by the High Elf Mage Teclis when the Colleges of Magic were founded. The owner of this book may use any one of the eight lores of College Magic. Though the textbook takes up a magic item slot, it is strictly speaking not a magic item, and cannot be destroyed.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d32e-82c4-1e89-bf31" name="Amulet of Steel" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">An arcane item and a bound spell that can only be used by wizards using the Gold lore. The spell can be cast upon any unit within 18 inches and in line of sight of the bearer. Enemy units suffer a -2 penalty to their armour save, while friendly units gain a +2 bonus to their armour save. The effect lasts until the next magic phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="579f-0087-d4ad-c096" name="Wand of Resurrection" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">The Wand of Resurrection is an arcane item reserved exclusively for wizards using the Jade lore. Whenever a Jade spell is successfully cast, the wizard gains the ability to revive either one fallen rank-and-file cavalry model or two fallen rank-and-file infantry models. This can be done within the wizard&apos;s own regiment or any friendly regiment within an 18 inches radius and within line of sight of the wizard. However, it&apos;s important to
+note that this effect cannot exceed the starting model count of the regiments involved. It&apos;s also worth mentioning that the Wand of Resurrection only works on (previously) living creatures and has no effect on undead and daemons and constructs such as chariots and war machines.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0860-a49c-a0fc-8e63" name="Stormcrow Staff" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">An arcane item and a bound spell that can only be used by wizards using the Celestial lore. The Stormcrow Staff can only be used against flying units. It requires line of sight and has a range of 18 inches but can also be cast on enemy units flying high (which are always assumed to be within line of sight of the caster). The targeted unit suffers 1D6 lightning strength 6 hits.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="656b-7eee-22be-5dad" name="Endless Banner" publicationId="de82-78e0-d4de-d8ab" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">This banner cannot be given to a regiment carrying missile weapons and can&apos;t be carried by a battle standard bearer. It can only be given to a regiment of least 40 models. The banner itself isn&apos;t magical, and its effects can&apos;t be removed or cancelled in any way. Carrying this banner makes a regiment 20 percent cheaper, but you can&apos;t get more than a 50-point discount. For example, if you have 100 goblins without any equipment
+upgrades, they will normally cost you 250 points. If you give this banner to the unit, the cost drops to 200 points. The drawback is that you can&apos;t give any other magical banners to this unit. However, it&apos;s a great opportunity to create a unit of 100 goblins, each one sculpted by the talented Kev Adams. Don’t tell me you never dreamt of it.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
