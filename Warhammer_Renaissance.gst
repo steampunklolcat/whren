@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1216-28de-7047-6b53" name="Warhammer Renaissance" revision="13" battleScribeVersion="2.03" authorName="M. Strårup" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1216-28de-7047-6b53" name="Warhammer Renaissance" revision="14" battleScribeVersion="2.03" authorName="M. Strårup" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="451d-2372-ffc4-cf50" name="The Rulebook"/>
     <publication id="78e3-1ead-0759-9022" name="Ravening Hordes"/>
@@ -87,6 +87,7 @@
         <categoryLink id="3e09-bea5-bae3-b834" name="Warmachines" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="89a6-c778-43ae-7cc5" primary="false"/>
         <categoryLink id="4d85-3f1c-e938-285b" name="Chariots" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="fc59-3c6f-195c-d608" primary="false"/>
         <categoryLink id="151c-8954-b42d-1d84" name="Monsters" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="19f2-06aa-b776-0cdc" primary="false"/>
+        <categoryLink id="8e33-2f2e-dbf5-ef60" name="Special Characters" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="c062-c69c-1d17-dd1e" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -99,18 +100,7 @@
         <categoryLink id="a914-1ff9-3eb5-bba4" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="483e-1a5d-b243-f702" name="Standard Bearer" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="562c-3ad2-4587-dc9a" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="ccbb-2f43-0214-6347" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4353-9bc0-51c7-c1d8" name="Army General" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
@@ -132,7 +122,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4907-6f1e-f938-438d" name="Spear" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4907-6f1e-f938-438d" name="Spear" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74ed-1bdf-7d7b-02c6" type="max"/>
       </constraints>
@@ -165,7 +155,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6ec3-fd33-9ff6-183f" name="Double Handed Weapons" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6ec3-fd33-9ff6-183f" name="Double Handed Weapons" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e356-9498-c2df-7378" type="max"/>
       </constraints>
@@ -187,7 +177,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="13d9-8e30-8fe1-5283" name="Crossbow" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="13d9-8e30-8fe1-5283" name="Crossbow" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a859-15b4-1119-d547" type="max"/>
       </constraints>
@@ -198,7 +188,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3e40-f751-baab-2ee1" name="Barding for a Warhorse" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3e40-f751-baab-2ee1" name="Barding for Steed" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3912-f8ae-1d4b-8d2c" type="max"/>
       </constraints>
@@ -209,7 +199,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c0f4-d976-0c62-1b37" name="Flail" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c0f4-d976-0c62-1b37" name="Flail" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f6b-3cd0-5ef8-99c0" type="max"/>
       </constraints>
@@ -220,7 +210,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="26fe-f48b-e245-e548" name="Halberd" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="26fe-f48b-e245-e548" name="Halberd" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c57-bf1f-a8e6-35f6" type="max"/>
       </constraints>
@@ -231,7 +221,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cbf9-1b83-6a69-ad9c" name="Lance" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cbf9-1b83-6a69-ad9c" name="Lance" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a54c-b303-9da0-2dc5" type="max"/>
       </constraints>
@@ -242,7 +232,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="12b9-cf16-c17f-fcbc" name="Longbow" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="12b9-cf16-c17f-fcbc" name="Longbow" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cada-b013-0858-c81e" type="max"/>
       </constraints>
@@ -253,7 +243,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fd3a-e295-46b6-9092" name="Handgun" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fd3a-e295-46b6-9092" name="Handgun" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8c7-3df7-1ebe-92a4" type="max"/>
       </constraints>
@@ -264,7 +254,7 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="798b-ab09-5a4b-90d6" name="Pistol" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="798b-ab09-5a4b-90d6" name="Pistol" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb5a-2f3c-d48d-b6b8" type="max"/>
       </constraints>
@@ -275,18 +265,19 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="227a-0209-7101-8fae" name="Brace of Pistols" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="227a-0209-7101-8fae" name="2 x Pistols" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1572-0fda-0607-c18d" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="ef9b-2ac7-363e-3fef" name="Pistol" publicationId="78e3-1ead-0759-9022" hidden="false" targetId="919f-72e1-03f7-edfb" type="profile"/>
+        <infoLink id="ab62-265c-1012-9dbd" name="Pistol" hidden="false" targetId="919f-72e1-03f7-edfb" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="74ef-a2c8-56a5-5167" name="Additional Hand Weapon" publicationId="78e3-1ead-0759-9022" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="74ef-a2c8-56a5-5167" name="Additional Hand Weapon" publicationId="451d-2372-ffc4-cf50" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b046-89d0-4326-4656" type="max"/>
       </constraints>
@@ -309,6 +300,9 @@
       <infoLinks>
         <infoLink id="3852-3235-2e36-f264" name="Hand Weapon" publicationId="451d-2372-ffc4-cf50" hidden="false" targetId="a466-c9d8-db3a-8d6c" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1856,6 +1850,9 @@
           <infoLinks>
             <infoLink id="4d2a-cba5-be7a-c597" name="Endless Banner" publicationId="de82-78e0-d4de-d8ab" hidden="false" targetId="656b-7eee-22be-5dad" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -1871,7 +1868,92 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="c449-1df3-af4a-6eae" name="Lores of Magic" publicationId="451d-2372-ffc4-cf50" page="44" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="1b4f-f582-e0a7-469f" name="Bright Magic" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1b4f-f582-e0a7-469f" name="Bright Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7b4a-9d27-ba92-bfa3" name="Ice Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2a51-410a-a8d4-f634" name="Jade Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4578-ee90-6855-b0d7" name="Amber Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c3f5-e731-87a8-04d7" name="Amethyst Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c5b3-a326-d02b-1a92" name="Grey Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7808-f3d9-4a75-5a06" name="Celestial Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d411-68cb-dbda-b9b6" name="Gold Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cde4-858c-436f-f8ec" name="Light Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cd61-f464-5119-668b" name="Dark Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="15fc-ae30-188a-531c" name="High Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="37b3-0075-1bf1-1d56" name="Necromantic Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="720f-6720-2980-3ede" name="Waaagh Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9f37-9455-139d-1145" name="Skaven Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="62b0-7ddd-dff2-8b9d" name="Chaos Dwarf Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e1ef-61fa-55ff-b5de" name="Tzeentch Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="be6c-f45f-7c5f-62d5" name="Nurgle Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b5e6-1485-0ced-3174" name="Slaanesh Magic" publicationId="de82-78e0-d4de-d8ab" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
           </costs>
